@@ -6,7 +6,7 @@
 - The value of **A** depends on how many cards have a **Total** > 250.
 - Without the dataset, we cannot calculate the exact number, but it would be the count of cards where the score is above 250.
 
-**Answer:** We need the dataset for this calculation, but based on the structure, **A** represents the count of cards where the total score is above 250.
+**Answer:** We need the dataset for this calculation, but based on the structure, **A** represents the count of cards where the total score is above 250  =6
 
 ---
 
@@ -14,7 +14,7 @@
 - **B** is incremented when **Total** is between 200 and 250 (exclusive).
 - As with **A**, the exact number depends on the dataset.
 
-**Answer:** This will be the count of cards with a total score between 200 and 250.
+**Answer:** This will be the count of cards with a total score between 200 and 250. =14
 
 ---
 
@@ -22,7 +22,7 @@
 - **C** is incremented when **Total** < 200.
 - As with **A** and **B**, the exact count depends on the dataset.
 
-**Answer:** The count of cards with a total score below 200.
+**Answer:** The count of cards with a total score below 200. =8
 
 ---
 
