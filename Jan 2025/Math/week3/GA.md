@@ -11,15 +11,22 @@
 ```
 3) The product of two consecutive odd natural numbers is 195. Find the largest number among them.
 ```
+![image](https://github.com/user-attachments/assets/4107b0df-127a-4b0b-bb27-d88d39198566)
+
 ```
 4) The slope of a parabola y = 3x^2 - 11x + 10 at a point P is -11. Find the y- coordinate of the point P.
 ```
+![image](https://github.com/user-attachments/assets/e6e24b41-446e-4f9e-8122-333dc75482ed)
+
 ```
 5) In order to cover a fixed distance of 48 km, two vehicles start from the same place. The faster one takes 2 hrs less and has a speed 4 km/hr more than the slower one. Using the given information, What is the time (in hrs) taken by the faster one?
 ```
+![image](https://github.com/user-attachments/assets/7daf8e51-36a0-428f-8abc-971aa139d16c)
+
 ```
 6) The daily production cost (in lakh ₹) of manufacturing an electric device is \( p(x) = 7400 - 60x + 15x^2 \), where \( x \) is the number of electric devices produced per day and the daily transportation cost (in lakh ₹) of \( x \) number of electric devices is given by the slope of the function \( p(x) \) at point \( x \). If the production cost on a particular day is 7475 (in lakh ₹), then find the number of electric devices produced on that day.
 ```
+
 ```
 7) Which of the following is/are correct
 
