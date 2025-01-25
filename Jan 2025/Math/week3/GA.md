@@ -26,6 +26,7 @@
 ```
 6) The daily production cost (in lakh ₹) of manufacturing an electric device is \( p(x) = 7400 - 60x + 15x^2 \), where \( x \) is the number of electric devices produced per day and the daily transportation cost (in lakh ₹) of \( x \) number of electric devices is given by the slope of the function \( p(x) \) at point \( x \). If the production cost on a particular day is 7475 (in lakh ₹), then find the number of electric devices produced on that day.
 ```
+![image](https://github.com/user-attachments/assets/0d9f2bb5-e324-457d-b921-a3482e796b6a)
 
 ```
 7) Which of the following is/are correct
@@ -40,6 +41,7 @@
 
 - [ ] Suppose \( P(x) \) is a Quadratic function and L be any straight line, then L must intersect the graph of \( P(x) \).
 ```
+![image](https://github.com/user-attachments/assets/6a4ab460-90fa-4974-a40c-7efae7a21577)
 
 ```
 8) Consider three Airports A, B, and C. Two friends Ananya and Madhuri want to meet at Airport C. Ananya boarded Flight 1 from Point A to C which is 1200 km, due to bad weather, Flight 1 slowed down, and the average speed was reduced by 200 km/h and the time increased by 30 minutes. Madhuri boarded Flight 2 from Point B to C which is 1800 km, the average speed of Flight 2 is 720 km/h. What is the waiting time, and who will be waiting at the airport? (Given Ananya and Madhuri boarded at the same time)
@@ -52,12 +54,14 @@
 
 - [ ] Waiting Time is 30 min and Madhuri is waiting.
 ```
+![image](https://github.com/user-attachments/assets/d1d6560e-be45-47b3-b997-253b5bd0834d)
 
 
 ```
 9) If the slope of parabola \( y = Ax^2 + Bx + C \), where \( A, B, C \in \mathbb{R} \) at points (3, 2) and (2, 3) are 16 and 12 respectively.
 Calculate the value of \( B \).
 ```
+![image](https://github.com/user-attachments/assets/5cc055a6-6703-4191-9f89-d315991c4d74)
 
 ```
 10) Ram and Shyam want to solve a quadratic equation. Ram made a mistake in writing down the constant term and ended up in getting roots as 3 and 4. Shyam made a mistake in writing down the coefficient of \( x \) and got the roots as 2 and 3. Consider the leading coefficient to be 1 in all cases. The correct roots of the quadratic equation are:
@@ -67,6 +71,7 @@ Calculate the value of \( B \).
 - [ ] 1 and 6
 - [ ] 2 and 5
 ```
+![image](https://github.com/user-attachments/assets/32bb61a9-ce2e-4367-8c89-b2615db3dac7)
 
 
 
@@ -89,3 +94,4 @@ Use the following information for questions 1-3. A ballistic missile is launched
 
 14) The polynomial \( p(x) = a(x - 4)(x - 6)(x - 8)(x - 10) \) passes through the vertex of the quadratic function \( q(x) = -(x - 7)^2 - 9 \). Calculate the value of \( a \).
 ```
+![image](https://github.com/user-attachments/assets/aee46117-b083-4c3e-a92a-d0ff8e004465)
