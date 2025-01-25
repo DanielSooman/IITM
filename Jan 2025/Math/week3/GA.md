@@ -1,6 +1,8 @@
 ```
 1) If the slope of parabola y = ax^2 + bx + c, where a, b, c ∈ ℝ \ {0} at points (3, 2) and (2, 3) are 32 and 2 respectively, then find the value of a.
 ```
+![image](https://github.com/user-attachments/assets/b949d0a2-718a-4138-abaf-d5e27a5a3ba5)
+
 ```
 2) A class of 140 students are arranged in rows such that the number of students in a row is one less than thrice the number of rows. Find the number of students in each row.
 ```
