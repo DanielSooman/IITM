@@ -6,6 +6,8 @@
 ```
 2) A class of 140 students are arranged in rows such that the number of students in a row is one less than thrice the number of rows. Find the number of students in each row.
 ```
+![image](https://github.com/user-attachments/assets/d1deef99-82f2-499d-a256-067fcadc16c9)
+
 ```
 3) The product of two consecutive odd natural numbers is 195. Find the largest number among them.
 ```
