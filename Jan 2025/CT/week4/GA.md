@@ -24,7 +24,6 @@ while(Table 1 has more rows){
 - [x] Number of words with at least one letter followed by a vowel
 
 2) The following pseudocode is executed using the “Olympics” dataset. What will E represent at the end of the execution? Assume that none of the players have won more than one medal. **1 point**
-<hr><hr>
 E = 0
 1 while(Table 1 has more rows){
 2 Read the first row P in Table 1
