@@ -57,6 +57,8 @@ E = 0
 
 ○ Number of pairs of players from different countries with the same medals
 
+
+
 3) The following pseudocode is executed using the “Library” dataset. Assume that all authors have distinct names 1 point and each book is written by a single author.
 A = 1, N = 0, count = 0, value = 0
     while(Table 1 has more rows){
@@ -83,10 +85,10 @@ A = 1, N = 0, count = 0, value = 0
 
 What will N represent at the end of execution?
 
-- [ ] Maximum number of books published by an author
+- [x] Maximum number of books published by an author
 - [ ] Maximum number of books published by a pair of authors
 - [ ] Maximum number of books published by an author in a year
-- [x] Maximum number of books published by a pair of authors in a year
+- [ ] Maximum number of books published by a pair of authors in a year
 
 4) What will count represent at the end of execution? **1 point**
 
@@ -96,9 +98,6 @@ What will N represent at the end of execution?
 - [ ] Number of authors who wrote books of same genre
 
 5) The given pseudocode is executed using the “Shopping Bills” dataset. frac stores the ratio of the number of customers who purchased both “Soap” and “Facewash” to the number of customers who purchased “Facewash”. Choose the correct code fragment to complete the pseudocode. (Assume there is at least one customer who has purchased “Facewash”).
-
-**1 point**
-<hr><hr>
 mCount = 0, bCount = 0
 while (Pile 1 has more cards){
   Read the top card X in Pile 1
@@ -140,6 +139,8 @@ if (isItem(X, “Facewash”) and isItem(X, “Soap”)){
   bCount = bCount + 1
 }
 <hr><hr>
+
+
 6) The following pseudocode is executed using the “Words” dataset. What will count represent at the end of execution? **1 point**
 
 ```
@@ -180,11 +181,10 @@ End customCheck
 
 - [ ] Number of pairs of words with exactly two consonants
 - [ ] Number of pairs of words with at least two consonants
-- [x] Number of pairs of words with exactly two consecutive consonants
-- [ ] Number of pairs of words with at least two consecutive consonants
+- [ ] Number of pairs of words with exactly two consecutive consonants
+- [x] Number of pairs of words with at least two consecutive consonants
 
-7) Two words are said to be conjugate if they fulfill following conditions: **1 point**
-<hr><hr>
+7) Two words are said to be conjugate if they fulfill following conditions:
 Number of vowels are same in both the words  
 Number of consonants are same in both the words  
 The given pseudocode is executed using the “Words” dataset. The variable **count** in the given pseudocode counts the number of conjugate pairs. But the pseudocode may have mistakes in one or more lines. Identify all such lines (if any). Assume that all statements not listed in the options below are free of errors. It is a Multiple Select Question.
@@ -223,7 +223,7 @@ End vCount
 
 - [ ] Line 17: Incorrect initialization of **vowelCount**
 
-- [ ] Line 17: Incorrect initialization of **i**
+- [x] Line 17: Incorrect initialization of **i**
 
 - [ ] No mistake
 
@@ -281,8 +281,6 @@ Which club can a student join if he/she gets 92 marks in Physics and Mathematics
 <hr><hr>
 10) The following pseudocode is executed using the “Words” dataset. What will A represent at the end of execution?
 
-1 point
-
 ```plaintext
 A = 0, B = 0
 P = True, Q = False
@@ -309,4 +307,4 @@ while (Table 1 has more rows){
 - Number of words after the first adverb in every sentence
 - Number of words before the first adverb or full stop in every sentence
 - Number of adjectives before the first adverb in every sentence
-- Number of words before the first adverb in every sentence
+[x] Number of words before the first adverb in every sentence
