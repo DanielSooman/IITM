@@ -18,12 +18,13 @@ Table Q4.1.G: Sales Data
 1.75
 
 3) What is the sample standard deviation of sales of BBK Electronics?(Enter the answer correct to 2 decimal accuracy)
-
+3.44
 
 4) What is the sample co-variance between the sales of OnePlus and BBK Electronics?(Enter the answer correct to 2 decimal accuracy)
+-4.21
 
 5) What is the correlation coefficient between the sales of OnePlus and BBK Electronics?(Enter the answer correct to 2 decimal accuracy)
-
+-0.65
 
 6) What can you say about the linear relationship between the sales of OnePlus and BBKElectronics?(More than one option can be correct)
 
