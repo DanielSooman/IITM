@@ -14,13 +14,8 @@
 
 Table Q4.1.G: Sales Data
 
-Are you able to see 7 dealer's location and the sales of OnePlus and BBK Electronics?
-
-- ○ No
-- ○ Yes
-
 2) What is the population standard deviation of sales of OnePlus?(Enter the answer correct to 2 decimal accuracy)
-
+1.75
 
 3) What is the sample standard deviation of sales of BBK Electronics?(Enter the answer correct to 2 decimal accuracy)
 
