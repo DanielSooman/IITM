@@ -29,8 +29,8 @@ Table Q4.1.G: Sales Data
 6) What can you say about the linear relationship between the sales of OnePlus and BBKElectronics?(More than one option can be correct)
 
 - [ ] Absence of linear relationship
-- [ ] Negative
-- [ ] Moderate
+- [x] Negative
+- [x] Moderate
 - [ ] Strong
 - [ ] Weak
 - [ ] Positive
@@ -40,7 +40,7 @@ Table Q4.1.G: Sales Data
 
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 
 
@@ -75,15 +75,16 @@ Table Q4.1.G: Sales Data
 Table Q4.2.G: Intelligence Level and Economic Conditions
 
 9) What proportion of total students are dull? (Enter the answer correct to 2 decimal accuracy)
-
+0.21
 
 10) What proportion of total students are in poor economic conditions? (Enter the answer correct to 2 decimal accuracy)
-
+0.49
 
 11) What proportion of students of good economic conditions are borderline? (Enter the answer correct to 2 decimal accuracy)
-
+0.38
 
 12) What percentage of average students are in good economic conditions? (Enter the answer correct to 2 decimal accuracy)
-
+45.55
 
 13) What percentage of bright students are in poor economic conditions? (Enter the answer correct to 2 decimal accuracy)
+50.38
