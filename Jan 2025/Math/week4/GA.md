@@ -36,6 +36,7 @@ The set of natural numbers includes 0.
 - [ ] \( p(x) \) first increases then decreases in the interval \((2, 3)\).  
 - [ ] \( p(x) \) is strictly increasing when \( x \in (-\infty, -9) \).  
 - [x] There are exactly 6 points on \( p(x) \) where the slope of the tangent is 0.
+- [ ] Total number of turning points of p(x) are 7
 
 ---
 
