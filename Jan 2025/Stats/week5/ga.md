@@ -77,7 +77,7 @@ then find the value of
 
 11) Find the value of r such that the ratio of \( ^3P_r \) and \( ^4P_{r-1} \) will be \( \frac{1}{2} \)?  
 ```
-
+3
 ```
 ---
 
@@ -85,7 +85,7 @@ then find the value of
 
 - [ ] \( 8! \times 16! \)  
 - [ ] \( 22! \)  
-- [ ] \( 7! \times 16! \)  
+- [x] \( 7! \times 16! \)  
 - [ ] \( 6! \times 15! \)  
 
 ---
@@ -94,5 +94,5 @@ then find the value of
 
 - [ ] \( 7 \times ^7P_3 \)  
 - [ ] \( 8 + ^8P_3 \)  
-- [ ] \( 8 \times ^8P_3 \)  
+- [x] \( 8 \times ^8P_3 \)  
 - [ ] \( ^9P_4 \)
