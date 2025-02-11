@@ -6,37 +6,39 @@
 
 2) 10 classmates could not agree on who would stand in the group photo along with the teacher for the yearbook. How many possible groups can be made such that there is at least one student with the teacher in the photo?  
 ```
-
+1023
 ```
 ---
 
 3) Jay bought a new car in New York where a license plate can be created with alphabets A, B, C, D, E, W, X, Y, Z and numbers 0 to 9. He can either select a normal license plate or a VIP license plate. The VIP license plate begins with 2 alphabets followed by 3 numbers with repetition allowed. The normal license plate begins with 2 numbers followed by 3 alphabets without repetition. In how many ways can he select VIP license plate?  
 ```
-
+81000
 ```
 ---
 
 4) Jay bought a new car in New York where a license plate can be created with alphabets A, B, C, D, E, W, X, Y, Z and numbers 0 to 9. He can either select a normal license plate or a VIP license plate. The VIP license plate begins with 2 alphabets followed by 3 numbers with repetition allowed. The normal license plate begins with 2 numbers followed by 3 alphabets without repetition. In how many ways can he select the license plate (normal or VIP)?  
 ```
-
+131400
 ```
 ---
 
 5) Ram has *n* trophies that he wishes to place in his main cabinet, which has space only for two trophies. If the number of trophies is increased by 3, then the number of possible ways to arrange the trophies in the main cabinet becomes 5 times the number of ways to arrange *n* trophies. How many trophies does Ram have?  
 ```
-
+3
 ```
 ---
 
 6) There are 30 students in a class. The class teacher announced that the first 4 students who complete a given project within two days will be awarded. What are the possible number of ways the students will be awarded?  
-```
 
-```
+- [ ] 30!
+- [ ] 30!/26!4!
+- [x] 30!/26!
+- [ ] 26!
 ---  
 
 7) 7 students watched a patriotic movie. An analyst wishes to ask each student whether they liked the movie or not. Each student can either answer the question or refuse to respond. In how many ways, can the analyst get responses from the students?  
 ```
-
+2187
 ```
 ---
 
@@ -49,7 +51,7 @@ then find the value of
 \frac{1}{x}
 \]  
 ```
-
+12
 ```
 ---
 
@@ -57,7 +59,7 @@ then find the value of
 
 - [ ] \( 9^4 \)  
 - [ ] \( 4! \)  
-- [ ] \( 10^4 \)  
+- [x] \( 10^4 \)  
 - [ ] \( 10^3 \times 9 \)  
 
 
@@ -65,9 +67,11 @@ then find the value of
 
 10) Let \( x = \frac{5!}{4 \times 3!} \). Which of the following expressions is/are equal to \( x \)?  
 
-- [ ] \( 5 \times 0! \)  
-- [ ] \( 5 \times \frac{1}{0!} \)  
+- [x] \( 5 \times 0! \)  
+- [x] \( 5 \times \frac{1}{0!} \)  
 - [ ] \( 5 \times \frac{1}{0} \)  
+- [ ] 5 * 6/3! + (3*2) + (3*2*10)
+- [x] 5 * 18/3! + (3*2) + (3*2*10)
 
 ---
 
