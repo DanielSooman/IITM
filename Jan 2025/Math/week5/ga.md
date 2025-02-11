@@ -34,14 +34,14 @@
 
 5) If \( f(x) = (1 - x)^{\frac{1}{2}} \) and \( g(x) = (1 - x^2) \), then find the domain of the composite function \( g \circ f \).  
 - [ ] \( \mathbb{R} \)  
-- [ ] \( ((-\infty, 1] \cap [-2, \infty)) \cup (-\infty, -2) \)  
+- [x] \( ((-\infty, 1] \cap [-2, \infty)) \cup (-\infty, -2) \)  
 - [ ] \( [1, \infty) \)  
-- [ ] \( \mathbb{R} \setminus (1, \infty) \)  
+- [x] \( \mathbb{R} \setminus (1, \infty) \)  
 
 ---
 
 6) Find the domain of the inverse function of \( y = x^3 + 1 \).  
-- [ ] \( \mathbb{R} \)  
+- [x] \( \mathbb{R} \)  
 - [ ] \( \mathbb{R} \setminus \{1\} \)  
 - [ ] \( [1, \infty) \)  
 - [ ] \( \mathbb{R} \setminus [1, \infty) \)  
@@ -50,11 +50,11 @@
 
 7)  If \( f(x) = x^3 \), then choose the points where the graphs of the functions \( f(x) \) and \( f^{-1}(x) \) intersect each other?
 
-- [ ] (-1,-1)  
+- [x] (-1,-1)  
 - [ ] (1,-1)  
-- [ ] (0,0)  
+- [x] (0,0)  
 - [ ] (-2,-8)  
-- [ ] (1,1)  
+- [x] (1,1)  
 - [ ] (2,8)  
 
 ---
@@ -64,14 +64,16 @@
 a(T) = a_0 \left( 1 + \frac{d}{100} \right)^T
 \]  
 where \( d \) is the percentage growth rate of population per year and \( T \) is the time since the initial population count \( a_0 \) was taken. If in 2016, the population of Adyar was 42000.0 and the population growth rate is 6% per year, then what will be the approximate population of Adyar in 2021? (\( T = 0 \) corresponds to the year 2016, \( T = 1 \) corresponds to the year 2017 and so on..)  
-
+```
+56205
+```
 ---
 
 9) An ant moves along the curve whose equation is \( f(x) = x^2 + 1 \) in the restricted domain \([0, \infty)\). Let a mirror be placed along the line \( y = x \). If the reflection of the ant with respect to the mirror moves along the curve \( g(x) \), then which of the following options is(are) correct?  
 
-- [ ] \( g(x) = f^{-1}(x) \)  
+- [x] \( g(x) = f^{-1}(x) \)  
 - [ ] \( g(x) = f(x) \)  
-- [ ] \( g(x) = \sqrt[2]{x - 1} \)  
+- [x] \( g(x) = \sqrt[2]{x - 1} \)  
 - [ ] \( g(x) = \sqrt[2]{x + 1} \)  
 
 ---
@@ -79,11 +81,11 @@ where \( d \) is the percentage growth rate of population per year and \( T \) i
 10) Suppose a textile shop provides two different types of offers during a festival season. The first offer (\( D_1 \)) is "shop for more than ₹14,999 and pay only ₹9,999". The second offer (\( D_2 \)) is "avail 30% discount on the total payable amount". If Shalini wants to buy two dresses each of which costs more than ₹8,000 and she is given the choice to avail both offers simultaneously, then which of the following options is(are) correct?  
 
 - [ ] The minimum amount she should pay after applying two offers cannot be determined because the exact values of the dresses she wanted to buy are unknown.  
-- [ ] The minimum amount she should pay after applying the two offers simultaneously is approximately ₹6,999.  
+- [x] The minimum amount she should pay after applying the two offers simultaneously is approximately ₹6,999.  
 - [ ] The amount she is supposed to pay after applying D₂ only is approximately ₹11,199.  
-- [ ] The amount she is supposed to pay after applying D₁ only is approximately ₹9,999.  
-- [ ] Suppose the total payable amount is ₹17,999 for the two dresses. In order to pay minimum amount Shalini should avail offer D₁ first and offer D₂ next.  
-- [ ] Suppose the total payable amount is ₹17,999 for the two dresses. If Shalini avails offer D₂ first, then she cannot avail offer D₁.  
+- [x] The amount she is supposed to pay after applying D₁ only is approximately ₹9,999.  
+- [x] Suppose the total payable amount is ₹17,999 for the two dresses. In order to pay minimum amount Shalini should avail offer D₁ first and offer D₂ next.  
+- [x] Suppose the total payable amount is ₹17,999 for the two dresses. If Shalini avails offer D₂ first, then she cannot avail offer D₁.  
 - [ ] Suppose the total payable amount is ₹17,999 for the two dresses. In order to pay minimum amount Shalini should avail offer D₂ first and offer D₁ next.  
 
 ---
@@ -94,9 +96,9 @@ where \( d \) is the percentage growth rate of population per year and \( T \) i
 - [ ] \( f(f(h(x))) \times h(x) = (x - 1)^5 \)  
 - [ ] \( h \circ f \) is not an injective function.  
 - [ ] There are two distinct solutions for \( h(h(f(x))) = 0 \).  
-- [ ] \( f \circ h \) is an injective function.  
-- [ ] \( f(f(h(x))) \times h(x) = (x - 1)^4 \).  
-- [ ] \( h \circ f \) is an injective function.  
+- [x] \( f \circ h \) is an injective function.  
+- [x] \( f(f(h(x))) \times h(x) = (x - 1)^4 \).  
+- [x] \( h \circ f \) is an injective function.  
 
 ---
 
@@ -104,7 +106,7 @@ where \( d \) is the percentage growth rate of population per year and \( T \) i
 
 ![image](https://github.com/user-attachments/assets/ed3e3b51-9dd5-45e8-bbfb-f1827fe27a9d)
 
-- [ ] \(g(x)\) may be the inverse of \(f(x)\).  
-- [ ] \(p(x)\) and \(q(x)\) are even functions but \(f(x)\) and \(g(x)\) are neither even functions nor odd functions.  
-- [ ] \(q(x)\) could not be the inverse function of \(p(x)\).  
-- [ ] \(p(x), q(x)\) can be an even degree polynomial functions and \(f(x)\) can be an odd degree polynomial functions.
+- [x] \(g(x)\) may be the inverse of \(f(x)\).  
+- [x] \(p(x)\) and \(q(x)\) are even functions but \(f(x)\) and \(g(x)\) are neither even functions nor odd functions.  
+- [x] \(q(x)\) could not be the inverse function of \(p(x)\).  
+- [x] \(p(x), q(x)\) can be an even degree polynomial functions and \(f(x)\) can be an odd degree polynomial functions.
