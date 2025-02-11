@@ -2,9 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/5da9ba26-0af1-4994-82f2-1c4456384f7c)
 
-- [ ] The graph cannot be of a function, because it passes the vertical line test but fails the horizontal line test.  
+- [x] The graph cannot be of a function, because it passes the vertical line test but fails the horizontal line test.  
 - [ ] The graph cannot be of a function, because it fails the vertical line test.  
-- [ ] The graph represents the graph of neither even function nor odd function.  
+- [x] The graph represents the graph of neither even function nor odd function.  
 - [ ] The graph cannot be of a function, because it passes the horizontal line test but fails the vertical line test.  
 - [ ] The given graph is not invertible in the given domain.  
 
@@ -15,17 +15,21 @@
 - [ ] For all values of \( n \), \( y \) is not a one-to-one function.  
 - [ ] For all values of \( n \), \( y \) is an injective function.  
 - [ ] \( y \) is not a function.  
-- [ ] If \( n \) is an even number, then \( y \) is not an injective function.  
-- [ ] If \( n \) is an odd number, then \( y \) is an injective function.
+- [x] If \( n \) is an even number, then \( y \) is not an injective function.  
+- [x] If \( n \) is an odd number, then \( y \) is an injective function.
 
 ---
 
-3) If 4m − n = -0.5, then the value of \( \left( \frac{16^m}{2^n} + \frac{27^n}{9^m} \right) \) is  
-
+3) If 4m − n = -0.5, then the value of \( \left( \frac{16^m}{2^n} + \frac{27^n}{9^6m} \right) \) is  
+```
+5.9033 
+```
 ---
 
 4) Half-life of an element is the time required for half of a given sample of radioactive element to change to another element. The rate of change of concentration is calculated by the formula \( A(t) = A_0 \left( \frac{1}{2} \right)^{\frac{t}{\gamma}} \) where \( \gamma \) is the half-life of the material, \( A_0 \) is the initial concentration of the radioactive element in the given sample, \( A(t) \) is the concentration of the radioactive element in the sample after time \( t \). If Radium has a half-life of 1100 years and the initial concentration of Radium in a sample was 100%, then calculate the percentage of Radium in that sample after 3300 years.  
-
+```
+12.5
+```
 ---
 
 5) If \( f(x) = (1 - x)^{\frac{1}{2}} \) and \( g(x) = (1 - x^2) \), then find the domain of the composite function \( g \circ f \).  
