@@ -21,12 +21,16 @@ Please click on the relevant option to let us know about your consent for using 
 ---
 
 3) There are 6 train stops between Chennai and Assam. How many train tickets are to be printed, so that a person can travel between any of the two stations (irrespective of direction of travel)?  
-
+```
+28
+```
 
 ---
 
 4) A man desires to throw a party for some of his friends. In how many ways can he select 8 friends from a group of 11 friends, if the two of his friends (say ‘A’ and ‘B’) will not attend the party together?  
-
+```
+81
+```
 
 ---
 
