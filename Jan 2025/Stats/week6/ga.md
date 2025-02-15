@@ -6,7 +6,7 @@ Note: This assignment will be evaluated after the deadline passes. You will get 
 
 Please click on the relevant option to let us know about your consent for using the data.  
 
-- [ ] I understand, and I agree for use of my data.  
+- [x] I understand, and I agree for use of my data.  
 - [ ] I understand, and I don’t agree for use of my data.  
 
 ---
@@ -36,7 +36,7 @@ Please click on the relevant option to let us know about your consent for using 
 
 5) Suman has 7 clothes of different types, say, C₁, C₂, ..., C₇, and she wants to wear all these clothes at different days, say, D₁, D₂, ..., D₇. Due to some reason, C₁ must be used either at D₅ or at D₆ and C₂ can be used either at D₆ or at D₇. Every cloth is to be used at only one day, in how many ways can clothes be used?  
 ```
-
+360
 ```
 ---
 
@@ -44,13 +44,13 @@ Please click on the relevant option to let us know about your consent for using 
 - [ ] 10²¹  
 - [ ] 10¹¹ x 9  
 - [ ] 10²⁰ x 9  
-- [ ] 10¹⁰ x 9  
+- [x] 10¹⁰ x 9  
 
 ---
 
 7) In how many ways can a group of 4 players be formed from 12 state level players and 8 district level players such that the group contains exactly 1 district level player?  
 ```
-
+1760
 ```
 ---
 
@@ -58,26 +58,26 @@ Please click on the relevant option to let us know about your consent for using 
 - [ ] \( nC_r + nC_{r-1} = n+1C_r \)  
 - [ ] \( nC_r = 1 \text{ for } r = 0 \text{ and } r = n \)  
 - [ ] \( nC_r = n-1C_{r-1} + n-1C_r \)  
-- [ ] None of the above  
+- [x] None of the above  
 
 ---
 
 9) Jimmi and Vishal are planning a dinner party. Vishal has 4 vegetarian friends and 3 non-vegetarian friends, while Jimmi has 3 vegetarian friends and 4 non-vegetarian friends. They decide to invite 4 friends in total and it was decided that both of them will invite two of their friends and also ensure that there are a total of 2 vegetarians and 2 non-vegetarians friends. How many ways can they invite their friends to the dinner party?
 ```
-
+189
 ```
 
 ---
 
 10) If \( r! \times \left( \binom{n-1}{r-1} + \binom{n-1}{r} \right) + (r+1)! \times \left( \binom{n-1}{r} + \binom{n-1}{r+1} \right) = x \), then for \( n = 5 \) and \( r = 2 \), calculate the value of \( x \)?  
 ```
-
+80
 ```
 
 ---
 
 11) A student is selecting books from a library shelf. There are 6 fiction books and 4 non-fiction books. If the student needs to choose 2 books, how many ways can it be done such that both of the selected books are either fiction or non-fiction?
 ```
-
+21
 ```
 
