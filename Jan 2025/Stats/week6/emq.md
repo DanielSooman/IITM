@@ -59,3 +59,18 @@ In IPL 2022 tournament, there are 10 teams. In the first round of the tournament
 Q7. From the given list of options, select the step(s) applicable for selecting the teams which qualifies for the next round.
 
 Q8. What are the possible number of ways to get the top 5 teams that can qualify for the next round? (Enter the option number(s) from the given list of options).
+
+
+
+
+# Answer
+```
+Q1:4,5
+Q2:9
+Q3:4,5
+Q4:9
+Q5:4,6
+Q6:10
+Q7:4,6
+Q8:10
+```
