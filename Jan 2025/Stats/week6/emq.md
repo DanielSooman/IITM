@@ -65,12 +65,12 @@ Q8. What are the possible number of ways to get the top 5 teams that can qualify
 
 # Answer
 ```
-Q1:4,5
+Q1:1,4,5,7
 Q2:9
-Q3:4,5
+Q3:1,4,5,7
 Q4:9
-Q5:4,6
+Q5:1,4,6,8
 Q6:10
-Q7:4,6
+Q7:1,4,6,8
 Q8:10
 ```
