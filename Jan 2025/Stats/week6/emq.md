@@ -4,9 +4,15 @@ Graded Assignment 6 (Part-2)
 1. For each question, enter all the options which you find is the answer to that question as "comma separated values".
 2. Enter the options in **ascending order** of option number.
 3. An option can also be an answer to more than one question, or may not be an answer to any of the questions.
-4. Please click here to view a sample template file for answering.
-5. Please click here to download questions in the pdf format.
-6. Please click here to know about the grading pattern of EMQ.
+4. this is the sample template for answering.
+Q1:4,5,6
+Q2:7,9
+Q3:8,11
+Q4:2,9
+Q5:5,9
+Q6:8,12
+Q7:7,10
+Q8:2,6
 
 **List of Options:**
 1. Events will occur simultaneously.  
