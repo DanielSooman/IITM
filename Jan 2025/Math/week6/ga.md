@@ -1,6 +1,6 @@
 1) If 18<sup>x</sup> − 12<sup>x</sup> − (2 × 8<sup>x</sup>) = 0, then the value of x is.  
 
-- [ ] ln 2 / ln 3 − ln 2  
+- [x] ln 2 / ln 3 − ln 2  
 - [ ] ln 18 / ln 12 − ln 8  
 - [ ] ln 2  
 - [ ] ln 18  
@@ -76,7 +76,9 @@ Choose the correct set of options. (Note: \( a \) is any positive real number, \
 ---
 
 9) If \( m \log_2 2 + 2 \log_2 m = 2 \), then what is the value of \( m \)?  
-
+```
+2
+```
 ---
 
 
