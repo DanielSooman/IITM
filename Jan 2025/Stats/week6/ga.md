@@ -35,7 +35,9 @@ Please click on the relevant option to let us know about your consent for using 
 ---
 
 5) Suman has 7 clothes of different types, say, C₁, C₂, ..., C₇, and she wants to wear all these clothes at different days, say, D₁, D₂, ..., D₇. Due to some reason, C₁ must be used either at D₅ or at D₆ and C₂ can be used either at D₆ or at D₇. Every cloth is to be used at only one day, in how many ways can clothes be used?  
+```
 
+```
 ---
 
 6) How many 21-digit number can be formed such that they read the same way from either of the side (that is the number should be palindrome)?  
@@ -47,7 +49,9 @@ Please click on the relevant option to let us know about your consent for using 
 ---
 
 7) In how many ways can a group of 4 players be formed from 12 state level players and 8 district level players such that the group contains exactly 1 district level player?  
+```
 
+```
 ---
 
 8) Choose the incorrect option/s for n > 2:  
@@ -58,14 +62,22 @@ Please click on the relevant option to let us know about your consent for using 
 
 ---
 
-9) Jimmi and Vishal are planning a dinner party. Vishal has 4 vegetarian friends and 3 non-vegetarian friends, while Jimmi has 3 vegetarian friends and 4 non-vegetarian friends. They decide to invite 4 friends in total and it was decided that both of them will invite two of their friends and also ensure that there are a total of 2 vegetarians and 2 non-vegetarians friends. How many ways can they invite their friends to the dinner party?  
+9) Jimmi and Vishal are planning a dinner party. Vishal has 4 vegetarian friends and 3 non-vegetarian friends, while Jimmi has 3 vegetarian friends and 4 non-vegetarian friends. They decide to invite 4 friends in total and it was decided that both of them will invite two of their friends and also ensure that there are a total of 2 vegetarians and 2 non-vegetarians friends. How many ways can they invite their friends to the dinner party?
+```
+
+```
 
 ---
 
 10) If \( r! \times \left( \binom{n-1}{r-1} + \binom{n-1}{r} \right) + (r+1)! \times \left( \binom{n-1}{r} + \binom{n-1}{r+1} \right) = x \), then for \( n = 5 \) and \( r = 2 \), calculate the value of \( x \)?  
+```
 
+```
 
 ---
 
-11) A student is selecting books from a library shelf. There are 6 fiction books and 4 non-fiction books. If the student needs to choose 2 books, how many ways can it be done such that both of the selected books are either fiction or non-fiction?  
+11) A student is selecting books from a library shelf. There are 6 fiction books and 4 non-fiction books. If the student needs to choose 2 books, how many ways can it be done such that both of the selected books are either fiction or non-fiction?
+```
+
+```
 
