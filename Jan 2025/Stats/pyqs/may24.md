@@ -216,87 +216,87 @@ We are given the following information:
 We need to find the mean of observations \(x_1, x_2, \dots, x_5\).
 
 From the first condition, the sum of the first 8 observations is:
-\[
+$$
 \frac{x_1 + x_2 + \dots + x_8}{8} = 6
-\]
-\[
+$$
+$$
 x_1 + x_2 + \dots + x_8 = 6 \times 8 = 48
-\]
+$$
 
 From the second condition, the sum of the observations from \(x_8\) to \(x_{15}\) is:
-\[
+$$
 \frac{x_8 + x_9 + \dots + x_{15}}{8} = 13
-\]
-\[
+$$
+$$
 x_8 + x_9 + \dots + x_{15} = 13 \times 8 = 104
-\]
+$$
 
 We are given \(x_8 = 3\).  
 Substituting \(x_8 = 3\) into the first sum equation:
-\[
+$$
 x_1 + x_2 + \dots + x_7 + x_8 = 48
-\]
-\[
+$$
+$$
 x_1 + x_2 + \dots + x_7 + 3 = 48
-\]
-\[
+$$
+$$
 x_1 + x_2 + \dots + x_7 = 48 - 3 = 45
-\]
+$$
 
 We want to find the mean of observations \(x_1, x_2, \dots, x_5\).  
 Let \(S_5 = x_1 + x_2 + \dots + x_5\). We know that:
-\[
+$$
 x_1 + x_2 + \dots + x_7 = (x_1 + x_2 + \dots + x_5) + (x_6 + x_7) = 45
-\]
-\[
+$$
+$$
 S_5 + (x_6 + x_7) = 45
-\]
-\[
+$$
+$$
 S_5 = 45 - (x_6 + x_7)
-\]
+$$
 
 The mean of observations \(x_1, x_2, \dots, x_5\) is:
-\[
+$$
 \frac{S_5}{5} = \frac{45 - (x_6 + x_7)}{5} = 9 - \frac{x_6 + x_7}{5}
-\]
+$$
 
 If we assume \(x_6 + x_7 = 0\), then the mean is 9.  
 Let's verify if this is a consistent answer.
 
 If the mean of \(x_1, \dots, x_5\) is 9, then:
-\[
+$$
 x_1 + \dots + x_5 = 45
-\]
+$$
 
 Since \(x_1 + \dots + x_7 = 45\), then \(x_6 + x_7 = 0\), for example, \(x_6=0, x_7=0\).  
 Then:
-\[
+$$
 x_1 + \dots + x_8 = 45 + x_8 = 45 + 3 = 48
-\]
+$$
 
 Mean of \(x_1, \dots, x_8\):
-\[
+$$
 \frac{48}{8} = 6
-\]
+$$
 which matches the given condition.
 
 And:
-\[
+$$
 x_8 + \dots + x_{15} = 3 + x_9 + \dots + x_{15} = 104
-\]
+$$
 
 Mean of \(x_8, \dots, x_{15}\):
-\[
+$$
 \frac{104}{8} = 13
-\]
+$$
 which also matches the given condition.
 
 Thus, assuming \(x_6+x_7=0\) provides a consistent scenario and yields a unique mean for \(x_1, \dots, x_5\).  
 Therefore, the mean of the observations \(x_1, x_2, \dots, x_5\) is:
 
-\[
+$$
 \boxed{9}
-\]
+$$
 
 
 
