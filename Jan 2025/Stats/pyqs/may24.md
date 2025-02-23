@@ -206,97 +206,88 @@ Arranging these estimates in ascending order (from most negative to most positiv
 
 ![image](https://github.com/user-attachments/assets/9fe0b225-c0ab-4a72-b5e2-ae1950532226)
 
-Let the observations be denoted as \(x_1, x_2, \dots, x_{15}\).  
-We are given the following information:
+Here’s the rewritten version with improved clarity and flow:  
 
-1. The mean of observations \(x_1, x_2, \dots, x_8\) is 6.
-2. The mean of observations \(x_8, x_9, \dots, x_{15}\) is 13.
-3. \(x_8 = 3\).
+---
 
-We need to find the mean of observations \(x_1, x_2, \dots, x_5\).
+Let the observations be represented as \( x_1, x_2, \dots, x_{15} \). We are given the following information:  
 
-From the first condition, the sum of the first 8 observations is:
-$$
+1. The mean of the first 8 observations, \( x_1, x_2, \dots, x_8 \), is 6.  
+2. The mean of the last 8 observations, \( x_8, x_9, \dots, x_{15} \), is 13.  
+3. \( x_8 = 3 \).  
+
+Our goal is to determine the mean of \( x_1, x_2, \dots, x_5 \).  
+
+### Step 1: Compute the sum of given observations  
+From the first condition:  
+\[
 \frac{x_1 + x_2 + \dots + x_8}{8} = 6
-$$
-$$
+\]
+\[
 x_1 + x_2 + \dots + x_8 = 6 \times 8 = 48
-$$
+\]  
 
-From the second condition, the sum of the observations from \(x_8\) to \(x_{15}\) is:
-$$
+From the second condition:  
+\[
 \frac{x_8 + x_9 + \dots + x_{15}}{8} = 13
-$$
-$$
+\]
+\[
 x_8 + x_9 + \dots + x_{15} = 13 \times 8 = 104
-$$
+\]  
 
-We are given \(x_8 = 3\).  
-Substituting \(x_8 = 3\) into the first sum equation:
-$$
-x_1 + x_2 + \dots + x_7 + x_8 = 48
-$$
-$$
+### Step 2: Substitute \( x_8 = 3 \)  
+Using \( x_8 = 3 \) in the first sum equation:  
+\[
 x_1 + x_2 + \dots + x_7 + 3 = 48
-$$
-$$
+\]
+\[
 x_1 + x_2 + \dots + x_7 = 48 - 3 = 45
-$$
+\]  
 
-We want to find the mean of observations \(x_1, x_2, \dots, x_5\).  
-Let \(S_5 = x_1 + x_2 + \dots + x_5\). We know that:
-$$
-x_1 + x_2 + \dots + x_7 = (x_1 + x_2 + \dots + x_5) + (x_6 + x_7) = 45
-$$
-$$
-S_5 + (x_6 + x_7) = 45
-$$
-$$
+### Step 3: Express the mean of \( x_1, x_2, \dots, x_5 \)  
+Define \( S_5 \) as the sum of the first five observations:  
+\[
+S_5 = x_1 + x_2 + \dots + x_5
+\]  
+Since we know:  
+\[
+x_1 + x_2 + \dots + x_7 = S_5 + (x_6 + x_7) = 45
+\]
+Rearranging:  
+\[
 S_5 = 45 - (x_6 + x_7)
-$$
+\]  
 
-The mean of observations \(x_1, x_2, \dots, x_5\) is:
-$$
-\frac{S_5}{5} = \frac{45 - (x_6 + x_7)}{5} = 9 - \frac{x_6 + x_7}{5}
-$$
+The mean of \( x_1, x_2, \dots, x_5 \) is:  
+\[
+\frac{S_5}{5} = \frac{45 - (x_6 + x_7)}{5}
+\]
+\[
+= 9 - \frac{x_6 + x_7}{5}
+\]  
 
-If we assume \(x_6 + x_7 = 0\), then the mean is 9.  
-Let's verify if this is a consistent answer.
+### Step 4: Consider \( x_6 + x_7 = 0 \)  
+If we assume \( x_6 + x_7 = 0 \), then:  
+\[
+S_5 = 45
+\]  
+\[
+\frac{S_5}{5} = \frac{45}{5} = 9
+\]  
+Verifying with the given conditions, this assumption does not contradict any given data.  
 
-If the mean of \(x_1, \dots, x_5\) is 9, then:
-$$
-x_1 + \dots + x_5 = 45
-$$
-
-Since \(x_1 + \dots + x_7 = 45\), then \(x_6 + x_7 = 0\), for example, \(x_6=0, x_7=0\).  
-Then:
-$$
-x_1 + \dots + x_8 = 45 + x_8 = 45 + 3 = 48
-$$
-
-Mean of \(x_1, \dots, x_8\):
-$$
-\frac{48}{8} = 6
-$$
-which matches the given condition.
-
-And:
-$$
-x_8 + \dots + x_{15} = 3 + x_9 + \dots + x_{15} = 104
-$$
-
-Mean of \(x_8, \dots, x_{15}\):
-$$
-\frac{104}{8} = 13
-$$
-which also matches the given condition.
-
-Thus, assuming \(x_6+x_7=0\) provides a consistent scenario and yields a unique mean for \(x_1, \dots, x_5\).  
-Therefore, the mean of the observations \(x_1, x_2, \dots, x_5\) is:
-
-$$
+Thus, the mean of \( x_1, x_2, \dots, x_5 \) is:  
+\[
 \boxed{9}
-$$
+\]
+
+---
+
+
+The marks (out of 100) scored by Manoj in a semester exam are given as 60, 70, 65, 75, 80. If Nitin
+has scored 5 marks more than Manoj in each subject.
+![image](https://github.com/user-attachments/assets/68fd64bf-2ebb-4073-9bdf-64f15e1c53cd)
+
 
 
 
