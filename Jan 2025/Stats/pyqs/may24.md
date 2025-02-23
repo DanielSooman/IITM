@@ -208,30 +208,30 @@ Arranging these estimates in ascending order (from most negative to most positiv
 
 Let the observations be denoted as \(x_1, x_2, \dots, x_{15}\).
 We are given the following information:
-1. The mean of observations \(x_1, x_2, \dots, x_8\) is 6.
-2. The mean of observations \(x_8, x_9, \dots, x_{15}\) is 13.
-3. \(x_8 = 3\).
+1. The mean of observations $$\(x_1, x_2, \dots, x_8\) is 6.
+2. The mean of observations $$\(x_8, x_9, \dots, x_{15}\) is 13.
+3. $$\(x_8 = 3\).
 
-We need to find the mean of observations \(x_1, x_2, \dots, x_5\).
+We need to find the mean of observations $$\(x_1, x_2, \dots, x_5\).
 
 From the first condition, the sum of the first 8 observations is:
-$$ \frac{x_1 + x_2 + \dots + x_8}{8} = 6 $$
-$$ x_1 + x_2 + \dots + x_8 = 6 \times 8 = 48 $$
+$$\frac{x_1 + x_2 + \dots + x_8}{8} = 6$$
+$$x_1 + x_2 + \dots + x_8 = 6 \times 8 = 48$$
 
 From the second condition, the sum of the observations from \(x_8\) to \(x_{15}\) is:
-$$ \frac{x_8 + x_9 + \dots + x_{15}}{8} = 13 $$
-$$ x_8 + x_9 + \dots + x_{15} = 13 \times 8 = 104 $$
+$$\frac{x_8 + x_9 + \dots + x_{15}}{8} = 13 $$
+$$x_8 + x_9 + \dots + x_{15} = 13 \times 8 = 104 $$
 
 We are given \(x_8 = 3\).
 Substitute \(x_8 = 3\) into the first sum equation:
-$$ x_1 + x_2 + \dots + x_7 + x_8 = 48 $$
-$$ x_1 + x_2 + \dots + x_7 + 3 = 48 $$
-$$ x_1 + x_2 + \dots + x_7 = 48 - 3 = 45 $$
+$$x_1 + x_2 + \dots + x_7 + x_8 = 48 $$
+$$x_1 + x_2 + \dots + x_7 + 3 = 48 $$
+$$x_1 + x_2 + \dots + x_7 = 48 - 3 = 45 $$
 
 We want to find the mean of observations \(x_1, x_2, \dots, x_5\). Let \(S_5 = x_1 + x_2 + \dots + x_5\). We know that:
-$$ x_1 + x_2 + \dots + x_7 = (x_1 + x_2 + \dots + x_5) + (x_6 + x_7) = 45 $$
-$$ S_5 + (x_6 + x_7) = 45 $$
-$$ S_5 = 45 - (x_6 + x_7) $$
+$$x_1 + x_2 + \dots + x_7 = (x_1 + x_2 + \dots + x_5) + (x_6 + x_7) = 45 $$
+$$S_5 + (x_6 + x_7) = 45 $$
+$$S_5 = 45 - (x_6 + x_7) $$
 
 The mean of observations \(x_1, x_2, \dots, x_5\) is \( \frac{S_5}{5} = \frac{45 - (x_6 + x_7)}{5} = 9 - \frac{x_6 + x_7}{5} \).
 If we assume \(x_6 + x_7 = 0\), then the mean is 9.
