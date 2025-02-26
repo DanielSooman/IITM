@@ -25,41 +25,45 @@
 
  4) There are a total of 130 students who are part of badminton, table tennis and tennis team of the college. Of which 60% of students play table tennis, 10% play tennis and 70% play badminton. It is also noticed that all students who play tennis also play table tennis but not badminton. Now a student is selected at random, what is the probability that he/she is the part of table tennis team only? (Enter the answer correct to 1 decimal place)  
 ```
-
+0.2
 ```
 
 ---
 
 5) The chance that a student will clear the quiz-1 paper is 0.51 and the chance that he will clear both quiz-1 and quiz-2 papers is 0.21. The chance that he will clear at least one quiz paper is 0.69. What is the chance that he will clear quiz-2 paper? (Enter the answer correct to 2 decimal accuracy)  
 ```
-
+0.39
 ```
 ---  
 
 6) If \( P(A) = 0.22 \) and \( P(B) = 0.26 \) and probability of the complement of \( (A \cup B) \) is 0.64, then calculate \( P(A \cup B) \)? (Enter the answer correct to 2 decimal point accuracy)  
 ```
-
+0.36
 ```
 ---  
 
 7) 5 cards are drawn at random (without replacement) from a pack of 52 cards. Find the probability that, 3 are black and 2 are red. (Enter the answer correct to two decimal places)  
 ```
-
+0.33
 ```
 ---  
 
 8) Pramod goes to a shop to buy some clothes. Shopkeeper shows him 7 shirts, 6 pants and 14 t-shirts. If he selects three clothes at random, then find the probability that, randomly chosen clothes are of different type. (Enter the answer correct to three decimal places)  
-
+```
+0.201
+```
 ---  
 
-9) Pramod goes to a shop to buy some clothes. Shopkeeper shows him 7 shirts, 6 pants and 14 t-shirts. If he selects three clothes at random, then find the probability that, randomly chosen clothes does not contain pant. (Enter the answer correct to two decimal places)  
+ 9) Pramod goes to a shop to buy some clothes. Shopkeeper shows him 7 shirts, 6 pants and 14 t-shirts. If he selects three clothes at random, then find the probability that, randomly chosen clothes does not contain pant. (Enter the answer correct to two decimal places)  
 ```
-
+0.45
 ```
 ---  
 
 10) Pramod goes to a shop to buy some clothes. Shopkeeper shows him 7 shirts, 6 pants and 14 t-shirts. If he selects three clothes at random, then find the probability that, at least one of the clothes is shirt. (Enter the answer correct to two decimal places)  
-
+```
+0.61
+```
 ---
 
 11) An urn contains 3 balls numbered 1, 2, and 3. The co-efficient of equation \( px^2 + qx + c = 0 \) is determined by **1 point** drawing the numbered balls with replacement. What is the probability that the equation will have imaginary roots?
@@ -79,15 +83,15 @@ D \geq 0 & \text{real roots}
 \]
 
 - [ ] \( \frac{4}{27} \)  
-- [ ] \( \frac{23}{27} \)  
+- [x] \( \frac{23}{27} \)  
 - [ ] \( \frac{16}{27} \)  
 - [ ] None of the above  
 
 ---
 
-12) If A and B are mutually exclusive or disjoint events, then which of the following is/are always true: **1 point**
+12) If A and B are mutually exclusive or disjoint events, then which of the following is/are always true:
 
 - [ ] \( P(A) = P(B) \)  
 - [ ] \( P(A) < P(B) \)  
-- [ ] \( P(A) \leq P(B^c) \)  
+- [x] \( P(A) \leq P(B^c) \)  
 - [ ] \( P(A) \geq P(B^c) \)  
