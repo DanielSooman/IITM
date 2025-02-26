@@ -14,7 +14,8 @@
       <td>a) Exponential function</td>
       <td>1)  
         <br>
-        <img src="graph1.png" alt="Graph 1: Parabola opening upwards">
+        <img src="![image](https://github.com/user-attachments/assets/534d4434-7f39-4ac9-b0b7-78fccb4eabeb)
+" alt="Graph 1: Parabola opening upwards">
       </td>
     </tr>
     <tr>
