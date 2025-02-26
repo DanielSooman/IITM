@@ -61,11 +61,11 @@ Choose the options which represent the correct matching of a given function with
 
 2) Suppose \( f(x) \) is a strictly increasing function and \( g(x) \) is a strictly decreasing function. If the curves represented by \( f(x) \) and \( g(x) \) intersect at \( x = x_0 \), then choose the set of correct options. **1 point**
 
-☐ \( f(x) \geq g(x) \) for all \( x \geq x_0 \).  
-☐ There exists a point \( x_1 > x_0 \) such that \( f(x_1) = g(x_1) \).  
-☐ \( g(x) \geq f(x) \) for all \( x \geq x_0 \).  
-☐ \( g(x) \geq f(x) \) for all \( x_0 > x \).  
-☐ \( f(x) \geq g(x) \) for all \( x_0 \geq x \).  
+- [ ] \( f(x) \geq g(x) \) for all \( x \geq x_0 \).  
+- [ ] There exists a point \( x_1 > x_0 \) such that \( f(x_1) = g(x_1) \).  
+- [ ] \( g(x) \geq f(x) \) for all \( x \geq x_0 \).  
+- [ ] \( g(x) \geq f(x) \) for all \( x_0 > x \).  
+- [ ] \( f(x) \geq g(x) \) for all \( x_0 \geq x \).  
 
 ---
 
@@ -166,10 +166,10 @@ Which of the following statements is (are) correct?
 
 9) Suppose a new algorithm is designed to predict the growth of the company in future and the error in estimation by the new algorithm is given by \( a_n - b_n \), where \( a_n \) and \( b_n \) are the same as defined earlier. Choose the set of correct options.  
 
-☐ The error in estimation using the new algorithm is less than the error in estimation using Algorithm 1.  
-☐ The error in estimation using Algorithm 2 is less than the error in estimation using the new algorithm.  
-☐ The error in estimation using the new algorithm is less than the error in estimation using Algorithm 3.  
-☐ The error in estimation using the new algorithm cannot be compared with the error in estimation using Algorithm 3.  
+- [ ] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 1.  
+- [ ] The error in estimation using Algorithm 2 is less than the error in estimation using the new algorithm.  
+- [ ] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 3.  
+- [ ] The error in estimation using the new algorithm cannot be compared with the error in estimation using Algorithm 3.  
 
 ---
 
