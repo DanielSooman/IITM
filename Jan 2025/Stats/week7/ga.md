@@ -70,6 +70,8 @@ D \geq 0 & \text{real roots}
 - [ ] \( \frac{16}{27} \)  
 - [ ] None of the above  
 
+---
+
 12) If A and B are mutually exclusive or disjoint events, then which of the following is/are always true: **1 point**
 
 - ☐ \( P(A) = P(B) \)  
