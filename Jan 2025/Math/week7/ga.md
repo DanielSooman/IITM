@@ -45,34 +45,32 @@
   </tbody>
 </table>
 
----
-
 Choose the options which represent the correct matching of a given function with its type and its graph.
 
-- [ ] i) → d) → 2  
+- [x] i) → d) → 2  
 - [ ] i) → a) → 2  
 - [ ] ii) → c) → 1  
-- [ ] ii) → c) → 4  
+- [x] ii) → c) → 4  
 - [ ] iii) → d) → 2  
-- [ ] iii) → a) → 3   
-- [ ] iv) → b) → 1
+- [x] iii) → a) → 3   
+- [x] iv) → b) → 1
 - [ ] iv) → b) → 3
 
 ---
 
 2) Suppose \( f(x) \) is a strictly increasing function and \( g(x) \) is a strictly decreasing function. If the curves represented by \( f(x) \) and \( g(x) \) intersect at \( x = x_0 \), then choose the set of correct options. **1 point**
 
-- [ ] \( f(x) \geq g(x) \) for all \( x \geq x_0 \).  
+- [x] \( f(x) \geq g(x) \) for all \( x \geq x_0 \).  
 - [ ] There exists a point \( x_1 > x_0 \) such that \( f(x_1) = g(x_1) \).  
 - [ ] \( g(x) \geq f(x) \) for all \( x \geq x_0 \).  
-- [ ] \( g(x) \geq f(x) \) for all \( x_0 > x \).  
+- [x] \( g(x) \geq f(x) \) for all \( x_0 > x \).  
 - [ ] \( f(x) \geq g(x) \) for all \( x_0 \geq x \).  
 
 ---
 
 3) Suppose \( a_n = \frac{12n^2}{3n+2} - \frac{4n^2+11}{n+10} \). Find the value of \( \lim_{n \to \infty} a_n \) (correct up to 2 decimal places).  
 ```
-
+37.33
 ```
 ---
 
@@ -92,7 +90,7 @@ Graph of a cubic function, increasing steeply for positive x and decreasing stee
 ### Figure: Curve 4
 Graph of a parabola with vertex at (2, 0) and extending symmetrically upwards.
 ```
-
+2
 ```
 
 ---
@@ -121,7 +119,7 @@ Using the given information, find the value of:
 \lim_{n \to \infty} e \sqrt{n!} \left[ \log \left( 1 + \frac{27}{n} \right) - \frac{\left( e^{\frac{27}{n}} - 1 \right)}{\left( \sqrt{2 \pi n} \right)^{\frac{1}{n}}} \right].
 \]
 ```
-
+0
 ```
 ---
 
