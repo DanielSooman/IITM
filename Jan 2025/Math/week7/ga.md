@@ -127,7 +127,7 @@ Using the given information, find the value of:
 \[ a_n = \frac{6 + 10 + 14 + \dots + (4n - 2)}{n^2}, \]  
 (where \( n \in \mathbb{N} \setminus \{0\} \)).  
 ```
-
+2
 ```
 ---
 
@@ -135,7 +135,7 @@ Using the given information, find the value of:
 \[ 5 \lim_{x \to 16^-} \lfloor x \rfloor - 3 \lim_{x \to 1^-} \lfloor x \rfloor, \]  
 where \( \lfloor x \rfloor \) denotes the greatest integer less than or equal to \( x \).  
 ```
-
+75
 ```
 ---
 
@@ -156,18 +156,18 @@ where \( n \in \mathbb{N} \setminus \{0\} \). Suppose the company has a large am
 Which of the following statements is (are) correct?  
 
 - [ ] Error in estimation by Algorithm 2 will be 0.500.  
-- [ ] Error in estimation by Algorithm 2 will give the minimum error.  
+- [x] Error in estimation by Algorithm 2 will give the minimum error.  
 - [ ] Error in estimation by Algorithm 2 will give the maximum error.  
 - [ ] Both Algorithm 1 and Algorithm 2 will give the same error and that will be the maximum.  
-- [ ] Error in estimation by Algorithm 1 will be 0.166 approximately.  
+- [x] Error in estimation by Algorithm 1 will be 0.166 approximately.  
 
 ---
 
 9) Suppose a new algorithm is designed to predict the growth of the company in future and the error in estimation by the new algorithm is given by \( a_n - b_n \), where \( a_n \) and \( b_n \) are the same as defined earlier. Choose the set of correct options.  
 
-- [ ] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 1.  
+- [X] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 1.  
 - [ ] The error in estimation using Algorithm 2 is less than the error in estimation using the new algorithm.  
-- [ ] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 3.  
+- [X] The error in estimation using the new algorithm is less than the error in estimation using Algorithm 3.  
 - [ ] The error in estimation using the new algorithm cannot be compared with the error in estimation using Algorithm 3.  
 
 ---
@@ -180,5 +180,5 @@ c'ₙ = n * e^(1 / 10n) - n.
 What will be the new error in estimation by Algorithm 3? (Correct up to 3 decimal places)  
 
 ```
-
+0.100
 ```
