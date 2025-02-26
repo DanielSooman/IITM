@@ -1,6 +1,3 @@
-Note: This assignment will be evaluated after the deadline passes. You will get your score 48 hrs after the deadline. Until then the score will be shown as Zero.
-
----
 
  1) 9 boys and 2 girls are to be placed next to each other in the school ground for morning assembly. What is the probability that there are exactly 4 boys between the 2 girls?  
 
