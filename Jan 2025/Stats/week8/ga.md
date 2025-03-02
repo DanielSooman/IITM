@@ -1,6 +1,6 @@
 1) Zaheer Khan has taken 4 five-wicket hauls in his last 16 matches. His match records are selected at random, one by one, and analyzed. If none of the match records is analyzed more than once, then what is the probability that the 10th one analyzed is his last five-wicket haul match?  
 
-- [ ] ![4C3 × 12C6 / 16C9 × 1/7](#)  
+- [x] ![4C3 × 12C6 / 16C9 × 1/7](#)  
 - [ ] ![4C3 × 12C6 / 16C9](#)  
 - [ ] ![12C6 / 16C9](#)  
 - [ ] ![1/7](#)  
@@ -12,30 +12,38 @@
 - [ ] 621/711  
 - [ ] 90/207  
 - [ ] 201/207  
-- [ ] 90/711  
+- [x] 90/711  
 
 ---
 
 3) An item is produced in three factories **A**, **B**, and **C**. Factory **A** produces 5 times the number of items produced by factory **B**, and the factories **B** and **C** produce the same number of items. It is known that 8%, 7%, 4% of the items produced by factories **A**, **B**, and **C** respectively are defective. All items produced in the three factories are stocked, and an item is selected at random. What is the probability that the selected item is defective? (Enter the answer correct to two decimal places)  
-
+```
+0.07
+```
 ---
 
 
 4) An item is produced in three factories **A**, **B**, and **C**. Factory **A** produces 5 times the number of items produced by factory **B**, and the factories **B** and **C** produce the same number of items. It is known that 8%, 7%, 4% of the items produced by factories **A**, **B**, and **C** respectively are defective.  
-
+```
+0.072
+```
 ---  
 
 
 5) A particular task is given to three persons, Manoj, Kalpana, and Ananya whose probabilities of completing it are  
    **3/4**, **5/6**, and **4/5** respectively, independent of each other. What is the probability that the task will be completed?  
    *(Enter the answer correct to two decimal places)*  
-
+```
+0.99
+```
 ---
 
 
 6) If A and B are two independent events such that **P(Aᶜ) = 0.75**, **P(Bᶜ) = x**, and **P(A ∪ B) = 0.83**, then calculate the value of **x**.  
    *(Enter the answer correct to two decimal places)*  
-
+```
+0.23
+```
 ---
 
 
@@ -76,16 +84,24 @@
 
 
 8) What is the probability that a student falls in below average level? (Enter the answer correct to 2 decimal accuracy)
-
+```
+0.42
+```
 
 ---
 
 
 9) What is the probability that a student is of average level given that the investigation is done by researcher Y? (Enter the answer correct to 2 decimal accuracy)  
-
+```
+0.22
+```
 ---
 
 10) What is the probability that investigation is done by researcher X given that the student is of below average level? (Enter the answer correct to 2 decimal accuracy)  
+```
+0.61 
+```
+
 
 ---
 
@@ -96,7 +112,7 @@
 \( H^c \) = There is no traffic.  
 
 - [ ] \( \frac{1}{8} \)  
-- [ ] \( \frac{6}{11} \)  
+- [x] \( \frac{6}{11} \)  
 - [ ] \( \frac{11}{48} \)  
 - [ ] None of the above  
 
@@ -106,6 +122,6 @@
 12) There are two shops, \( A \) and \( B \), selling t-shirts in the market. Shop \( A \) has stock of \( n \) red and 2 black t-shirts and Shop \( B \) has a stock of 2 red and \( n \) black t-shirts. One of the shops is selected at random and two t-shirts are purchased from it. If both the t-shirts purchased are red and the probability that it was purchased from shop \( A \) is \( \frac{6}{7} \), find the value of \( n \).  
 
 - [ ] 3  
-- [ ] 4  
+- [x] 4  
 - [ ] 5  
 - [ ] 6  
