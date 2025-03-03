@@ -29,11 +29,11 @@
 
 **Table: M2W2G1**
 
-☐ ii) → a) → 1.  
-☐ i) → b) → 3.  
-☐ iii) → b) → 1.  
-☐ iii) → c) → 2.  
-☐ i) → a) → 1.
+- [x] ii) → a) → 1.  
+- [x] i) → b) → 3.  
+- [ ] iii) → b) → 1.  
+- [x] iii) → c) → 2.  
+- [ ] i) → a) → 1.
 
 ---
 
@@ -61,9 +61,9 @@ Choose the set of correct options.
 
 - [ ] \( f(x) \) is discontinuous at both \( x = 0 \) and \( x = 3 \).  
 - [ ] \( f(x) \) is discontinuous only at \( x = 0 \).  
-- [ ] \( f(x) \) is discontinuous only at \( x = 3 \).  
+- [x] \( f(x) \) is discontinuous only at \( x = 3 \).  
 - [ ] \( g(x) \) is discontinuous at \( x = 2 \).  
-- [ ] \( g(x) \) is discontinuous at \( x = 3 \).  
+- [x] \( g(x) \) is discontinuous at \( x = 3 \).  
 
 ---
 
@@ -71,10 +71,10 @@ Choose the set of correct options.
 ![image](https://github.com/user-attachments/assets/2f2eaef9-3bc5-4882-ad4f-48653cca0a92)
 
 
-- [ ] Curve 1 is both continuous and differentiable at the origin.  
+- [x] Curve 1 is both continuous and differentiable at the origin.  
 - [ ] Curve 2 is continuous but not differentiable at the origin.  
-- [ ] Curve 2 has derivative 0 at \( x = 0 \).  
-- [ ] Curve 3 is continuous but not differentiable at the origin.  
+- [x] Curve 2 has derivative 0 at \( x = 0 \).  
+- [x] Curve 3 is continuous but not differentiable at the origin.  
 - [ ] Curve 4 is not differentiable anywhere.  
 - [ ] Curve 4 has derivative 0 at \( x = 0 \).  
 
@@ -91,10 +91,10 @@ f(x) =
 \]
 
 - [ ] \( f(x) \) is not continuous at \( x = 0 \).  
-- [ ] \( f(x) \) is continuous at \( x = 0 \).  
+- [x] \( f(x) \) is continuous at \( x = 0 \).  
 - [ ] \( f(x) \) is not differentiable at \( x = 0 \).  
-- [ ] \( f(x) \) is differentiable at \( x = 0 \).  
-- [ ] The derivative of \( f(x) \) at \( x = 0 \) (if exists) is 0.  
+- [x] \( f(x) \) is differentiable at \( x = 0 \).  
+- [x] The derivative of \( f(x) \) at \( x = 0 \) (if exists) is 0.  
 - [ ] The derivative of \( f(x) \) at \( x = 0 \) (if exists) is 1.  
 
 ---
@@ -104,9 +104,9 @@ f(x) =
 
 Let \( f'(b) \) denote the derivative of \( f \) at \( x = b \). Choose the set of correct options.  
 
-- [ ] \( a_1 = f'(0) \)  
-- [ ] \( 5a_5 + 3a_3 = \frac{1}{2} \left( f'(1) + f'(-1) - 2f'(0) \right) \)  
-- [ ] \( 4a_4 + 2a_2 = \frac{1}{2} \left( f'(1) - f'(-1) \right) \)  
+- [x] \( a_1 = f'(0) \)  
+- [x] \( 5a_5 + 3a_3 = \frac{1}{2} \left( f'(1) + f'(-1) - 2f'(0) \right) \)  
+- [x] \( 4a_4 + 2a_2 = \frac{1}{2} \left( f'(1) - f'(-1) \right) \)  
 - [ ] None of the above.  
 
 ---
@@ -114,7 +114,7 @@ Let \( f'(b) \) denote the derivative of \( f \) at \( x = b \). Choose the set 
 6) Let \( f \) be a differentiable function at \( x = 3 \). The tangent line to the graph of the function \( f \) at the point \( (3, 0) \), passes through the point \( (5, 4) \). What will be the value of \( f'(3) \)?  
 
 ```
-
+2
 ```
  
 
@@ -123,7 +123,7 @@ Let \( f'(b) \) denote the derivative of \( f \) at \( x = b \). Choose the set 
 7) Let \( f \) and \( g \) be two functions which are differentiable at each \( x \in \mathbb{R} \). Suppose that, \( f(x) = g(x^2 + 5x) \), and \( f'(0) = 10 \). Find the value of \( g'(0) \).  
 
 ```
-
+2
 ```
 
 
@@ -266,7 +266,7 @@ Where \( q(t) \) represents the population (in lakhs) and \( t \) represents the
 
 Find the number of the correct statements.
 ```
-
+1
 ```
 
 ---
@@ -274,7 +274,7 @@ Find the number of the correct statements.
 14) If \( L_p(t) = At + B \) denotes the best linear approximation of the function \( p(t) \) at the point \( t = 1 \), then find the value of \( 2A + B \).
 
 ```
-
+18
 ```
 
 ---
@@ -282,7 +282,7 @@ Find the number of the correct statements.
 15) If \( L_p(t) = e^4(At + B) + Ce^5 \) denotes the best linear approximation of the function \( q(t) \) at the point \( t = 3 \), then find the value of \( A + B + C \).
 
 ```
-
+-2
 ```
 
 **1 point**
