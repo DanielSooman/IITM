@@ -140,7 +140,7 @@ B, & \text{if } x = 0.
 If \( f(x) \) is continuous at \( x = 0 \), then find the value of \( 72B - A \).  
 
 ```
-
+2
 ```
 
 ---
@@ -150,7 +150,7 @@ If \( f(x) \) is continuous at \( x = 0 \), then find the value of \( 72B - A \)
 where \( g \) is a differentiable function with domain \( \mathbb{R} \). Find the instantaneous speed of the car after 5 min, where \( g'(1032) = 2 \).  
 
 ```
-
+1162
 ```
 
 ---
