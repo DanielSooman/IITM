@@ -184,7 +184,7 @@ q(t) = |t(t - 4)(t - 3)|
 
 Find the number of correct statements.  
 ```
-
+2
 ```
 
 ---
@@ -207,7 +207,7 @@ If the linear function \( L_p(t) = At + B \) denotes the best linear approximati
 \]  
 
 ```
-
+16
 ```
 
 ---
@@ -223,7 +223,7 @@ q(t) = |t(t - 5)(t - 6)|
 If \( m \) is the slope of the tangent of the function \( q(t) \) at point \( t = \frac{3}{2} \), find the value \( m - \frac{27}{4} \).  
 
 ```
-
+-3
 ```
 
 
