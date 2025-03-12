@@ -28,6 +28,10 @@
 
 ![image](https://github.com/user-attachments/assets/4df24b8e-3838-4932-b08c-33e92a88ed2d)
 
+
+
+[Video Soln](https://www.youtube.com/watch?v=v2c8Vu1vx6g)
+
 ---
 
 ![image](https://github.com/user-attachments/assets/8eb92aaf-057e-4cdd-95ab-0b0939adb2c3)
