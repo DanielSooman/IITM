@@ -1,3 +1,7 @@
+## [Video Soln](https://www.youtube.com/watch?v=v2c8Vu1vx6g)
+---
+
+
 ![image](https://github.com/user-attachments/assets/2ff84165-384e-4efd-908c-bc27a884daf6)
 
 ---
@@ -28,9 +32,6 @@
 
 ![image](https://github.com/user-attachments/assets/4df24b8e-3838-4932-b08c-33e92a88ed2d)
 
-
-
-[Video Soln](https://www.youtube.com/watch?v=v2c8Vu1vx6g)
 
 ---
 
