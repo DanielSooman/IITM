@@ -201,3 +201,7 @@ After the while loop (lines 2-13), dictionary `D` will contain each unique "Town
 Option 1:  `A = Number of cities where students score the lowest marks in Physics`, `B = The lowest marks in Physics`. This option perfectly matches our interpretation of variables A and B.
 
 Final Answer: The final answer is $\boxed{6406532561702}$
+
+---
+
+![image](https://github.com/user-attachments/assets/30f23b0f-abd4-4788-b0d6-231222b9311b)
