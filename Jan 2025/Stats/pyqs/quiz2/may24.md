@@ -3,6 +3,9 @@ Q1
 
 ![answer](https://github.com/user-attachments/assets/1d18095d-cb2e-453d-8b3b-ff939cac6b15)
 
+
+![image](https://github.com/user-attachments/assets/faa68e57-8599-42e2-bd9f-a4fbbd27685b)
+
 ---
 Q2
 ![image](https://github.com/user-attachments/assets/b849dc6c-a863-4543-9f9e-b956418df2ed)
@@ -54,6 +57,57 @@ Q8
 ![image](https://github.com/user-attachments/assets/5689217e-a4e7-4357-92fe-c414913c41be)
 
 here, n-1 is general formula for round table
+
+### Q2 - Jan24
+## Arranging the Letters of "ENGLISH" with Vowels Together
+
+The word **"ENGLISH"** has 7 letters: **E, N, G, L, I, S, H**.
+
+- **Vowels**: E, I
+- **Consonants**: N, G, L, S, H
+
+We want to arrange the letters such that the vowels always stay together.
+
+---
+
+### Step 1: Consider the Vowels as One Unit
+Since the vowels (E, I) must stay together, we treat them as a single unit.  
+These vowels can be arranged among themselves in:
+
+\[
+2! = 2 \times 1 = 2
+\]
+
+(EI or IE)
+
+---
+
+### Step 2: Arrange the Remaining Letters with the Vowel Unit
+The remaining letters are the **5 consonants (N, G, L, S, H)**.  
+Including the vowel unit, we now have **6 items** to arrange.
+
+---
+
+### Step 3: Find the Number of Ways to Arrange These 6 Items
+The number of ways to arrange these 6 items:
+
+\[
+6! = 6 \times 5 \times 4 \times 3 \times 2 \times 1 = 720
+\]
+
+---
+
+### Step 4: Compute the Total Arrangements
+Total number of valid arrangements:
+
+\[
+2! \times 6! = 2 \times 720 = 1440
+
+Thus, the number of ways to arrange the letters of **"ENGLISH"** such that the vowels always come together is:
+
+1440
+
+
 ---
 
 Q9
