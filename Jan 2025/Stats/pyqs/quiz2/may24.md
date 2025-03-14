@@ -1,11 +1,17 @@
 Q1
 ![image](https://github.com/user-attachments/assets/4ff0810b-107e-4d93-a9d3-f41f4a8d6111)
 
+![image](https://github.com/user-attachments/assets/1d18095d-cb2e-453d-8b3b-ff939cac6b15)
+
 ---
 Q2
 ![image](https://github.com/user-attachments/assets/b849dc6c-a863-4543-9f9e-b956418df2ed)
 ![image](https://github.com/user-attachments/assets/1ec21dc9-fafd-4b1f-8cfd-1e84bf90680f)
+![image](https://github.com/user-attachments/assets/f25512f9-1024-49a5-b062-39f4a912956f)
+
 ![image](https://github.com/user-attachments/assets/baf806ae-f524-41c4-8881-c7f4ecc8e97f)
+![image](https://github.com/user-attachments/assets/03d6d8ff-7df7-433e-bf4c-2413286c6f46)
+
 
 ---
 Q3
