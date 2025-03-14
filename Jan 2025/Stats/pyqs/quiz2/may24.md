@@ -130,3 +130,50 @@ Q11
 Q12
 ![image](https://github.com/user-attachments/assets/327628d9-a5fd-4463-8ff2-075a74a89e12)
 ![ans](https://github.com/user-attachments/assets/02d00f7e-7602-4897-9e41-f13b5d330c84)
+
+---
+Q13
+How many numbers can be formed between 999 to 10000 with digits 0 − 9, with repetition, such that having at least one of their digits as 5?
+To solve this problem, we need to calculate how many numbers between 999 and 10000 (inclusive of 1000 but exclusive of 10000) can be formed using the digits $0$ through $9$, with repetition allowed, such that at least one digit is $5$. 
+
+### Step 1: Total numbers in the range
+The range of numbers from $999$ to $10000$ corresponds to all **4-digit numbers**. A 4-digit number has the form:
+$$
+abcd
+$$
+where $a, b, c, d$ are digits, and $a \neq 0$ (since it's a 4-digit number).
+
+- The first digit ($a$) can take any value from $1$ to $9$ (9 choices).
+- Each of the other three digits ($b, c, d$) can take any value from $0$ to $9$ (10 choices each).
+
+Thus, the total number of 4-digit numbers is:
+$$
+9 \times 10 \times 10 \times 10 = 9000.
+$$
+
+### Step 2: Numbers without the digit $5$
+Next, we calculate how many 4-digit numbers do **not** contain the digit $5$ at all.
+
+- For the first digit ($a$), which cannot be $0$ or $5$, there are $8$ choices ($1, 2, 3, 4, 6, 7, 8, 9$).
+- For each of the other three digits ($b, c, d$), which also cannot be $5$, there are $9$ choices ($0, 1, 2, 3, 4, 6, 7, 8, 9$).
+
+Thus, the total number of 4-digit numbers without the digit $5$ is:
+$$
+8 \times 9 \times 9 \times 9 = 5832.
+$$
+
+### Step 3: Numbers with at least one digit as $5$
+To find the numbers that have **at least one digit as $5$**, we subtract the count of numbers without the digit $5$ from the total count of 4-digit numbers:
+$$
+\text{Numbers with at least one digit as } 5 = \text{Total 4-digit numbers} - \text{Numbers without the digit } 5.
+$$
+
+Substituting the values:
+$$
+9000 - 5832 = 3168.
+$$
+
+### Final Answer:
+$$
+\boxed{3168}
+$$
