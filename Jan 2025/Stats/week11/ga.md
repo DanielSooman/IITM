@@ -5,7 +5,7 @@
 - ☐ \( \sum_{i=0}^3 \binom{4}{i} \times (0.84)^i \times (0.16)^{4-i} \)  
 - ☐ \( \sum_{i=1}^2 \binom{4}{i} \times (0.84)^i \times (0.16)^{4-i} \)  
 - ☐ \( \sum_{i=1}^3 1mm \binom{4}{i} \times (0.84)^i \times (0.16)^{4-i} \)  
-- ☐ \( \sum_{i=0}^2 \binom{4}{i} \times (0.84)^i \times (0.16)^{4-i} \)  
+- [x] \( \sum_{i=0}^2 \binom{4}{i} \times (0.84)^i \times (0.16)^{4-i} \)  
 
 ---
 
@@ -14,8 +14,8 @@
 
 - ☐ \( E(X) \leq Var(X) \)  
 - ☐ \( E(X) < Var(X) \)  
-- ☐ \( E(X) \geq Var(X) \)  
-- ☐ \( E(X) > Var(X) \)  
+- x \( E(X) \geq Var(X) \)  
+- x \( E(X) > Var(X) \)  
 - ☐ \( Var(X) \leq S.D(X) \)  
 - ☐ \( Var(X) \geq S.D(X) \)  
 
@@ -23,32 +23,32 @@
 
 3) Two friends (say ‘A’ and ‘B’) could not decide whether to play a racing game or a boxing game on Xbox. They decide to play a card game first. If ‘A’ wins at least 5 rounds out of the 7 rounds of the card game played, then the boxing game will be played. The chances of ‘A’ winning in any round of the card game is 2:4. Find the probability that the boxing game will be played on Xbox? (Enter the answer correct to 2 decimal places)  
 **Hint:** If the chances of happening of an event is \( x:y \) then, the probability equals \( \frac{x}{x+y} \).  
-
+# 0.05
 
 ---
 
  4) Let \( X \sim Binomial(7, p) \). If the probabilities of 3 and 4 successes are approximately 0.2923 and 0.2031 respectively, then find the parameter ‘p’ of the distribution. (Enter the answer correct to 2 decimal places)  
-
+# 0.41
 
 ---
 
  5) If the expected number of sixes hit by a batsman on \( n \) balls is 2.8 and the variance for the same is 1.232, then what is the probability of him hitting at least one six on any randomly selected \( n \) balls? Assume that the probability of him hitting a six on any ball is constant. (Enter the answer correct to 4 decimal places)  
-
+# 0.9835
 
 ---
 
 6)  
 The probability of a student clearing a competitive exam is \( \frac{1}{5} \). If he gives the exam 7 times, then what is the probability of him clearing the exam at least twice? (Enter the answer correct to 2 decimal places)  
-
+# 0.42
 ---
 
 7)  
 Choose the correct condition/s about binomial distribution.  
 
 ☐ The probability of success \( p \) keeps varying for each trial.  
-☐ The number of trials \( n \) is finite.  
+x The number of trials \( n \) is finite.  
 ☐ The trials are dependent on each other.  
-☐ The trials are independent of each other.  
+x The trials are independent of each other.  
 
 ---
 
@@ -93,13 +93,13 @@ Rithika wants to test whether the coin she has is a fair coin or not. To test th
 **Table 11.1.G: Binomial Distribution**  
 
 What is the approximate probability of getting a head in tossing the given coin? (Enter the answer correct to one decimal place)  
-
+# 0.9
 ---  
 
 
 9) At a school function, it is noticed that 8% of the students are not wearing polished shoes and 13% of students are not wearing school ties. It is announced that the students who have committed any of the infractions will be punished, and that these two infractions are independent of one another. If a teacher selects 5 students at random, then find the probability that exactly three of the students will be punished for any of the infractions?
 
-☐ \( 5C_3 (0.1996)^3(0.8004)^2 \)  
+x \( 5C_3 (0.1996)^3(0.8004)^2 \)  
 ☐ \( 5C_3 (0.0104)^3(0.9896)^2 \)  
 ☐ \( 5C_3 (0.08)^3(0.92)^2 + 5C_3 (0.13)^3(0.87)^2 \)  
 ☐ \( 5C_3 (0.21)^3(0.79)^2 \)  
@@ -110,7 +110,7 @@ What is the approximate probability of getting a head in tossing the given coin?
 
 10) There are 7 black and 20 blue pens in a box. A pen is chosen at random, and its colour is noted. If the process repeats independently, 13 times with replacement, then calculate the expected number of black pens chosen?
 
-☐ \( \frac{91}{27} \)  
+x \( \frac{91}{27} \)  
 ☐ \( \frac{260}{27} \)  
 ☐ \( \frac{169}{20} \)  
 ☐ \( \frac{91}{20} \)  
@@ -119,7 +119,7 @@ What is the approximate probability of getting a head in tossing the given coin?
 ---
 
 11) Number of calls received at an office follows a Poisson distribution with an average of 1 call per minute. Find the probability that no call will be received in two minutes at the office. (Enter the answer correct to 2 decimal accuracy.)
-
+# 0.14
 ---
 
 
@@ -127,7 +127,8 @@ A quiz team is to be chosen randomly from 6 boys and 4 girls. The team has 3 slo
 
  
  12) Calculate \( P(X = 2) \). (Enter the answer correct to 2 decimal places)
-
+# 0.5
 ---
 
  13) Calculate the value of \( E(X) \). (Enter the answer correct to 2 decimal places)
+# 1.80
