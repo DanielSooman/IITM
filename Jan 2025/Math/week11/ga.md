@@ -1,13 +1,13 @@
 
 1)
 An undirected graph G has 46 vertices and the degree of each vertex is at least 5. What is the minimum number of edges that the graph G can have?  
-
+115
 ---
 
 2)  
 If G is a connected undirected graph such that every vertex has degree at most 9, and the shortest path between any two vertices has length at most 2, then what is the maximum number of vertices in G?  
 *(Hint: Try to draw the BFS tree starting with any vertex)*  
-
+82
 
 ---
 
