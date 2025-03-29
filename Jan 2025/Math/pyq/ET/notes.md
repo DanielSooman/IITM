@@ -1,7 +1,4 @@
-Vetices to edge formula:
-$$
-n(n-10/2
-$$
+Vetices to edge formula in Undirected: n(n-1)/2
 
 ---
 
