@@ -6,21 +6,17 @@ A, C
 ![image](https://github.com/user-attachments/assets/8fd2a116-15cf-426d-b2ac-9ad6eaaad71d)
 To solve the problem, we need to analyze the function \( f(x) \) defined as follows:
 
-$$
-f(x) = 
+$$f(x) = 
 \begin{cases} 
 x^2 - |x| & \text{if } x < 0, \\
 x^2 + |x| & \text{if } x \geq 0.
-\end{cases}
-$$
+\end{cases}$$
 
 ### Step 1: Simplify the Function
 We can simplify the function based on the definition of the absolute value \( |x| \):
 
 - For \( x < 0 \), \( |x| = -x \). Thus,
-  $$
-  f(x) = x^2 - |x| = x^2 - (-x) = x^2 + x.
-  $$
+  $$f(x) = x^2 - |x| = x^2 - (-x) = x^2 + x.$$
 
 - For \( x \geq 0 \), \( |x| = x \). Thus,
   $$
@@ -28,13 +24,11 @@ We can simplify the function based on the definition of the absolute value \( |x
   $$
 
 So, the function can be rewritten as:
-$$
-f(x) = 
+$$f(x) = 
 \begin{cases} 
 x^2 + x & \text{if } x < 0, \\
 x^2 + x & \text{if } x \geq 0.
-\end{cases}
-$$
+\end{cases}$$
 
 This simplifies to:
 $$ f(x) = x^2 + x \quad \text{for all } x \in \mathbb{R}. $$
@@ -73,9 +67,7 @@ From the analysis, we have:
 4. \( f \) is not continuous at \( x = 1 \): **False** (It is continuous at \( x = 1 \)).
 
 Thus, the correct options are:
-$$
-\boxed{f \text{ is continuous at } x = 0, \text{ and } f \text{ is differentiable at } x = 1.}
-$$
+$$\boxed{f \text{ is continuous at } x = 0, \text{ and } f \text{ is differentiable at } x = 1.}$$
 
 
 ---
