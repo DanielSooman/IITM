@@ -81,7 +81,8 @@ $$
 ---
 
 ### USER
-solve
+![image](https://github.com/user-attachments/assets/2281eb89-921f-45fc-a10d-f290e133c940)
+
 
 ### ASSISTANT
 To solve the problem, we need to analyze the function \( f(x) = x^2 + 2x - 8 \) and determine which of the given statements are true. Let's go through each statement step by step.
