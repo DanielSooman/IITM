@@ -136,3 +136,10 @@ The true statements are:
 \[
 \boxed{\text{The vertex of this parabola is at } (-1, -9), \text{ and the y-intercept of the given parabola is } -8.}
 \]
+
+
+---
+![image](https://github.com/user-attachments/assets/7b037271-b533-417d-88be-90a812dce520)
+https://chat.qwen.ai/c/e8bcdbf3-4479-454d-982a-23d1582cd36c
+
+---
