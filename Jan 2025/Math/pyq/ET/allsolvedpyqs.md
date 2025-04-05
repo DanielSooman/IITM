@@ -1,14 +1,23 @@
 https://quizpractice.space/question-paper/practise/16/00966090-429
 ---
+---
+---
+---
+---
+![image](https://github.com/user-attachments/assets/b6187ed5-0fd0-4fd3-93b6-c22433ab79bf)
 
 ---
-
+![image](https://github.com/user-attachments/assets/8dac7b53-4940-42d2-89ad-245bfd4f5f17)
+https://chat.qwen.ai/c/9cbb9f22-e05e-4965-a2e7-e2beae9af606
 ---
-
+![image](https://github.com/user-attachments/assets/65329554-c989-4da7-90a2-92937929b890)
+https://chat.qwen.ai/c/e2b2fa69-0fc3-4a88-b927-f9d2138afb3a
 ---
-
+![image](https://github.com/user-attachments/assets/3abf037b-d696-46b5-a17e-a6db096d5022)
+https://chat.qwen.ai/c/526d8d95-c26c-4fee-a4a0-731a257983dc
 ---
-
+![image](https://github.com/user-attachments/assets/36ef24e1-fb50-4a3c-918a-564380de68ba)
+https://chat.qwen.ai/c/f0385ab7-1c6d-4f65-a83d-64be56807017
 ---
 ![image](https://github.com/user-attachments/assets/6e478ddf-f417-4453-be8a-40d428ed74ae)
 https://chat.qwen.ai/c/05cd94ff-aa94-447d-a47c-0c66e0d3e7f4
