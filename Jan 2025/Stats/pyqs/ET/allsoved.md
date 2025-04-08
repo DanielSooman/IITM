@@ -1,6 +1,8 @@
+![image](https://github.com/user-attachments/assets/f9a4f99e-21a6-4177-8968-d1eb2cfab5fb)
+https://chat.qwen.ai/c/3329a7d7-ab2e-45ac-a856-64843c2ea25b
 
-
-
+![image](https://github.com/user-attachments/assets/ac1b8165-ccd6-497b-97a3-edff117616a7)
+https://chat.qwen.ai/c/845908a4-fe89-47da-802c-55e5d207f2ec
 
 ![image](https://github.com/user-attachments/assets/5f9bd02c-7a24-4afa-8976-2f02aa19dff2)
 https://chat.qwen.ai/c/37457b0a-f76f-40d2-9c1e-08009be268bd
