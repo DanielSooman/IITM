@@ -11,3 +11,12 @@ Vetices to edge formula in Undirected: n(n-1)/2
 
 If arrow is towards B that means it is depended
 A has no arrow towards it so its independent
+
+---
+
+![image](https://github.com/user-attachments/assets/774b49f9-2e47-40af-962f-8fd1300d0883)
+
+
+---
+
+![image](https://github.com/user-attachments/assets/55a2c364-0af5-4393-a734-bbeb8d96ba90)
