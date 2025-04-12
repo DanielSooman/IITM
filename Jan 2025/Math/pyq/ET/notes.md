@@ -24,6 +24,7 @@ A has no arrow towards it so its independent
 
 ---
 
+![image](https://github.com/user-attachments/assets/53ff0fee-b427-44c9-838a-03a7958cf7d1)
 
 ![image](https://github.com/user-attachments/assets/05ba4eee-aeac-4999-bb95-8ee76779b17f)
 
