@@ -1,4 +1,7 @@
 
+![image](https://github.com/user-attachments/assets/1e592a3d-1038-46f0-8554-8219eded9f22)
+https://chat.qwen.ai/c/d026c659-b8e3-44f2-a416-d38146883659
+
 ![image](https://github.com/user-attachments/assets/91aca045-4dd8-4669-90ac-781ab8b70a8a)
 https://chat.qwen.ai/c/f626d335-eda6-4060-bbf9-20eec5fb429d
 
