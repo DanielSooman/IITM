@@ -14,9 +14,15 @@ A has no arrow towards it so its independent
 
 ---
 
-![image](https://github.com/user-attachments/assets/774b49f9-2e47-40af-962f-8fd1300d0883)
+![image](https://github.com/user-attachments/assets/6c26fdc8-13f0-40b8-98a4-82cfd16f2a6f)
 
 
 ---
 
 ![image](https://github.com/user-attachments/assets/55a2c364-0af5-4393-a734-bbeb8d96ba90)
+
+
+---
+
+
+![image](https://github.com/user-attachments/assets/05ba4eee-aeac-4999-bb95-8ee76779b17f)
