@@ -1,9 +1,10 @@
-https://quizpractice.space/question-paper/practise/16/00966090-429
----
----
----
----
----
+
+![image](https://github.com/user-attachments/assets/91aca045-4dd8-4669-90ac-781ab8b70a8a)
+https://chat.qwen.ai/c/f626d335-eda6-4060-bbf9-20eec5fb429d
+
+![image](https://github.com/user-attachments/assets/35f010d4-42b0-4a14-ae8c-01f28d2e7497)
+https://chat.qwen.ai/c/458937d2-8d80-4276-af40-4c800504cf0e
+
 ![image](https://github.com/user-attachments/assets/b6187ed5-0fd0-4fd3-93b6-c22433ab79bf)
 
 ---
