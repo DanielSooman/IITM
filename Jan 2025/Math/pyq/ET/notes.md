@@ -26,3 +26,7 @@ A has no arrow towards it so its independent
 
 
 ![image](https://github.com/user-attachments/assets/05ba4eee-aeac-4999-bb95-8ee76779b17f)
+
+---
+
+![image](https://github.com/user-attachments/assets/213ae367-5628-4172-af21-840ab30e5098)
