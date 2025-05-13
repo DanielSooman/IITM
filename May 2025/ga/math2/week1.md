@@ -20,12 +20,12 @@ Which of the following are true?
 ---
 
 2) Suppose \( \det(4A) = n \times \det(A) \) for any \( 5 \times 5 \) real matrix \( A \). What is the value of \( n \)?
-
+1024
 ---
 
 
 3) Let \( A \) be a square matrix such that \( A^2 = A \). If \( (I + A)^3 - 20A = I + mA \), then find the value of \( m \).
-
+-13
 ---
 
 
@@ -39,7 +39,7 @@ A = \begin{bmatrix}
 \end{bmatrix}
 \]  
 , then what will be the determinant of \( A \)?
-
+0
 ---
 
 
