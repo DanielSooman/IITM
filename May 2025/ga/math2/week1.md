@@ -20,16 +20,12 @@ Which of the following are true?
 ---
 
 2) Suppose \( \det(4A) = n \times \det(A) \) for any \( 5 \times 5 \) real matrix \( A \). What is the value of \( n \)?
-```
 1024
-```
 ---
 
 
 3) Let \( A \) be a square matrix such that \( A^2 = A \). If \( (I + A)^3 - 20A = I + mA \), then find the value of \( m \).
-```
 -13
-```
 ---
 
 
@@ -43,14 +39,14 @@ A = \begin{bmatrix}
 \end{bmatrix}
 \]  
 , then what will be the determinant of \( A \)?
-```
 0
-```
 ---
 
 
 5) Let \( A \) be a square matrix of order 3 and \( B \) be a matrix that is obtained by adding 7 times the first row of \( A \) to the third row of \( A \) and adding 7 times the second row of \( A \) to the first row of \( A \). If \( \det(A) = 3 \), then find out the value of \( \det(3A^2 B^{-1}) \).
-
+```
+81
+```
 ---
 
 
@@ -63,12 +59,18 @@ A = \begin{bmatrix}
 1 & 1 & 1
 \end{bmatrix}
 \]  
-, then what will be the value of the sum of the diagonal elements of \( A^5 \)?
+, then what will be the value of the sum of the diagonal elements of \( A^5 \)
+
+```
+243
+```
 
 ---
 
 7) Let \( A = [\alpha_{ij}] \) be a square matrix of order 3, where \(\alpha_{ij} = 9i + 9j\). Find \(\det(A)\).
-
+```
+0
+```
 
 ---
 
@@ -105,9 +107,9 @@ c
 
 Assume that the first equation corresponds to stream-1, second to stream-2 and last to stream-3.
 
-☐ The first row is \(0.2, 0.7, 0.1\)
+x The first row is \(0.2, 0.7, 0.1\)
 
-☐ The last row is \(0.1, 0.4, 0.5\)
+x The last row is \(0.1, 0.4, 0.5\)
 
 ☐ The first column is \(0.2, 0.7, 0.1\)
 
@@ -116,11 +118,15 @@ Assume that the first equation corresponds to stream-1, second to stream-2 and l
 ---
 
 9) Find \(\frac{m + p + c}{3}\).
-
+```
+80
+```
 ---
 
 10) Find \(\det(A)\), where \(A\) is the coefficient matrix.
-
+```
+-13
+```
 
 ---
 
@@ -144,6 +150,9 @@ g & h & i
 \]
 is \(-3\).
 
+```
+-12
+```
 
 ---
 
@@ -152,3 +161,6 @@ is \(-3\).
 (A + 3I)(A - 3I) = 0,
 \]
 and suppose that \(\det(A) > 0\). Find \(\det(A)\).
+```
+81
+```
