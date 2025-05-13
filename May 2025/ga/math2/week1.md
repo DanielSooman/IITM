@@ -9,14 +9,14 @@
 
 Which of the following are true?
 
-☐ a) → iii)  
+[x]  a) → iii)  
 ☐ a) → ii)  
-☐ b) → i)  
+[x] b) → i)  
 ☐ b) → ii)  
-☐ c) → iv)  
+[x] c) → iv)  
 ☐ c) → iii)  
 ☐ d) → iv)  
-☐ d) → ii)
+[x] d) → ii)
 ---
 
 2) Suppose \( \det(4A) = n \times \det(A) \) for any \( 5 \times 5 \) real matrix \( A \). What is the value of \( n \)?
