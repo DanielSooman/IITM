@@ -258,7 +258,9 @@ where \( x \) and \( y \) are integers in \( 0 \leq x \leq 2 \) and \( 0 \leq y 
 
 ---
 8) Suppose a fair six sided die is rolled five times independently. Let \(X\) denote the number of times a 1 is obtained and let \(Y\) denote the number of times a 6 is obtained. Find \(\Pr(X=1, Y=1)\). Enter the answer correct to three decimal places.
-
+```
+0.165
+```
 
 ---
 
@@ -268,7 +270,7 @@ Find the marginal PMF of \(X\).
 
 ○ \(f_X(x) = \begin{cases} \frac{1}{6}, & \text{if } x = -2, -1, 0, 1, 2, 3 \\ 0, & \text{otherwise} \end{cases}\)
 
-○ \(f_X(x) = \begin{cases} \frac{1}{15} & \text{if } x = -3, 3 \\ \frac{2}{15} & \text{if } x = -2, 2 \\ \frac{3}{15} & \text{if } x = -1, 0, 1 \\ 0, & \text{otherwise} \end{cases}\)
+x \(f_X(x) = \begin{cases} \frac{1}{15} & \text{if } x = -3, 3 \\ \frac{2}{15} & \text{if } x = -2, 2 \\ \frac{3}{15} & \text{if } x = -1, 0, 1 \\ 0, & \text{otherwise} \end{cases}\)
 
 ○ \(f_X(x) = \begin{cases} \frac{1}{6}, & \text{if } x = -3, -2, -1, 1, 2, 3 \\ 0, & \text{otherwise} \end{cases}\)
 
@@ -282,7 +284,7 @@ Find the marginal PMF of \(X\).
 
 ○ \(f_Y(y) = \begin{cases} \frac{1}{6}, & \text{if } y = -2, -1, 0, 1, 2, 3 \\ 0, & \text{otherwise} \end{cases}\)
 
-○ \(f_Y(y) = \begin{cases} \frac{1}{3}, & \text{if } y = -1, 0, 1 \\ 0, & \text{otherwise} \end{cases}\)
+x \(f_Y(y) = \begin{cases} \frac{1}{3}, & \text{if } y = -1, 0, 1 \\ 0, & \text{otherwise} \end{cases}\)
 
 ○ \(f_Y(y) = \begin{cases} \frac{1}{6}, & \text{if } y = -3, -2, -1, 1, 2, 3 \\ 0, & \text{otherwise} \end{cases}\)
 
@@ -574,7 +576,5 @@ Obtain the joint distribution of \( (X_1, N) \).
     <td>0</td>
   </tr>
 </table>
-
 (c)
-<hr><hr>
 - (d). Insufficient information
