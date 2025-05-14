@@ -168,6 +168,9 @@ Choose the correct joint PMF of \(X\) and \(Y\).
   </tr>
 </table>
 
+# Answer: Table 2
+
+
 2) Joint distribution of two random variables *X* and *Y* is given as:
 
 <table border="1" cellspacing="0" cellpadding="5">
@@ -200,6 +203,9 @@ Table 1.1.G: Joint distribution of *X* and *Y*.
 
 Find the value of *f*<sub>Y|X=1</sub>(2).
 
+```
+0.5
+```
 
 ---
 
@@ -210,13 +216,15 @@ Find the value of *f*<sub>Y|X=1</sub>(2).
 \end{cases} \)
 
 and \( Y \) be the number of Red balls drawn. Find the value of \( f_Y(1) \). Write your answer correct up to two decimal places.
-
+```
+0.47
+```
 
 ---
 
 4) Which of the following options is/are always correct?  
 
-☐ \( f_{XYZ}(x,y,z) = f_{X|(Y=y,Z=z)}(x) \cdot f_{YZ}(y,z) \)  
+x \( f_{XYZ}(x,y,z) = f_{X|(Y=y,Z=z)}(x) \cdot f_{YZ}(y,z) \)  
 ☐ \( f_{XY}(x,y) = f_X(x) \cdot f_Y(y) \)  
 ☐ \( f_{XYZ}(x,y,z) = f_{X|(Y=y,Z=z)}(x) \cdot f_X(x) \)  
 ☐ \( f_{XYZ}(x,y,z) = f_{X|(Y=y,Z=z)}(x) \cdot f_{Y|(X=x)}(y) \cdot f_X(x) \)
@@ -230,16 +238,23 @@ f_{XY}(x,y) = a(bx + y),
 \]
 
 where \( x \) and \( y \) are integers in \( 0 \leq x \leq 2 \) and \( 0 \leq y \leq 3 \) such that \( P(X \geq 1, Y \leq 2) = \frac{4}{7} \). Find the value of \( f_{XY}(1,1) \). Write your answer correct to two decimal places.
-
+```
+0.07
+```
 
 ---
 
 6) A fair coin is tossed 4 times. Let \( X \) be the total number of heads and \( Y \) be the number of heads before the first tail (If there is no tail in all the four tosses, then \( Y = 4 \)). What is the value of \( f_{Y|X=2}(0) \)? Write your answer correct to two decimal places.
-
+```
+0.50
+```
 
 ---
 
 7) From a group of 6 members of party A, 5 members of party B, and 4 members of party C, a committee of two people is to be selected uniformly at random. Let \( X \) denote the number of party A members and \( Y \) denote the number of party B members on the committee. Find the value of \( f_{XY}(1,1) \). Write your answer correct to two decimal places.
+```
+0.29
+```
 
 ---
 8) Suppose a fair six sided die is rolled five times independently. Let \(X\) denote the number of times a 1 is obtained and let \(Y\) denote the number of times a 6 is obtained. Find \(\Pr(X=1, Y=1)\). Enter the answer correct to three decimal places.
