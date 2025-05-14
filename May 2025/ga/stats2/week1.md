@@ -578,3 +578,7 @@ Obtain the joint distribution of \( (X_1, N) \).
 </table>
 (c)
 - (d). Insufficient information
+
+
+11) ka B
+12) ka A
