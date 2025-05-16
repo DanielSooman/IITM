@@ -32,7 +32,7 @@ Select the statement that accurately describes the two lines in the output.
 ---
 
 3) Assume that a, b and c are three distinct integers. The following code runs without any error.  
-**1 point**
+
 
 ```python
 x, y, z = a, b, c
@@ -68,14 +68,13 @@ print(int(-x))
 |   | 2 | a - 1 |
 
 | ☐ | 1 | a - 1 |
-<hr><hr>
 2 | -a
 
 - ( )  
   1 | a  
-  2 | **-a + 1**
+  2 | -a + 1
 
-- ( )  
+  - [x]  
   1 | a  
   2 | -a
 
