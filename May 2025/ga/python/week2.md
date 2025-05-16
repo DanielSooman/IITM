@@ -47,6 +47,9 @@ Select all statements that evaluate to True at the end of execution of the code 
 | ☐ | 1 | x == y == z == b |
 | ☑ | 1 | x == y == z == c |
 
+
+---
+
 4) x is a variable of type float and is of the form a.bcd, where a, b, c, d are all positive integers less than 10. **1 point**  
 What is the output of the following snippet of code?
 
@@ -67,14 +70,15 @@ print(int(-x))
 |---|---|-------|
 |   | 2 | a - 1 |
 
-| ☐ | 1 | a - 1 |
-2 | -a
+- [ ] 
+  1 | a - 1 
+  2 | -a
 
-- ( )  
+- [ ]  
   1 | a  
   2 | -a + 1
 
-  - [x]  
+- [x]  
   1 | a  
   2 | -a
 
@@ -97,7 +101,7 @@ print(int(-x))
 
 Two blocks of code are said to be equivalent if they produce the same output for a given input. Are the two blocks equivalent?
 
-- ( ) Yes  
+- (x) Yes  
 - ( ) No
 
 ---
@@ -106,16 +110,14 @@ Two blocks of code are said to be equivalent if they produce the same output for
 
 
 **Block-1**
-
-| 1 | if E:                |  
-| 2 | &nbsp;&nbsp;&nbsp;&nbsp;print('good') |  
-| 3 | else:                |  
-| 4 | &nbsp;&nbsp;&nbsp;&nbsp;print('bad')  |
+```python
+if E:
+  print('good') 
+else:
+  print('bad')
+```
 
 **Block-2**
-<hr><hr>
-### Code Blocks
-
 ```python
 if E:
     print('good')
@@ -139,9 +141,9 @@ print('bad')
 
 ☐ Blocks 1 and 2 print the same output when E evaluates to `True`.
 
-☐ Blocks 1 and 2 print the same output when E evaluates to `False`.
+- [x] Blocks 1 and 2 print the same output when E evaluates to `False`.
 
-☐ Blocks 2 and 3 print the same output when E evaluates to `True`.
+- [x] Blocks 2 and 3 print the same output when E evaluates to `True`.
 
 ---
 
@@ -162,11 +164,11 @@ print(x)
 
 ### Which of the following statements are true at the end of execution of the code-block given above? (MSQ).
 
-☐ The value of variable **x** is independent of the value of **bool_var**.
+- [x] The value of variable **x** is independent of the value of **bool_var**.
 
 ☐ The value of variable **x** is dependent on the value of **bool_var**.
 
-☐ Line-5 is never executed.
+- [x] Line-5 is never executed.
 
 ☐ The variable **x** is updated exactly two times.
 
