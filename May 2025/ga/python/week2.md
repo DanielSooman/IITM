@@ -193,7 +193,7 @@ Consider the following code-block. E_1, E_2 and E_3 are all Boolean variables th
 8) When will this code throw an error?  
 
 - ○ When all three Boolean variables are `True`.
-- ○ When all three Boolean variables are `False`.
+- [x] When all three Boolean variables are `False`.
 - ○ When at least one of the three Boolean variables is `True`.
 - ○ When at least one of the three Boolean variables is `False`.
 - ○ This code will never throw an error.
@@ -201,39 +201,44 @@ Consider the following code-block. E_1, E_2 and E_3 are all Boolean variables th
 ---
 
 9) If the code throws an error, in which line will it occur? Enter an integer between 1 and 7, both endpoints included.
-
+```
+7
+```
 ---
 
 10) Select the correct code snippet that prints a backslash character to the console.  
 
-- ○  
+- [ ] 
   ```python
-  1 print(\)
+  print(\)
   ```
-- ○  
+- [ ]
   ```python
-  1 print('\\')
+  print('\')
   ```
-- ○
-<hr><hr>
-1 print('\\')
+- [ ]
+  ```python
+  print('\\')
+  ```
 
-1 print("\"")
-
+- [ ]
+  ```python
+  print("\"")
+  ```
 
 ---
 
 11) Consider the following snippet of code:  
 
 
-
-1 # Warning! This code may not make complete sense for certain inputs!
-2 name = input()
-3 if name.isalpha():
-4     print('This is a valid name')
-5 else:
-6     print('This is not a valid name')
-
+```
+ # Warning! This code may not make complete sense for certain inputs!
+ name = input()
+ if name.isalpha():
+     print('This is a valid name')
+ else:
+     print('This is not a valid name')
+```
 
 If the output of this code is the string `This is a valid name`, select all possible inputs to the program. (MSQ)
 
@@ -246,91 +251,70 @@ If the output of this code is the string `This is a valid name`, select all poss
 ---
 
 12) [Exploratory Problem](#): This problem is meant to encourage you to try certain things outside the lectures.  
-
-
 We have looked at string slicing. Consider the following piece of code:
 
-
-1 alphabets = 'abcdefghijklmnopqrstuvwxyz'
-2 even = alphabets[0: 10: 2]
-
-<hr><hr>
-3 print(even)
+```
+alphabets = 'abcdefghijklmnopqrstuvwxyz'
+even = alphabets[0: 10: 2]
+print(even)
+```
 
 What is the output? Feel free to use the Python interpreter for exploratory questions.
 
-1 abcdefghij  
-○
+- [ ] abcdefghij  
 
-1 abcde  
-○
+- [ ] abcde  
 
-1 acegi  
-○
+- [ ] acegi  
 
-1 bdfhj  
-○
+- [ ] bdfhj  
+
 
 ---
 
 13) **Exploratory Problem**: This problem is meant to encourage you to try certain things outside the lectures. 
-
 Consider the following snippet of code.
 
-1 a, b, c, d = input()  
-2 print(a)  
-3 print(b)  
-4 print(c)  
-5 print(d)  
+```
+ a, b, c, d = input()  
+ print(a)  
+ print(b)  
+ print(c)  
+ print(d)  
+```
 
 What is the output of this code for the following input? Feel free to use the Python interpreter for exploratory questions.
+```
+1234  
+```
 
-1 1234  
+- [ ] 
+```
+1234  
+1234  
+1234  
+1234  
+```
+- [ ] 
+```
+1  
+2 
+3  
+4   
+```
 
-○  
-1 1234  
-2 1234  
-3 1234  
-4 1234  
+- [ ] 
+```
+1
+1
+1
+1
+```
 
-○  
-1 1  
-2 2  
-3 3  
-4 4  
-
-○
-<hr><hr>
-<table>
-  <tr>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>1</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>1</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>4</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>4</td>
-  </tr>
-</table>
+- [ ] 
+```
+4
+4
+4
+4
+```
