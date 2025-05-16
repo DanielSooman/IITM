@@ -216,14 +216,14 @@ Consider the following code-block. E_1, E_2 and E_3 are all Boolean variables th
   ```python
   print('\')
   ```
-- [ ]
+- [x]
   ```python
   print('\\')
   ```
 
 - [ ]
   ```python
-  print("\"")
+  print("\")
   ```
 
 ---
