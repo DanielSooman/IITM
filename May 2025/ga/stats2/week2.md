@@ -1,5 +1,7 @@
 1) A software engineer is testing a program for bugs. Each run of the program has a 15% chance of encountering a bug. Let \(X\) be a geometric random variable representing the number of runs until the first bug is found. Given that the program has already been run 3 times without finding any bugs, what is the probability that the first bug will be found after the 5th run? Enter the answer correct to two decimal places.
-
+```
+0.722
+```
 ---
 
 2) **Use the following information to answer the below two questions:**  
@@ -14,7 +16,7 @@ where \(T_X, T_Y \in \{0,1,2,\ldots\}\).
 Find the probability mass function of \(X + Y\).
 
 - ☐ \(k \frac{9}{16 \cdot 4^k}\)
-- ☐ \((k+1) \frac{9}{16 \cdot 4^k}\)
+- [x] \((k+1) \frac{9}{16 \cdot 4^k}\)
 - ☐ \((k+1) \frac{9}{16 \cdot 4^{k+1}}\)
 - ☐ \(k \frac{9}{16 \cdot 4^{k+1}}\)
 
@@ -24,7 +26,7 @@ Find the probability mass function of \(X + Y\).
 
 - ☐ \(f_Z(k) = \frac{3(4^k - 1)}{2 \cdot 4^{2k}} \text{ for } k=1,2,\ldots\)
 - ☐ \(f_Z(k) = \frac{3(4^k - 1)}{2 \cdot 4^{2k}} \text{ for } k=0,1,\ldots\)
-- ☐ \(f_Z(k) = \frac{9}{16 \cdot 4^{2k}} + \frac{3(4^k - 1)}{2 \cdot 4^{2k}} \text{ for } k=0,1,\ldots\)
+- [x] \(f_Z(k) = \frac{9}{16 \cdot 4^{2k}} + \frac{3(4^k - 1)}{2 \cdot 4^{2k}} \text{ for } k=0,1,\ldots\)
 - ☐ \(f_Z(k) = \frac{9}{16 \cdot 4^{2k}} + \frac{3(4^k - 1)}{2 \cdot 4^{2k}} \text{ for } k=1,2,\ldots\)
 
 ---
@@ -36,9 +38,9 @@ Define a new random variable \(Z = X + Y\).
 
 Which of the following option(s) is/are true?
 
-☐ (a) Range of \( Z \mid Y = 0 \) = \(\{0, 1, 2\}\)
+- [x] (a) Range of \( Z \mid Y = 0 \) = \(\{0, 1, 2\}\)
 
-☐ (b) The mode of Z is 1 and 2.
+- [x] (b) The mode of Z is 1 and 2.
 
 ☐ (c) Range of \( Z \mid Y = 0 \) = \(\{0, 1, 2, 3\}\)
 
@@ -47,7 +49,9 @@ Which of the following option(s) is/are true?
 ---
 
 5) Find the value of \( P(1 < Z \leq 3 \mid X > 0) \). Enter the answer correct to two decimal places.
-
+```
+0.67
+```
 
 ---
 
@@ -59,20 +63,24 @@ Which of the following option(s) is/are true?
 
 Are the random variables A, B, and C mutually independent?
 
-○ (a) Yes
+- [ ] (a) Yes
 
-○ (b) No
+- [x] (b) No
 
 
 ---
 
 7) Let \( X_1, X_2 \) and \( X_3 \) be three independent and identically distributed Poisson random variables with \(\lambda_i = 2\) for all \(i\). Find the probability that exactly one of the \(X_i\) equals 2 and exactly one of the \(X_i\) equals 0. Enter the answer correct to three decimal places.
-
+```
+0.130
+```
 
 ---
 
 8) Let \(X\) and \(Y\) be independent and identically distributed Geometric random variables with parameter 0.2. Find \( P(X = 2 \mid X + Y = 4) \). Enter the answer correct to two decimal places.
-
+```
+0.33
+```
 
 ---
 
@@ -87,7 +95,9 @@ f_X(k) = f_Y(k) = \begin{cases}
 \]
 
 Define \(Z = X - Y\). Find the value of \(f_Z(3)\). Enter the answer correct to two decimal places.
-
+```
+0.08
+```
 
 ---
 
@@ -96,5 +106,5 @@ Define \(Z = X - Y\). Find the value of \(f_Z(3)\). Enter the answer correct to 
 
 - ☐ \(p > 0.048\)
 - ☐ \(p > 0.05\)
-- ☐ \(p < 0.05\)
+- [x] \(p < 0.05\)
 - ☐ \(p < 0.048\)
