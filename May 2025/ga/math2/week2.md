@@ -4,28 +4,28 @@
 1) If \( A \) be a \( 3 \times 4 \) matrix and \( b \) be a \( 3 \times 1 \) matrix, then choose the set of correct options.
 
 
-☐ If \( (A|b) \) be the augmented matrix and \( (A'|b') \) be the matrix obtained from \( (A|b) \) after a finite number of elementary row operations then the system \( Ax = b \) and the system \( A'x = b' \) have the same set of solutions.
+- [x] If \( (A|b) \) be the augmented matrix and \( (A'|b') \) be the matrix obtained from \( (A|b) \) after a finite number of elementary row operations then the system \( Ax = b \) and the system \( A'x = b' \) have the same set of solutions.
 
 ☐ If \( (A'|b') \) is the reduced row echelon form of \( (A|b) \) then the system \( A'x = b' \) has at least one solution.
 
-☐ If \( (A'|b') \) is the reduced row echelon form of \( (A|b) \), then \( A' \) is also in reduced row echelon form.
+- [x] If \( (A'|b') \) is the reduced row echelon form of \( (A|b) \), then \( A' \) is also in reduced row echelon form.
 
-☐ If \( (A'|b') \) is the reduced row echelon form of \( (A|b) \) and there is no row such that the only non zero entry lies in the last column of \( (A'|b') \) then the system \( Ax = b \) has at least one solution.
+- [x] If \( (A'|b') \) is the reduced row echelon form of \( (A|b) \) and there is no row such that the only non zero entry lies in the last column of \( (A'|b') \) then the system \( Ax = b \) has at least one solution.
 
 ---
 
 2) Choose the set of correct options
 
 
-☐ If the sum of all the elements of each row of a matrix \( A \) is 0, then \( A \) is not invertible.
+- [x] If the sum of all the elements of each row of a matrix \( A \) is 0, then \( A \) is not invertible.
 
-☐ If \( E \) is a matrix of order \( 3 \times 3 \) obtained from the identity matrix by a finite number of elementary row operations then \( E \) is invertible.
+- [x] If \( E \) is a matrix of order \( 3 \times 3 \) obtained from the identity matrix by a finite number of elementary row operations then \( E \) is invertible.
 
 ☐ Any system of linear equations has at least one solution.
 
 ☐ If \( A \) is a matrix of order \( 3 \times 3 \) and \( det(A) = 3 \) then \( det(Adj(A)) = 3 \).
 
-☐ If \( A \) is a matrix of order \( 3 \times 3 \) and \( det(A) = 3 \) then \( det(Adj(A)) = 9 \).
+- [x] If \( A \) is a matrix of order \( 3 \times 3 \) and \( det(A) = 3 \) then \( det(Adj(A)) = 9 \).
 
 ---
 
@@ -33,7 +33,7 @@
 
 ○ Exactly one solution.
 
-○ Infinitely many solutions.
+- [x] Infinitely many solutions.
 
 ○ No solution.
 
@@ -45,7 +45,7 @@
 Let \( A \) be an \( n \times n \) matrix such that \(\sum_{j=1}^n a_{ij} = 0\) for all \( i \). How many solutions does \( A\mathbf{x} = \mathbf{0} \) have?
 
 - ○ Exactly one solution.
-- ○ Infinitely many solutions.
+- [x] Infinitely many solutions.
 - ○ No solution.
 - ○ Insufficient data. This depends on the entries of \( A \).
 
@@ -87,6 +87,10 @@ c
 \]  
 , respectively. The value of \( a + b + c \) is
 
+```
+6
+```
+
 ---
 
 6)  
@@ -101,10 +105,10 @@ x + 2y + 3z = 1
 x + y + 2z = 1
 \]  
 is
+```
+0
+```
 
----
-
-*0 points*
 
 ---
 
@@ -119,7 +123,9 @@ is
 \end{bmatrix}
 \]  
 . Then determinant of \( A \) is
-
+```
+0
+```
 
 
 ---
@@ -144,12 +150,15 @@ is a solution of the system of equations
 -3x + 4y - 2z = 9
 \]
 then the value of \(x + y + z\) is
-
+```
+106
+```
 ---
 
 9) Let \( A = [7 \ 6 \ 6 \ 5] \) and \( M \) denote the reduced row echelon form of \( A^T A \). The number of non-zero rows of \( M \) is
-
-
+```
+1
+```
 
 ---
 
@@ -158,7 +167,9 @@ then the value of \(x + y + z\) is
 f(x) = ax^3 + bx^2 + cx + d.
 \]
 The following points lie on the curve: \((1,1), (2,7), (-1,-5), (3,23)\). Find the value of \(a - b + c - d\).
-
+```
+5
+```
 
 ---
 
@@ -247,10 +258,14 @@ c \\
 \end{bmatrix}
 \]
 
+# 1st and 4th correct
+
 ---
 
 12) How many vehicles are expected to pass through the South Street per hour on an average?
-
+```
+300
+```
 
 ---
 
@@ -293,10 +308,10 @@ Table : M2W2GA1
 
 ☐ d → i → 2  
 ☐ b → iii → 3.  
-☐ b → iv → 3.  
-☐ d → ii → 1.  
-☐ a → iii → 2.  
+- [x] b → iv → 3.  
+- [x] d → ii → 1.  
+- [x] a → iii → 2.  
 ☐ a → iii → 4.
-☐  c → i → 4.
+- [x]  c → i → 4.
 
 **NOTE FOR OPTION-2 IN QUESTION-3: [For elementary row operation of type-2 (scaling rows by a constant), the constant has to be non-zero. Scaling a row by zero is not permitted] Please answer this question keeping this in mind.**
