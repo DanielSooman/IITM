@@ -242,9 +242,9 @@ Consider the following code-block. E_1, E_2 and E_3 are all Boolean variables th
 
 If the output of this code is the string `This is a valid name`, select all possible inputs to the program. (MSQ)
 
-☐ 1 Neeraj  
-☐ 1 Mirabai  
-☐ 1 Sindhu  
+x 1 Neeraj  
+x 1 Mirabai  
+x 1 Sindhu  
 ☐ 1 X AE A-12  
 ☐ 1 Rohit Sharma  
 
@@ -265,7 +265,7 @@ What is the output? Feel free to use the Python interpreter for exploratory ques
 
 - [ ] abcde  
 
-- [ ] acegi  
+- [x] acegi  
 
 - [ ] bdfhj  
 
@@ -295,7 +295,7 @@ What is the output of this code for the following input? Feel free to use the Py
 1234  
 1234  
 ```
-- [ ] 
+- [x] 
 ```
 1  
 2 
