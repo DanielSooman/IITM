@@ -21,27 +21,33 @@ Consider the below code.
 Try playing around in [this](https://pythontutor.com/) python tutor link for answering the questions.
 
 What is the total number of objects that were referenced by the variables in the given code during the execution?
-
+```
+4
+```
 ---
 
 2)
 
 What is the total number of objects that were referenced by the variables in the given code at the end of the execution?
-
+```
+3
+```
 
 ---
 
 3)
 
 What is the total number of variables referring to the same object as variable `b` (including `b`) at the end of the execution of the given code?
-
+```
+2
+```
 ---
 
 4)  
 **Select the variable(s) that are referring to the same object as `a` at some point of time during the execution of the above code.**
 
-☐ b  
-☐ c  
+x b  
+x c  
 ☐ d  
 ☐ e  
 ☐ f  
@@ -51,7 +57,7 @@ What is the total number of variables referring to the same object as variable `
 5)  
 **Assume `s` is a `str`, if the output of `print(s)` is Single backslash `\\` and double backslash `\\\\`, then select the possible the value(s) of `s`.**
 
-☐ `'Single backslash \\\\ and double backslash \\\\\\\\'`  
+x `'Single backslash \\\\ and double backslash \\\\\\\\'`  
 ☐ `'Single backslash \\ and double backslash \\\\'`  
 ☐ `'Single backslash /\\/\\ and double backslash /\\/\\/\\/'`  
 ☐ `'''Single backslash \\ and double backslash \\\\'''`  
@@ -71,7 +77,7 @@ What is the total number of variables referring to the same object as variable `
 
 Select the equivalent way(s) of defining `s`.
 
-☐  
+x
 ```python
 s = '\nname = "XXX"\nroll = NNN\n'
 ```
@@ -133,6 +139,10 @@ s = (
 )
 ```
 
+```
+opt 1,4,6
+```
+
 7)  
   
 Select the string(s) that are equal to `"0.500"`.
@@ -144,6 +154,8 @@ Select the string(s) that are equal to `"0.500"`.
 ☐ f"{0.5}00"  
 ☐ f"0{.5}00"  
 ☐ f"{0.545:.1f}00"  
+
+**Options 4, 5, 7.**
 
 ---
 
@@ -172,6 +184,8 @@ If the output of the code is `5 apples and 7 bananas.`, select the possible expr
 
 ☐  s = str(n_apples)+"apples and"+str(n_bananas)+"bananas."
 
+Answer: 2, 3, 5
+
 ---
 
 9)  
@@ -196,6 +210,10 @@ If the output of the code is `5 kgs of apple cost ₹ 28.50`, select the possibl
 
 ☐  s = str(n_apples)+" kgs of apple cost ₹ "+str(n_apples*apple_price)+"0"
 
+
+2, 3, 6
+
+
 ---
 
 10)  
@@ -207,6 +225,11 @@ Consider the below code block.
 ```
 
 What is the value of the variable `s`? Enter the answer as a single quoted string.
+
+```
+'555      |  66666  |  5555555'
+```
+
 
 ---
 
@@ -231,7 +254,7 @@ Assume `s` is a `str` variable. What is the type of the expression
 - ○ int  
 - ○ str  
 - ○ float  
-- ○ list  
+- x list  
 - ○ bool  
 - ○ Raises Error
 
@@ -268,7 +291,7 @@ Assume `s` is a `str` variable. What is the type of the expression `list(s)`?
 - ☐ int
 - ☐ str
 - ☐ float
-- ☐ list
+- x list
 - ☐ bool
 - ☐ NoneType
 - ☐ Raises Error
@@ -283,7 +306,7 @@ Assume `s` is a `str` variable. What is the type of the expression `s.lower().al
 - ☐ float
 - ☐ list
 - ☐ bool
-- ☐ Raises error
+- x Raises error
 
 ---
 
@@ -295,7 +318,7 @@ Assume `s` is a `str` variable. What is the type of the expression `s.title().st
 - ☐ float
 - ☐ list
 - ☐ bool
-- ☐ None of the above
+- x None of the above
 
 ---
 
@@ -312,7 +335,7 @@ Assume `s` is a `str` variable. What is the type of the expression `s.join(s[0],
 
 -  bool
 
--  Raises Error
+- x  Raises Error
 
 ---
 
@@ -327,7 +350,7 @@ What is the value stored in the variable `x`?
 ```
 
 ☐ False
-☐ True
+x True
 ☐ Value Error
 ☐ 'False'
 
@@ -349,7 +372,7 @@ What is the value of the expression `bool(False)`?
 
 ☐ True
 
-☐ False
+x False
 
 ☐ Raises Error
 
@@ -360,7 +383,7 @@ What is the value of the expression `bool(0.0)`?
 
 ☐ True
 
-☐ False
+x False
 
 ☐ Raises Error
 
@@ -369,7 +392,7 @@ What is the value of the expression `bool(0.0)`?
 23)    
 What is the value of the expression `not None or "2" or 4`?
 
-- ○ True  
+- x True  
 - ○ False  
 - ○ None  
 - ○ "2"  
@@ -399,6 +422,8 @@ Select the possible output(s) of the given code, assuming any possible values fo
 - ☐ a
     c
 - ☐ c
+
+  1,2,5
 ---
 
 25)  
@@ -417,10 +442,10 @@ else:
 
 Select the possible output(s) of the given code, assuming any possible values for `a`, `b` and `c`.
 
-☐  
+x
 1 | a  
 
-☐  
+x  
 1 | b  
 
 ☐  
@@ -478,6 +503,8 @@ Select the possible output(s) of the given code, assuming any possible values fo
 2 | c  
 3 | a  
 
+
+1,4,6
 ---
 
 27)  
@@ -559,12 +586,12 @@ Select the code block(s) that is/are equivalent to the above code.
   if not a and c:
       print('c')
   ```
-
+2,4,6,8
 ---
 
 28) 
 Select all the code snippet(s) that execute without any error.
-- [ ] from math import sin, cos, sqrt
+- [x] from math import sin, cos, sqrt
 - [ ] from math
   math.sin, math.cos
 - [ ] import pi from math
@@ -590,9 +617,9 @@ else:
 
 Select all possible inputs for which this code prints `PERFECT!` as output. (MSQ)
 
-- [ ] (a{b[c]})
-- [ ] abcd
-- [ ] )(][}{
+- [x] (a{b[c]})
+- [x] abcd
+- [x] )(][}{
 - [ ] a(db]
 
 
@@ -646,6 +673,8 @@ sentence = input()
 num_words = len(sentence)
 ```
 
+option 2
+
 ---
 
 31)  
@@ -678,7 +707,7 @@ zwtqnkheb
 - 1,3,26,26,0
 - 1,3,25,26,0
 - 1,3,26,0,0
-- 1,3,25,0,0
+- [x] 1,3,25,0,0
 
 ---
 
@@ -709,7 +738,7 @@ Options:
 | 3 | 1234 |
 | 4 | 1234 |
 
-2.
+2. - [x]
 |   |   |
 |---|---|
 | 1 | 1 |
@@ -751,11 +780,11 @@ A word is termed **valid** if the output of the following code is `True` when th
 
 Select all **valid** words from the options given below. (MSQ)
 
-☐  tacit
+x  tacit
 
-☐  trumpet
+x  trumpet
 
-☐  ease
+x  ease
 
 ☐  TrumpeT
 
@@ -770,6 +799,6 @@ Going by the code given in the common data, under what conditions can a word be 
 
 ○  A word is termed `valid` if its first and last characters are the same.
 
-☐ A word is termed `valid` if it begins with a lower case letter **AND** its first and last characters are the same.
+x A word is termed `valid` if it begins with a lower case letter **AND** its first and last characters are the same.
 
 ☐ A word is termed `valid` if it begins with a lower case letter **OR** its first and last characters are the same.
