@@ -5,13 +5,15 @@ Using Markov's inequality, find an upper bound on the probability that on a part
 
 - ☐ \( P(X > 30) \geq \frac{10}{31} \)  
 - ☐ \( P(X > 30) \leq \frac{10}{30} \)  
-- ☐ \( P(X > 30) \leq \frac{10}{31} \)  
+- x \( P(X > 30) \leq \frac{10}{31} \)  
 - ☐ \( P(X > 30) > \frac{5}{31} \)  
 
 ---
 
 2) Find a lower bound on the probability that on a particular day, number of reservations made will lie in between 5 and 15 using Chebyshev's inequality. Enter your answer correct to two decimals accuracy.
-
+```
+0.80
+```
 ---
 
 3) **Common data for the below two questions:**  
@@ -43,10 +45,15 @@ The joint PMF of two discrete random variables X and Y is given as:
 <hr><hr>
 Find the Cov\((X, Y)\)
 
+```
+0
+```
 ---
 
 4) Define a new random variable \( U = X + Y \). Find the value of \(\text{Cov}(X, U)\). Enter the answer correct to two decimal places.
-
+```
+0.22
+```
 ---
 
 
@@ -55,18 +62,24 @@ Find the Cov\((X, Y)\)
 Riya and Kabir are playing a game where each of them rolls a fair six-sided die. Let \(X_1\) represent the outcome of Riya’s roll and \(X_2\) represent the outcome of Kabir’s roll. The final prize score is determined by the maximum of the two outcomes and is denoted by the random variable Z = max\((X_1, X_2)\).
 
 Find the variance of the prize score Z. Enter the answer correct to two decimal places.
-
+```
+1.97
+```
 ---
 
 
 6) Calculate the covariance between Riya’s score \(X_1\) and the prize score Z. Enter the answer correct to two decimal places.
-
+```
+1.46
+```
 ---
 
 
 
 7) An urn contains 5 white balls and 5 red balls. 2 balls are selected at random. Let \(X\) denote the number of red balls drawn and let \(Y\) denote the number of white balls drawn. Find the correlation coefficient between \(X\) and \(Y\).
-
+```
+-1
+```
 ---
 
 
@@ -77,7 +90,9 @@ U = \frac{X - E(X)}{SD(X)}, \quad V = \frac{Y - E(Y)}{SD(Y)}
 \]
 
 Find \(\text{Cov}(U, V)\).
-
+```
+0
+```
 ---
 
 ---
@@ -108,10 +123,14 @@ Find \(\text{Cov}(U, V)\).
 Table 3.1.G: Total number of boys and girls selected.
 
 If the committee comprises of two students from each class, find the expected number of boys in the committee. (Enter the answer correct to 1 decimal point)
-
+```
+3.2
+```
 ---
 
 
 10) Let the two random variables \(X\) and \(Y\) be independent with means equal to 15 and 9, and variances equal to 4 and 5, respectively. Find the value of \(\mathrm{Var}(XY)\).
 Hint: If \(X\) and \(Y\) are independent, \(X^2\) and \(Y^2\) are also independent.
-
+```
+1469
+```
