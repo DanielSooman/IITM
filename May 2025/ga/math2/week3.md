@@ -26,6 +26,10 @@ _Scalar multiplication:_ \(c(x,y) = (cx, cy); (x,y) \in V_3, c \in \mathbb{R}\)
 _Addition:_ \((x_1,y_1,z_1) + (x_2,y_2,z_2) = (x_1 + x_2, y_1 + y_2, z_1 + z_2); (x_1,y_1,z_1), (x_2,y_2,z_2) \in V_4\)  
 _Scalar multiplication:_ \(c(x,y,z) = (cx, cy, cz); (x,y,z) \in V_4, c \in \mathbb{R}\)
 
+```
+V1, V2, V3
+```
+
 ---
 
 2) Choose the set of correct options  
@@ -112,12 +116,16 @@ Use the above information to choose the correct options.
 **Numerical Answer Type (NAT):**
 
 4) Consider the set of three vectors \( S = \{(1, 2, -1), (3, 1, 0), (-1, 2, c)\} \) in \(\mathbb{R}^3\) with usual addition and scalar multiplication. For which value of \( c \) will the above set \( S \) be linearly dependent?
-
+```
+-1.4
+```
 
 ---
 
 5) Consider the set of three vectors \( S = \{(2, 4, 9), (5, 4, 7), (-4, 4, c)\} \) in \(\mathbb{R}^3\) with usual addition and scalar multiplication. If \( S \) is a linearly independent set, then the value of \( c \) can not be equal to
-
+```
+13
+```
 ---
 
 **Comprehension Type Question:**
@@ -293,12 +301,12 @@ In other words, addition and scalar multiplication are both defined by the usual
 
 ☐ \((c_1 + c_2) \cdot v = c_1 \cdot v \oplus c_2 \cdot v, \quad \forall c_1, c_2, v \in \mathbb{R}\).
 
+## 2 5 6
+
 ---
 
 **Numerical Answer Type (NAT):**
 
-10) For \(c \in \mathbb{R}\), consider the set of vectors \(S = \{(-1, 2, 1), (0, c, -3), (2, 1, c)\}\) in \(\mathbb{R}^3\). If the set \(S\) is linearly dependent, then what is the value of \(c\)?
-<hr><hr>
-3  
-with the usual addition and scalar multiplication. Find the number of values of c for which S is linearly dependent.
+10) For \(c \in \mathbb{R}\), consider the set of vectors \(S = \{(-1, 2, 1), (0, c, -3), (2, 1, c)\}\) in \(\mathbb{R}^3\). with the usual addition and scalar multiplication. Find the number of values of c for
+which S is linearly dependent.
 
