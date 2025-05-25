@@ -4,7 +4,7 @@
 ---
 
 1) Which of the following sets with the given addition and scalar multiplication operations (scalars are real numbers in every case) do not form vector spaces?  
-**1 point**
+
 
 ☐  
 \( V_1 = \{(x,y)|x,y \in \mathbb{R}\} \)  
@@ -29,7 +29,6 @@ _Scalar multiplication:_ \(c(x,y,z) = (cx, cy, cz); (x,y,z) \in V_4, c \in \math
 ---
 
 2) Choose the set of correct options  
-**1 point**
 
 ☐ If \(V\) is a real vector space, then \((\alpha + \beta)(x + y) = \alpha x + \beta y + \alpha y + \beta x\), for all \(\alpha, \beta \in \mathbb{R}\) and \(x,y \in V\).
 
@@ -57,8 +56,7 @@ are linearly dependent vectors in \(M_{2 \times 2}(\mathbb{R})\).
 ---
 
 3) A healthy juice consists of 30 units of protein, 11 units of carbohydrate, 53 units of fat, and 213 units of calcium. A juice maker makes two types of juice, Type A and Type B. Type A consists of banana, milk, and almond, whereas Type B consists of apple, milk, and almond. Table M2W3G1 shows the amount of protein, carbohydrate, fat, and calcium present in each banana, apple, and almond, and in 100 ml of milk.  
-**1 point**
-<hr><hr>
+
 <table border="1" cellspacing="0" cellpadding="5">
   <tr>
     <th>Items</th>
@@ -115,9 +113,6 @@ Use the above information to choose the correct options.
 
 4) Consider the set of three vectors \( S = \{(1, 2, -1), (3, 1, 0), (-1, 2, c)\} \) in \(\mathbb{R}^3\) with usual addition and scalar multiplication. For which value of \( c \) will the above set \( S \) be linearly dependent?
 
----
-
-**1 point**
 
 ---
 
@@ -125,8 +120,6 @@ Use the above information to choose the correct options.
 
 ---
 
-**1 point**
-<hr><hr>
 **Comprehension Type Question:**
 
 In genetics, a classic example of dominance is the inheritance of shape of seeds in peas. Peas may be round (associated with genotype R) or wrinkled (associated with genotype r). In this case, three combinations of genotypes are possible: RR, rr, and Rr. The RR individuals have round peas and the rr individuals have wrinkled peas. In Rr individuals the R genotype masks the presence of the r genotype, so these individuals also have round peas.
@@ -219,7 +212,6 @@ Using the above information, answer the following questions.
 ---
 
 6) Which of the following options are correct?  
-**1 point**
 
 ☐ The rows of the matrix  
 \[
@@ -256,7 +248,6 @@ is a non-zero number.
 X_0 = \left(\frac{1}{3}, \frac{1}{3}, \frac{1}{3}\right)
 \]
 . Find out the correct set of correct options.  
-**1 point**
 
 ☐  
 \[
@@ -311,6 +302,3 @@ In other words, addition and scalar multiplication are both defined by the usual
 3  
 with the usual addition and scalar multiplication. Find the number of values of c for which S is linearly dependent.
 
----
-
-**1 point**
