@@ -57,6 +57,8 @@ V1, V2, V3
 \]
 are linearly dependent vectors in \(M_{2 \times 2}(\mathbb{R})\).
 
+## 1 3
+
 ---
 
 3) A healthy juice consists of 30 units of protein, 11 units of carbohydrate, 53 units of fat, and 213 units of calcium. A juice maker makes two types of juice, Type A and Type B. Type A consists of banana, milk, and almond, whereas Type B consists of apple, milk, and almond. Table M2W3G1 shows the amount of protein, carbohydrate, fat, and calcium present in each banana, apple, and almond, and in 100 ml of milk.  
