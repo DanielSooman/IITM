@@ -56,6 +56,8 @@ Select the correct implementation of a program that accepts a positive integer *
       x = x // 2
   ```
 
+Option 1
+
 ---
 
 2)  
@@ -98,7 +100,9 @@ total = 0
 for coins in boxes:
     total += coins
 ```
-<hr><hr>
+4.
+```python
+
 1 num = 0  
 2 total = 0  
 3 for i in range(len(boxes)):  
@@ -108,6 +112,8 @@ for coins in boxes:
 7 &nbsp;&nbsp;&nbsp;&nbsp;total += coins  
 8 &nbsp;&nbsp;&nbsp;&nbsp;num += 1  
 9 avg = total / num  
+```
+Option 2 is correct.  
 
 ---
 
@@ -120,7 +126,7 @@ The first five terms of the Fibonacci sequence is given below.
 We wish to write a program that accepts a positive integer *n* as input and prints \( F_n \) as the output. Select all correct implementations of this program. (MSQ)  
 
 ---
-
+```
 1 n = int(input())  
 2 F_prev = 1  
 3 F_curr = 1  
@@ -131,17 +137,18 @@ We wish to write a program that accepts a positive integer *n* as input and prin
 8 &nbsp;&nbsp;&nbsp;&nbsp;F_curr = temp  
 9 &nbsp;&nbsp;&nbsp;&nbsp;count += 1  
 10 print(F_curr)  
-
+```
 ---
-
+```
 1 n = int(input())  
 2 if n <= 2:  
 3 &nbsp;&nbsp;&nbsp;&nbsp;print(1)  
 4 else:  
 5 &nbsp;&nbsp;&nbsp;&nbsp;F_prev = 1  
 6 &nbsp;&nbsp;&nbsp;&nbsp;F_curr = 1
-<hr><hr>
-☐
+```
+---
+
 
 ```python
 count = 2
@@ -153,7 +160,7 @@ while count < n:
 print(F_curr)
 ```
 
-☐
+
 
 ```python
 n = int(input())
@@ -166,7 +173,7 @@ for i in range(n):
 print(F_curr)
 ```
 
-☐
+
 
 ```python
 n = int(input())
@@ -178,7 +185,7 @@ for i in range(n - 2):
     F_curr = temp
 print(F_curr)
 ```
-
+Option First and Last
 ---
 
 4)
@@ -195,10 +202,10 @@ print("outside loop, the value of x is ", x)
 ☐ Never terminates it is a infinite loop.
 
 ☑ when we input a number which is multiple of 10.
-<hr><hr>
-- ☐ when we input a number which is multiple of 5.
 
-- ☐ when we input a number which is not a multiple of both 5 and 10.
+☑y when we input a number which is multiple of 5.
+
+☐ when we input a number which is not a multiple of both 5 and 10.
 
 ---
 
@@ -207,9 +214,9 @@ Assume that a ten letter word is passed as input to the code. If the output is `
 
 - ☐ The word has exactly five vowels.
 
-- ☐ The word has have at least five vowels.
+- x The word has have at least five vowels.
 
-- ☐ The letters at even indices are vowels. Assume that we use zero-based indexing.
+- x The letters at even indices are vowels. Assume that we use zero-based indexing.
 
 - ☐ Every vowel in the word appears only at even indices. Assume that we use zero-based indexing.
 
@@ -230,12 +237,10 @@ for char in word:
 print(encoded_word)
 ```
 
-- ☐ stmydu
-
-- ☐ tcxlsr
-<hr><hr>
-1. ☐ veznut  
-   ☐ udymts  
+☐ stmydu
+☐ tcxlsr
+☐ veznut  
+x udymts  
    
 ---
 
@@ -249,10 +254,12 @@ for i in 'We are in question one':
     print(i, end = '')
 ```
 
-☐ W r n qstn n  
+x W r n qstn n  
 ☐ Wrnqstnn  
 ☐ We are in question one  
 ☐ None of the above  
+
+
 ---
 8) 
 A programmer wants to print a decreasing sequence. How many times does the `print` statement get executed? And why?
@@ -265,6 +272,7 @@ for i in range(10, 0, 1):
 ☐ One time because `i` takes only the value 10 and thereafter it will be decremented  
 ☐ One time because `i` takes only the value 9 and thereafter it will be decremented  
 ☐ `print` statement will not be executed due to invalid end points
+x `print` statement will not be executed due to incompatible step size
 
 ---
 
@@ -274,7 +282,7 @@ Note: Variable T is a single character string.
 
   ○ `print("%ns"%T)`  
   ○ `print("-ns"%T)`  
-  ○ `print("%-ns"%T)`  
+  x `print("%-ns"%T)`  
   ○ `print("-ns"%T)`
 
 
@@ -287,7 +295,7 @@ What will be output if a negative value is given as input?
   ○ Number of digits in x  
   ○ Number of digits in x -1  
   ○ Number of digits in x +1  
-  ○ Infinite loop
+  x Infinite loop
 
 ---
 
@@ -295,11 +303,16 @@ What will be output if a negative value is given as input?
 **Common data for the next 2 questions**  
 Consider the following snippet of code.
 
-
+```
 for x in range(100):
     for y in range(100):
         if x != y:
             print(f'{x},{y}')
+```
+When the code given above is executed, how many lines will the output have? (NAT)
+```
+9900
+```
 
 ---
 
@@ -346,7 +359,7 @@ while x < 100:
             print(x, y)
     y += 1
 ```
-
+option 2
 ---
 
 13)  
@@ -417,7 +430,12 @@ Example n = 5, output: 1+3+5+7+9 = 25
           result+=i
       i+=1
   print(result)
-  
+
+
+
+
+The final answer is  1,5  
+
 ---
 
 14)  
@@ -473,19 +491,19 @@ for i in range(1,n+1):
     result+=2*i+1
 print(result)
 ```
-
+The correct snippets are the first, second, third, and fifth ones
 ---
 
 15) 
 Consider the below code.
 
-
+```
 1  n = int(input())
 2  value = 0
 3  for i in range(n):
 4      value+=int(input())*2
 5  print(value)
-
+```
 
 Select all the data processing pattern(s) found in the given code.
 
@@ -512,10 +530,6 @@ Select all the data processing pattern(s) found in the given code.
 ☐ Aggregation  
 ☐ Filtering  
 ☑ Mapping  
-☐ None of the above
-<hr><hr>
-☐ Mapping
-
 ☐ None of the above
 
 ---
@@ -561,7 +575,7 @@ print(value)
 Select all the data processing pattern(s) found in the given code.
 
 ☐ Aggregation
-<hr><hr>
+
 ☐ Filtering
 
 ☐ Mapping
@@ -610,7 +624,7 @@ Consider the below code.
 Select all the data processing pattern(s) found in the given code.
 
 ☐ Aggregation
-<hr><hr>
+
 ☐ Filtering
 
 ☐ Mapping
@@ -654,7 +668,6 @@ Consider the below code.
 7      elif num < value:
 8          value = num
 
-<hr><hr>
 Select all the data processing pattern(s) found in the given code.
 
 ☐ Aggregation
@@ -696,7 +709,7 @@ Select all the data processing pattern(s) found in the given code.
 
 24)   
 Consider the below code.
-<hr><hr>
+
 ```python
 n = int(input())
 for i in range(n):
@@ -743,7 +756,6 @@ Hint: To solve this question you might want to try out with different values of 
 
 ☐ 1
 
-<hr><hr>
 ☐ 2
 
 ☐ 3
@@ -784,15 +796,12 @@ Select all the possible outputs of the above code for any possible valid integer
 Hint: To solve this question you might want to try out with different values of num or automate that with another loop with different values for num. What range of values do you use for this automation?
 
 ☐ 5
-
 ☐ 4
-
 ☐ 0
-<hr><hr>
-- ☐ -4
-- ☐ -6
-- ☐ -9
-- ☐ -10
-- ☐ -11
-- ☐ -12
-- ☐ -13
+☐ -4
+☐ -6
+☐ -9
+☐ -10
+☐ -11
+☐ -12
+☐ -13
