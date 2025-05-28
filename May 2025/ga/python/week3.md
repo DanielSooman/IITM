@@ -507,7 +507,7 @@ Consider the below code.
 
 Select all the data processing pattern(s) found in the given code.
 
-☑ Aggregation  
+☐ Aggregation  
 ☐ Filtering  
 ☐ Mapping  
 ☐ None of the above  
@@ -529,7 +529,7 @@ Select all the data processing pattern(s) found in the given code.
 
 ☐ Aggregation  
 ☐ Filtering  
-☑ Mapping  
+☐ Mapping  
 ☐ None of the above
 
 ---
@@ -728,7 +728,8 @@ Select all the data processing pattern(s) found in the given code.
 ☐ Mapping
 
 ☐ None of the above
-
+---
+15 to 24: https://chat.qwen.ai/c/c6358cbf-9d3d-4d3e-9ba1-0a0608ec67b5
 ---
 
 **25)
@@ -752,26 +753,16 @@ Select all the possible outputs of the above code for any possible valid integer
 
 Hint: To solve this question you might want to try out with different values of num or automate that with another loop with different values for num. What range of values do you use for this automation?
 
-☐ 0
-
+☑ 0
 ☐ 1
-
 ☐ 2
-
 ☐ 3
-
-☐ 4
-
-☐ 5
-
-☐ 6
-
+☑ 4
+☑ 5
+☑ 6
 ☐ 7
-
-☐ 8
-
-☐ 9
-
+☑ 8
+☑ 9
 ---
 
 26) 
@@ -805,3 +796,16 @@ Hint: To solve this question you might want to try out with different values of 
 ☐ -11
 ☐ -12
 ☐ -13
+
+answer:
+5
+
+0
+
+–4
+
+–9
+
+–10
+
+–12
