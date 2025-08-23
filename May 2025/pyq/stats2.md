@@ -164,3 +164,89 @@ $$k(\mu + 1) = 3(\mu + 1)$$
 Assuming $\mu + 1 \neq 0$, we can divide both sides by $(\mu+1)$:
 $$k = 3$$
 The value of $k$ that makes $\hat{\mu}_2$ an unbiased estimator of $\mu$ is **3**. This matches the provided "Accepted Answer."
+
+
+
+<img width="895" height="340" alt="image" src="https://github.com/user-attachments/assets/bc750e05-0e72-42bd-83bf-6da6cf62a858" />
+
+
+<img width="605" height="355" alt="image" src="https://github.com/user-attachments/assets/2fad18e6-0e0b-4e23-a24c-3c81dea6bbc4" />
+
+
+<img width="602" height="336" alt="image" src="https://github.com/user-attachments/assets/93ef93c5-3dee-421f-98f1-43de9d2c1de3" />
+
+## Finding the Method of Moments Estimate of $p$
+
+The method of moments estimate for a parameter is found by setting the sample moments equal to the population moments. For this problem, we'll use the first moment, the mean.
+
+### Step 1: Calculate the population mean ($E[X]$)
+
+The population mean for a discrete random variable is the sum of each value multiplied by its probability:
+$E[X] = \sum x \cdot P(X=x)$
+$E[X] = (0 \cdot \frac{p}{4}) + (1 \cdot \frac{p}{4}) + (2 \cdot \frac{p}{4}) + (3 \cdot (1 - \frac{3p}{4}))$
+$E[X] = 0 + \frac{p}{4} + \frac{2p}{4} + 3 - \frac{9p}{4}$
+$E[X] = 3 + \frac{3p-9p}{4} = 3 - \frac{6p}{4} = 3 - \frac{3p}{2}$
+
+### Step 2: Calculate the sample mean ($\bar{x}$)
+
+The sample is given as $(0, 3, 2, 2, 3, 1, 2, 3, 0)$. There are 9 data points.
+$\bar{x} = \frac{0+3+2+2+3+1+2+3+0}{9} = \frac{16}{9} \approx 1.777...$
+
+### Step 3: Set the population mean equal to the sample mean and solve for $p$
+
+$E[X] = \bar{x}$
+$3 - \frac{3p}{2} = \frac{16}{9}$
+$3 - \frac{16}{9} = \frac{3p}{2}$
+$\frac{27-16}{9} = \frac{3p}{2}$
+$\frac{11}{9} = \frac{3p}{2}$
+$11 \cdot 2 = 3p \cdot 9$
+$22 = 27p$
+$p = \frac{22}{27} \approx 0.8148...$
+
+Rounding to one decimal place, the method of moments estimate for $p$ is **0.8**.
+
+---
+
+## Finding the Maximum Likelihood Estimate of $p$
+
+The maximum likelihood estimate (MLE) is the value of the parameter that maximizes the likelihood function.
+
+### Step 1: Write the Likelihood Function ($L(p|x)$)
+
+The likelihood function is the product of the probabilities of observing each data point in the sample. The sample is given as $(0, 0, 1, 2, 2, 3, 3, 3, 3)$. Let $n_0, n_1, n_2, n_3$ be the number of times each value appears in the sample.
+$n_0 = 2$ (for the value 0)
+$n_1 = 1$ (for the value 1)
+$n_2 = 2$ (for the value 2)
+$n_3 = 4$ (for the value 3)
+
+The total sample size is $n = n_0 + n_1 + n_2 + n_3 = 2+1+2+4 = 9$.
+
+$L(p|x) = [P(X=0)]^{n_0} \cdot [P(X=1)]^{n_1} \cdot [P(X=2)]^{n_2} \cdot [P(X=3)]^{n_3}$
+$L(p|x) = (\frac{p}{4})^2 \cdot (\frac{p}{4})^1 \cdot (\frac{p}{4})^2 \cdot (1 - \frac{3p}{4})^4$
+$L(p|x) = (\frac{p}{4})^{2+1+2} \cdot (1 - \frac{3p}{4})^4 = (\frac{p}{4})^5 \cdot (1 - \frac{3p}{4})^4$
+
+### Step 2: Find the Log-Likelihood Function ($\ln L(p|x)$)
+
+It's easier to maximize the natural logarithm of the likelihood function.
+$\ln L(p|x) = \ln[(\frac{p}{4})^5 \cdot (1 - \frac{3p}{4})^4]$
+$\ln L(p|x) = 5 \ln(\frac{p}{4}) + 4 \ln(1 - \frac{3p}{4})$
+$\ln L(p|x) = 5(\ln p - \ln 4) + 4 \ln(1 - \frac{3p}{4})$
+
+### Step 3: Differentiate with respect to $p$ and set the derivative equal to zero
+
+$\frac{d}{dp} \ln L(p|x) = \frac{d}{dp} [5(\ln p - \ln 4) + 4 \ln(1 - \frac{3p}{4})]$
+$\frac{d}{dp} \ln L(p|x) = 5 \cdot \frac{1}{p} + 4 \cdot \frac{1}{(1 - \frac{3p}{4})} \cdot (-\frac{3}{4})$
+$\frac{d}{dp} \ln L(p|x) = \frac{5}{p} - \frac{3}{(1 - \frac{3p}{4})}$
+
+Setting the derivative to zero to find the critical point:
+$\frac{5}{p} - \frac{3}{(1 - \frac{3p}{4})} = 0$
+$\frac{5}{p} = \frac{3}{(1 - \frac{3p}{4})}$
+$5(1 - \frac{3p}{4}) = 3p$
+$5 - \frac{15p}{4} = 3p$
+$5 = 3p + \frac{15p}{4}$
+$5 = \frac{12p+15p}{4}$
+$5 = \frac{27p}{4}$
+$20 = 27p$
+$p = \frac{20}{27} \approx 0.7407...$
+
+Rounding to two decimal places, the maximum likelihood estimate for $p$ is **0.74**.
