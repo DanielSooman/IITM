@@ -250,3 +250,59 @@ $20 = 27p$
 $p = \frac{20}{27} \approx 0.7407...$
 
 Rounding to two decimal places, the maximum likelihood estimate for $p$ is **0.74**.
+
+
+
+
+
+
+
+
+
+<img width="890" height="284" alt="image" src="https://github.com/user-attachments/assets/681332bb-f228-489d-bb42-57ab3b57ff94" />
+<img width="448" height="348" alt="image" src="https://github.com/user-attachments/assets/73cc2612-b24d-4685-a43c-60a8e68bbb99" />
+<img width="867" height="254" alt="image" src="https://github.com/user-attachments/assets/e582a507-70b3-4847-a58d-fecb6ed4a56f" />
+
+
+Based on the provided images, the problem asks to find the posterior distribution and the posterior mean of the parameter $\theta$ for a discrete random variable $X$.
+
+## Posterior Distribution of $\theta$
+
+The problem specifies a discrete random variable $X$ with values $\{1, 3, 5\}$ and corresponding probabilities $\{\frac{\theta}{2}, 1-\theta, \frac{\theta}{2}\}$. The parameter $\theta$ is in the range $[0, 1]$. We are given a sample of observations: $\{1, 1, 5, 5, 3, 3, 3, 1, 1, 5\}$.
+
+First, let's count the frequency of each value in the sample:
+- Number of times $X=1$: 4
+- Number of times $X=3$: 3
+- Number of times $X=5$: 3
+The total sample size is 10.
+
+The **likelihood function** for the sample is the product of the probabilities of each observation:
+$L(\theta | \text{data}) = P(X=1)^4 \cdot P(X=3)^3 \cdot P(X=5)^3$
+$L(\theta | \text{data}) = (\frac{\theta}{2})^4 \cdot (1-\theta)^3 \cdot (\frac{\theta}{2})^3$
+$L(\theta | \text{data}) = (\frac{\theta}{2})^7 \cdot (1-\theta)^3 = \frac{1}{2^7} \theta^7 (1-\theta)^3$
+
+The **prior distribution** of $\theta$ is given as a Beta distribution, Beta($\alpha_0, \beta_0$) with $\alpha_0 = 5$ and $\beta_0 = 6$. The probability density function (PDF) of the prior is:
+$f(\theta) \propto \theta^{\alpha_0 - 1} (1-\theta)^{\beta_0 - 1} = \theta^{5-1} (1-\theta)^{6-1} = \theta^4 (1-\theta)^5$
+
+According to **Bayes' theorem**, the posterior distribution is proportional to the product of the likelihood and the prior:
+$f(\theta | \text{data}) \propto L(\theta | \text{data}) \cdot f(\theta)$
+$f(\theta | \text{data}) \propto (\frac{1}{2^7} \theta^7 (1-\theta)^3) \cdot (\theta^4 (1-\theta)^5)$
+$f(\theta | \text{data}) \propto \theta^{7+4} (1-\theta)^{3+5} = \theta^{11} (1-\theta)^8$
+
+This posterior PDF has the form of a **Beta distribution** with parameters $\alpha_1 = 11+1 = 12$ and $\beta_1 = 8+1 = 9$.
+Therefore, the posterior distribution of $\theta$ is **Beta(12, 9)**. This corresponds to the third option in the provided image.
+
+---
+
+## Posterior Mean of $\theta$
+
+The mean of a **Beta distribution**, Beta($\alpha, \beta$), is given by the formula:
+$E(\theta) = \frac{\alpha}{\alpha + \beta}$
+
+For the posterior distribution Beta(12, 9), the posterior mean is:
+Posterior Mean $= \frac{12}{12 + 9} = \frac{12}{21}$
+
+To express this as a decimal rounded to two places:
+Posterior Mean $= \frac{12}{21} \approx 0.5714...$
+
+Rounding to two decimal places, we get **0.57**. This value falls within the accepted range of 0.54 to 0.60 shown in the image.
