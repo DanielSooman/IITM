@@ -1,5 +1,7 @@
 
 <img width="1020" height="611" alt="image" src="https://github.com/user-attachments/assets/e83c23d7-d6d9-4edc-8320-9e4d6f8449ee" />
+
+
 The correct moment generating function (MGF) for the random variable $S = X_1 + X_2 + X_3$ is the third option:
 $$M_S(\lambda) = \left(\frac{e^{-0.2\lambda} + e^{0.2\lambda}}{2}\right)^3$$
 ---
