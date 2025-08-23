@@ -306,3 +306,55 @@ To express this as a decimal rounded to two places:
 Posterior Mean $= \frac{12}{21} \approx 0.5714...$
 
 Rounding to two decimal places, we get **0.57**. This value falls within the accepted range of 0.54 to 0.60 shown in the image.
+
+
+
+
+
+
+<img width="1033" height="274" alt="image" src="https://github.com/user-attachments/assets/ccf86b0d-1a7d-4b1b-a7c1-9455053b6ef9" />
+<img width="903" height="416" alt="image" src="https://github.com/user-attachments/assets/70edd8b3-8985-4f77-bfd4-f2bea0a990cc" />
+<img width="1032" height="432" alt="image" src="https://github.com/user-attachments/assets/c0c24477-86ce-4e4f-b9b1-e69f4a5d7955" />
+Based on the provided images, here is a step-by-step analysis of the hypothesis test.
+
+---
+
+### **Formulating Hypotheses**
+
+First, we need to formulate the **null hypothesis** ($H_0$) and the **alternative hypothesis** ($H_A$).
+* The university's claim is that the average time ($\mu$) is 60 minutes. This forms our null hypothesis: $H_0: \mu = 60$.
+* The analyst believes the average time is **less than** 60 minutes. This forms our alternative hypothesis: $H_A: \mu < 60$.
+
+Therefore, the correct hypothesis choice is $H_0: \mu = 60, H_A: \mu < 60$.
+
+---
+
+### **Calculating the Test Statistic**
+
+Next, we calculate the **Z-score** to determine how many standard deviations the sample mean is from the population mean. We'll use the formula:
+$$Z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}}$$
+
+Given the values from the problem:
+* Sample mean ($\bar{x}$) = 59.3 minutes
+* Population mean ($\mu$) = 60 minutes
+* Population standard deviation ($\sigma$) = 5 minutes
+* Sample size ($n$) = 100
+
+Plugging these values into the formula:
+$$Z = \frac{59.3 - 60}{5 / \sqrt{100}}$$$$Z = \frac{-0.7}{5 / 10}$$$$Z = \frac{-0.7}{0.5}$$
+$$Z = -1.4$$
+
+Our calculated Z-statistic is **-1.4**.
+
+---
+
+### **Determining the Conclusion**
+
+Now, we compare the calculated Z-statistic to the critical values for the specified significance levels. Since this is a **left-tailed test** ($H_A: \mu < 60$), the critical region is in the left tail of the standard normal distribution. 
+* **Significance level $\alpha = 0.05$**: The critical value for a one-tailed test is **-1.645**. Our calculated Z-score of **-1.4** is **greater than** -1.645. Since the test statistic does not fall into the rejection region (i.e., it's not less than -1.645), we **fail to reject** the null hypothesis. Thus, we **accept** $H_0$ at $\alpha = 0.05$.
+
+* **Significance level $\alpha = 0.01$**: The critical value for a one-tailed test is **-2.33**. Our calculated Z-score of **-1.4** is **greater than** -2.33. Since the test statistic does not fall into the rejection region (i.e., it's not less than -2.33), we **fail to reject** the null hypothesis. Thus, we **accept** $H_0$ at $\alpha = 0.01$.
+
+Since we fail to reject the null hypothesis at both significance levels, the correct conclusions are:
+* **Accept $H_0$ at significance level $\alpha = 0.05$**
+* **Accept $H_0$ at significance level $\alpha = 0.01$**
