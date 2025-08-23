@@ -68,3 +68,20 @@ So, the level of significance is $\alpha = F_Z\left(\frac{5c - 20}{3}\right)$.
 This corresponds to the **fourth option** in the provided image.
 
 
+<img width="1035" height="635" alt="image" src="https://github.com/user-attachments/assets/94f0e01c-7dd6-4c53-b244-687dc373a67a" />
+
+Based on the scenario, the correct test statistic is the sample mean and the appropriate hypothesis test is the **t-test**.
+
+---
+
+### **Explanation**
+
+The image describes a situation where we're observing samples from a **normal distribution** and the **population variance is unknown**. We want to check if the mean is greater than a certain value, $\mu$. This is a classic hypothesis testing problem.
+
+* **Test Statistic**: The test statistic is a value calculated from sample data during a hypothesis test. Its purpose is to help us decide whether to reject the null hypothesis. Since the question is about the population mean, the appropriate test statistic to use is the **sample mean**, denoted by $\bar{x}$ or, as shown in the options, $T = \text{Sample mean}$.
+* **Hypothesis Test**: The choice of hypothesis test depends on what information we have.
+    * A **z-test** is used when the population variance is known.
+    * A **$\chi^2$-test** is typically used for testing hypotheses about the population variance.
+    * A **t-test** is used when the population variance is unknown, which is exactly the case described in the problem. The t-test uses the sample standard deviation as an estimate for the population standard deviation, making it suitable for this scenario.
+
+Therefore, the combination of the sample mean as the test statistic and the t-test as the hypothesis test is the correct choice.
