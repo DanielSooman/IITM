@@ -358,3 +358,131 @@ Now, we compare the calculated Z-statistic to the critical values for the specif
 Since we fail to reject the null hypothesis at both significance levels, the correct conclusions are:
 * **Accept $H_0$ at significance level $\alpha = 0.05$**
 * **Accept $H_0$ at significance level $\alpha = 0.01$**
+
+
+
+<img width="1027" height="104" alt="image" src="https://github.com/user-attachments/assets/d963d1ea-355b-42dd-9e91-b34bfc280591" />
+<img width="538" height="457" alt="image" src="https://github.com/user-attachments/assets/c7bfced5-ddf0-4216-bf01-b4da50fa02f5" />
+<img width="400" height="407" alt="image" src="https://github.com/user-attachments/assets/de7c997b-e599-41ce-9ebe-76df57752fee" />
+Based on the images provided, let's solve the two subquestions related to the exponential distribution.
+
+---
+
+### Part 1: Finding $P(10 \leq X \leq 15)$
+
+The first image provides a problem where a random variable $X$ follows an **exponential distribution** with a mean of 5. The prompt asks to find the value of $P(10 \leq X \leq 15)$.
+
+An exponential distribution is defined by its rate parameter, $\lambda$. The mean of an exponential distribution is given by $1/\lambda$.
+Given that the mean is 5, we can find $\lambda$:
+$Mean = 1/\lambda = 5$
+$\lambda = 1/5 = 0.2$
+
+The **cumulative distribution function (CDF)** for an exponential distribution is $F(x) = P(X \leq x) = 1 - e^{-\lambda x}$.
+To find the probability $P(10 \leq X \leq 15)$, we can use the formula $P(a \leq X \leq b) = F(b) - F(a)$.
+In this case, $a = 10$ and $b = 15$.
+$P(10 \leq X \leq 15) = P(X \leq 15) - P(X \leq 10)$
+$P(10 \leq X \leq 15) = (1 - e^{-\lambda \cdot 15}) - (1 - e^{-\lambda \cdot 10})$
+Substituting $\lambda = 0.2$:
+$P(10 \leq X \leq 15) = (1 - e^{-0.2 \cdot 15}) - (1 - e^{-0.2 \cdot 10})$
+$P(10 \leq X \leq 15) = (1 - e^{-3}) - (1 - e^{-2})$
+$P(10 \leq X \leq 15) = 1 - e^{-3} - 1 + e^{-2}$
+$P(10 \leq X \leq 15) = e^{-2} - e^{-3}$
+
+This matches the option highlighted in green in the image.
+
+---
+
+### Part 2: Finding the value of $k$
+
+The second image asks to find the value of $k$ such that $P(X \leq k) = 0.95$.
+The problem again references the exponential distribution with a mean of 5, which means $\lambda = 0.2$.
+
+We'll use the cumulative distribution function (CDF) again: $P(X \leq k) = 1 - e^{-\lambda k}$.
+We are given that $P(X \leq k) = 0.95$.
+$1 - e^{-\lambda k} = 0.95$
+$1 - e^{-0.2k} = 0.95$
+Now, let's solve for $k$:
+$e^{-0.2k} = 1 - 0.95$
+$e^{-0.2k} = 0.05$
+
+To isolate $k$, we'll take the natural logarithm ($\ln$) of both sides.
+$\ln(e^{-0.2k}) = \ln(0.05)$
+$-0.2k = \ln(0.05)$
+$k = \frac{\ln(0.05)}{-0.2}$
+
+A key property of logarithms is that $\ln(1/x) = -\ln(x)$. We can rewrite 0.05 as a fraction: $0.05 = 5/100 = 1/20$.
+So, $\ln(0.05) = \ln(1/20) = -\ln(20)$.
+Substituting this back into the equation for $k$:
+$k = \frac{-\ln(20)}{-0.2}$
+$k = \frac{\ln(20)}{0.2}$
+
+Since $0.2 = 1/5$, we can write:
+$k = \frac{\ln(20)}{1/5} = 5 \ln(20)$
+
+This result, $5(\ln 20)$, corresponds to the option highlighted in green in the third image.
+
+
+
+
+<img width="717" height="282" alt="image" src="https://github.com/user-attachments/assets/4747fa40-b535-401c-9a15-236618bd028a" />
+<img width="1029" height="346" alt="image" src="https://github.com/user-attachments/assets/b8ebab36-0b1f-43ec-b07c-d49f68c341ac" />
+<img width="636" height="361" alt="image" src="https://github.com/user-attachments/assets/aaaf9a35-67ec-4116-b35a-30d349361388" />
+Based on the images you provided, let's solve these two probability problems. The problems are based on a discrete random variable $X$ with the probability mass function (PMF) given by:
+
+$f_X(x) = \begin{cases} \frac{x}{15}, & x = 1, 2, 3, 4, 5 \\ 0, & \text{otherwise} \end{cases}$
+
+---
+
+## Part 1: Finding $P(X=1 \text{ or } X=2)$
+
+The first problem asks for the value of $P(X=1 \text{ or } X=2)$, which can be written as $P(X=1) + P(X=2)$. Since $X=1$ and $X=2$ are distinct outcomes, they are mutually exclusive events.
+
+From the PMF, we have:
+* $P(X=1) = f_X(1) = \frac{1}{15}$
+* $P(X=2) = f_X(2) = \frac{2}{15}$
+
+Now, we can find the sum:
+$P(X=1 \text{ or } X=2) = P(X=1) + P(X=2) = \frac{1}{15} + \frac{2}{15} = \frac{3}{15}$
+
+Simplifying the fraction gives us $\frac{1}{5}$. To get the answer correct to one decimal place as requested, we convert this to a decimal:
+$\frac{1}{5} = 0.2$
+
+The value of $P(X=1 \text{ or } X=2)$ is **0.2**.
+
+---
+
+## Part 2: Finding $P(\frac{1}{2} < X < \frac{5}{2} \mid X > 1)$
+
+This is a conditional probability problem, which can be solved using the formula $P(A \mid B) = \frac{P(A \cap B)}{P(B)}$.
+
+In this case, let's define our events:
+* Event $A$: $\frac{1}{2} < X < \frac{5}{2}$
+* Event $B$: $X > 1$
+
+First, let's identify the values of $X$ that satisfy each event based on the given PMF. The possible values for $X$ are 1, 2, 3, 4, and 5.
+
+### Step 1: Determine the events
+For event $A$, the values of $X$ must be between 0.5 and 2.5. The only integer values of $X$ from the given set that fall into this range are $X=1$ and $X=2$.
+So, $P(A) = P(\frac{1}{2} < X < \frac{5}{2}) = P(X=1) + P(X=2) = \frac{1}{15} + \frac{2}{15} = \frac{3}{15}$.
+
+For event $B$, the values of $X$ must be greater than 1. The possible integer values of $X$ are 2, 3, 4, and 5.
+So, $P(B) = P(X > 1) = P(X=2) + P(X=3) + P(X=4) + P(X=5)$.
+$P(B) = \frac{2}{15} + \frac{3}{15} + \frac{4}{15} + \frac{5}{15} = \frac{2+3+4+5}{15} = \frac{14}{15}$.
+
+### Step 2: Find the intersection of the events
+The intersection of events $A$ and $B$, denoted $A \cap B$, includes the values of $X$ that satisfy both conditions: $\frac{1}{2} < X < \frac{5}{2}$ **AND** $X > 1$.
+The values that satisfy both are the integers greater than 1 but less than 2.5. The only value is $X=2$.
+So, $P(A \cap B) = P(X=2) = \frac{2}{15}$.
+
+### Step 3: Calculate the conditional probability
+Using the conditional probability formula:
+$P(A \mid B) = \frac{P(A \cap B)}{P(B)} = \frac{P(X=2)}{P(X > 1)} = \frac{\frac{2}{15}}{\frac{14}{15}}$
+
+To simplify the fraction, we can cancel out the denominators:
+$P(A \mid B) = \frac{2}{14} = \frac{1}{7}$
+
+### Step 4: Convert to a decimal
+The question asks for the answer to two decimal places.
+$\frac{1}{7} \approx 0.142857...$
+
+Rounding to two decimal places, we get **0.14**.
