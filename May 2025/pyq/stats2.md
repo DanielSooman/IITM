@@ -26,3 +26,45 @@ $$M_S(\lambda) = \left(M_X(\lambda)\right)^3$$
 Substituting the expression for $M_X(\lambda)$ we found in the previous step:
 $$M_S(\lambda) = \left(\frac{e^{-0.2\lambda} + e^{0.2\lambda}}{2}\right)^3$$
 This matches the third option provided in the problem.
+
+
+
+
+
+
+<img width="1008" height="673" alt="image" src="https://github.com/user-attachments/assets/a1eb1b6e-cb09-4d2b-8511-06fabbd871c0" />
+
+
+The level of significance is given by the probability of rejecting the null hypothesis when it's true. For the given problem, this is the probability that $T < c$ under the null hypothesis $H_0: \mu = 4$.
+
+---
+
+### Step-by-Step Solution
+
+Under the null hypothesis $H_0: \mu = 4$, the sample mean $\bar{X} = \frac{1}{100}\sum_{i=1}^{100} X_i$ is normally distributed with a mean of $\mu_0 = 4$ and a variance of $\sigma^2/n = 36/100 = 0.36$. So, $\bar{X} \sim \text{Normal}(4, 0.36)$.
+
+The test statistic is defined as $T = \frac{X_1 + X_2 + \ldots + X_{100}}{100} = \bar{X}$. The test rejects $H_0$ if $T < c$. The level of significance, denoted by $\alpha$, is the probability of this event occurring when $H_0$ is true.
+
+$\alpha = P(T < c | H_0 \text{ is true}) = P(\bar{X} < c | \mu = 4)$.
+
+To find this probability, we standardize the random variable $\bar{X}$ to a standard normal variable $Z$. The formula for standardization is $Z = \frac{\bar{X} - \mu_{\bar{X}}}{\sigma_{\bar{X}}}$, where $\mu_{\bar{X}} = 4$ and $\sigma_{\bar{X}} = \sqrt{0.36} = 0.6$.
+
+$Z = \frac{\bar{X} - 4}{0.6}$.
+
+Now, we can express the probability in terms of $Z$:
+
+$\alpha = P\left(\frac{\bar{X} - 4}{0.6} < \frac{c - 4}{0.6}\right) = P\left(Z < \frac{c - 4}{0.6}\right)$.
+
+Let $F_Z(z)$ be the cumulative distribution function (CDF) of the standard normal variable $Z$. Then, $P(Z < z) = F_Z(z)$.
+
+Therefore, $\alpha = F_Z\left(\frac{c - 4}{0.6}\right)$.
+
+To match the options provided, we need to simplify the expression inside the parentheses:
+
+$\frac{c - 4}{0.6} = \frac{c - 4}{6/10} = \frac{10(c - 4)}{6} = \frac{5(c - 4)}{3} = \frac{5c - 20}{3}$.
+
+So, the level of significance is $\alpha = F_Z\left(\frac{5c - 20}{3}\right)$.
+
+This corresponds to the **fourth option** in the provided image.
+
+
