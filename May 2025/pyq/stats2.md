@@ -85,3 +85,82 @@ The image describes a situation where we're observing samples from a **normal di
     * A **t-test** is used when the population variance is unknown, which is exactly the case described in the problem. The t-test uses the sample standard deviation as an estimate for the population standard deviation, making it suitable for this scenario.
 
 Therefore, the combination of the sample mean as the test statistic and the t-test as the hypothesis test is the correct choice.
+
+
+
+
+
+<img width="1007" height="464" alt="image" src="https://github.com/user-attachments/assets/878802ea-745a-4302-b823-c6b82155afc3" />
+
+The method of moments is a technique used to estimate population parameters. The core idea is to equate the theoretical moments of a distribution to the corresponding sample moments.
+
+---
+
+### Understanding the Exponential Distribution
+
+The **exponential distribution** is a continuous probability distribution that describes the time between events in a Poisson process. The probability density function (PDF) is given by:
+$f(x; \lambda) = \lambda e^{-\lambda x}$ for $x \ge 0$.
+
+The **mean** of an exponential distribution with parameter $\lambda$ is $\frac{1}{\lambda}$. This is also the first theoretical moment.
+
+---
+
+### Calculating the Sample Mean
+
+The first sample moment is simply the sample mean. We are given a sample of 6 delivery times in hours: 15, 20, 15, 16, 14, 20.
+
+The **sample mean** ($\bar{x}$) is calculated as the sum of all values divided by the number of values:
+$\bar{x} = \frac{15 + 20 + 15 + 16 + 14 + 20}{6} = \frac{100}{6} \approx 16.67$
+
+---
+
+### Applying the Method of Moments
+
+To find the method of moment estimate of $\lambda$, we equate the first theoretical moment to the first sample moment:
+**Theoretical Mean** = **Sample Mean**
+$\frac{1}{\lambda} = \bar{x}$
+
+Now, we can solve for the estimated value of $\lambda$, which we'll denote as $\hat{\lambda}$:
+$\hat{\lambda} = \frac{1}{\bar{x}}$
+$\hat{\lambda} = \frac{1}{16.67} \approx 0.06$
+
+Rounding to two decimal places, the estimate for $\lambda$ is **0.06**.
+
+
+
+<img width="1008" height="453" alt="image" src="https://github.com/user-attachments/assets/2a2020e5-04a1-402c-9a1a-9972623941aa" />
+
+
+To find the value of $k$ for which $\hat{\mu}_2$ is an **unbiased estimator** of $\mu$, we need to ensure that the expected value of $\hat{\mu}_2$ is equal to $\mu$.
+
+Given the formula for $\hat{\mu}_2$:
+$$\hat{\mu}_2 = \frac{\hat{\mu}_1 - k}{(k-1)}$$
+And the expected value of $\hat{\mu}_1$:
+$$E(\hat{\mu}_1) = 2\mu + 3$$
+
+The condition for $\hat{\mu}_2$ to be unbiased is $E(\hat{\mu}_2) = \mu$. Let's calculate the expected value of $\hat{\mu}_2$:
+$$E(\hat{\mu}_2) = E\left(\frac{\hat{\mu}_1 - k}{k-1}\right)$$
+Using the properties of expectation, we can separate the terms:
+$$E(\hat{\mu}_2) = \frac{1}{k-1} E(\hat{\mu}_1 - k)$$
+$$E(\hat{\mu}_2) = \frac{1}{k-1} [E(\hat{\mu}_1) - E(k)]$$
+Since $k$ is a constant, its expected value is just $k$:
+$$E(k) = k$$
+Now, substitute the given expression for $E(\hat{\mu}_1)$:
+$$E(\hat{\mu}_2) = \frac{1}{k-1} [(2\mu + 3) - k]$$
+For $\hat{\mu}_2$ to be an unbiased estimator of $\mu$, we must have $E(\hat{\mu}_2) = \mu$. So, we set the equation equal to $\mu$:
+$$\mu = \frac{2\mu + 3 - k}{k-1}$$
+Now, we solve for $k$:
+$$\mu(k-1) = 2\mu + 3 - k$$
+$$\mu k - \mu = 2\mu + 3 - k$$
+Rearrange the terms to group all terms with $\mu$ on one side and terms with $k$ and constants on the other side:
+$$\mu k - 2\mu - \mu = 3 - k$$
+This is incorrect. Let's start over from:
+$$\mu k - \mu = 2\mu + 3 - k$$
+We want to isolate $k$. Let's move all terms with $k$ to one side and terms with $\mu$ to the other:
+$$\mu k + k = 2\mu + 3 + \mu$$
+Factor out $k$ from the left side and combine terms on the right side:
+$$k(\mu + 1) = 3\mu + 3$$
+$$k(\mu + 1) = 3(\mu + 1)$$
+Assuming $\mu + 1 \neq 0$, we can divide both sides by $(\mu+1)$:
+$$k = 3$$
+The value of $k$ that makes $\hat{\mu}_2$ an unbiased estimator of $\mu$ is **3**. This matches the provided "Accepted Answer."
