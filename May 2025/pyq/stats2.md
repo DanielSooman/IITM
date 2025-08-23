@@ -427,6 +427,10 @@ This result, $5(\ln 20)$, corresponds to the option highlighted in green in the 
 <img width="717" height="282" alt="image" src="https://github.com/user-attachments/assets/4747fa40-b535-401c-9a15-236618bd028a" />
 <img width="1029" height="346" alt="image" src="https://github.com/user-attachments/assets/b8ebab36-0b1f-43ec-b07c-d49f68c341ac" />
 <img width="636" height="361" alt="image" src="https://github.com/user-attachments/assets/aaaf9a35-67ec-4116-b35a-30d349361388" />
+
+
+
+
 Based on the images you provided, let's solve these two probability problems. The problems are based on a discrete random variable $X$ with the probability mass function (PMF) given by:
 
 $f_X(x) = \begin{cases} \frac{x}{15}, & x = 1, 2, 3, 4, 5 \\ 0, & \text{otherwise} \end{cases}$
