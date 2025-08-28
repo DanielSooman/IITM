@@ -490,3 +490,60 @@ The question asks for the answer to two decimal places.
 $\frac{1}{7} \approx 0.142857...$
 
 Rounding to two decimal places, we get **0.14**.
+
+
+
+
+<img width="1011" height="367" alt="image" src="https://github.com/user-attachments/assets/d5659032-81b1-4f68-a00a-4f12a9c28601" />
+We are given a two-step random experiment:
+
+1. Sushant throws a **fair die**.
+2. Then, he flips as many **fair coins** as the number shown on the die.
+
+We are told that the die showed **5**, and we are to find the **conditional probability** that **3 heads** are obtained in the coin tosses.
+
+---
+
+### Step 1: Understand the conditional setup
+
+Given: Die shows 5 → So, **5 fair coins** are tossed.
+
+We are to compute:
+
+> $ P(\text{3 heads} \mid \text{die showed 5}) $
+
+Since the die outcome is given (5), this is a straightforward binomial-type probability.
+
+---
+
+### Step 2: Model the coin tosses
+
+Each of the 5 coins is fair and independent.
+
+Let $ X $ be the number of heads in 5 fair coin tosses. Then $ X \sim \text{Binomial}(n=5, p=0.5) $
+
+We want:
+
+$$
+P(X = 3) = \binom{5}{3} \left(\frac{1}{2}\right)^3 \left(\frac{1}{2}\right)^{2} = \binom{5}{3} \left(\frac{1}{2}\right)^5
+$$
+
+$$
+= 10 \times \frac{1}{32} = \frac{10}{32} = \frac{5}{16} = 0.3125
+$$
+
+---
+
+### Step 3: Round to three decimal places
+
+$$
+0.3125 \approx \boxed{0.313}
+$$
+
+---
+
+### ✅ Final Answer:
+
+$$
+\boxed{0.313}
+$$
