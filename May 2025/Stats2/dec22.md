@@ -627,3 +627,12 @@ $$
 $$
 \boxed{3}
 $$
+
+
+
+
+
+
+<img width="1081" height="539" alt="image" src="https://github.com/user-attachments/assets/dedd5065-552b-4750-9177-749b4cb40e92" />
+<img width="1237" height="335" alt="image" src="https://github.com/user-attachments/assets/1febf588-6726-4596-ad08-9494ccddbd3c" />
+<img width="904" height="243" alt="image" src="https://github.com/user-attachments/assets/0488c1b3-509a-4c57-b3ce-e883773b1ce1" />
