@@ -639,3 +639,168 @@ $$
 
 ---
 <img width="1043" height="586" alt="image" src="https://github.com/user-attachments/assets/fc4cbf69-5d99-4619-92e4-339dfa24dca0" />
+---
+<img width="767" height="138" alt="image" src="https://github.com/user-attachments/assets/819287f0-1764-4517-bef8-4bd7d04e5f07" />
+<img width="620" height="562" alt="image" src="https://github.com/user-attachments/assets/53d720d9-14c1-451b-af2e-694f8c78f298" />
+We are given that $ X \sim \text{Binomial}(6, p) $, and we are to find the value of $ p $ such that:
+
+$$
+9P(X = 4) = P(X = 2)
+$$
+
+---
+
+### Step 1: Use the Binomial Probability Formula
+
+The probability mass function (PMF) of a binomial distribution is:
+
+$$
+P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k}
+$$
+
+Here, $ n = 6 $. So,
+
+$$
+P(X = 4) = \binom{6}{4} p^4 (1 - p)^2
+$$
+$$
+P(X = 2) = \binom{6}{2} p^2 (1 - p)^4
+$$
+
+Now compute the binomial coefficients:
+
+- $ \binom{6}{4} = 15 $
+- $ \binom{6}{2} = 15 $
+
+So:
+
+$$
+P(X = 4) = 15 p^4 (1 - p)^2
+$$
+$$
+P(X = 2) = 15 p^2 (1 - p)^4
+$$
+
+Now plug into the equation:
+
+$$
+9P(X = 4) = P(X = 2)
+$$
+$$
+9 \cdot 15 p^4 (1 - p)^2 = 15 p^2 (1 - p)^4
+$$
+
+Divide both sides by 15:
+
+$$
+9 p^4 (1 - p)^2 = p^2 (1 - p)^4
+$$
+
+Now divide both sides by $ p^2 (1 - p)^2 $ (assuming $ p \neq 0 $ and $ p \neq 1 $):
+
+$$
+9 p^2 = (1 - p)^2
+$$
+
+Now take square roots or expand:
+
+$$
+9p^2 = (1 - p)^2 = 1 - 2p + p^2
+$$
+
+Bring all terms to one side:
+
+$$
+9p^2 - (1 - 2p + p^2) = 0
+$$
+$$
+9p^2 - 1 + 2p - p^2 = 0
+$$
+$$
+8p^2 + 2p - 1 = 0
+$$
+
+Now solve the quadratic equation:
+
+$$
+8p^2 + 2p - 1 = 0
+$$
+
+Use the quadratic formula:
+
+$$
+p = \frac{-2 \pm \sqrt{(2)^2 - 4(8)(-1)}}{2(8)} = \frac{-2 \pm \sqrt{4 + 32}}{16} = \frac{-2 \pm \sqrt{36}}{16}
+$$
+$$
+p = \frac{-2 \pm 6}{16}
+$$
+
+So:
+
+- $ p = \frac{-2 + 6}{16} = \frac{4}{16} = \frac{1}{4} $
+- $ p = \frac{-2 - 6}{16} = \frac{-8}{16} = -\frac{1}{2} $ → Not valid (since $ p \in [0,1] $)
+
+So the only valid solution is:
+
+$$
+\boxed{p = \frac{1}{4}}
+$$
+
+---
+
+### Final Answer:
+$$
+\boxed{\frac{1}{4}}
+$$
+
+✅ **Correct option: $ \frac{1}{4} $**
+<img width="828" height="79" alt="image" src="https://github.com/user-attachments/assets/ccfa86bf-b75b-4aa2-8bb5-3134dc86025e" />
+We are given that $ X \sim \text{Binomial}(6, p) $, and from the previous part, we found that $ p = \frac{1}{4} $.
+
+We are to find $ \mathbb{E}[X^2] $, the expected value of $ X^2 $, correct to two decimal places.
+
+---
+
+### Step 1: Use the identity
+
+$$
+\mathbb{E}[X^2] = \text{Var}(X) + (\mathbb{E}[X])^2
+$$
+
+For a binomial distribution:
+
+- $ \mathbb{E}[X] = np $
+- $ \text{Var}(X) = np(1 - p) $
+
+Given:
+- $ n = 6 $
+- $ p = \frac{1}{4} $
+
+So:
+
+$$
+\mathbb{E}[X] = 6 \cdot \frac{1}{4} = 1.5
+$$
+
+$$
+\text{Var}(X) = 6 \cdot \frac{1}{4} \cdot \left(1 - \frac{1}{4}\right) = 6 \cdot \frac{1}{4} \cdot \frac{3}{4} = 6 \cdot \frac{3}{16} = \frac{18}{16} = 1.125
+$$
+
+Now compute:
+
+$$
+\mathbb{E}[X^2] = \text{Var}(X) + (\mathbb{E}[X])^2 = 1.125 + (1.5)^2 = 1.125 + 2.25 = 3.375
+$$
+
+Rounded to two decimal places:
+
+$$
+\boxed{3.38}
+$$
+
+---
+
+### ✅ Final Answer:
+$$
+\boxed{3.38}
+$$
