@@ -547,3 +547,83 @@ $$
 $$
 \boxed{0.313}
 $$
+
+
+
+
+
+<img width="994" height="156" alt="image" src="https://github.com/user-attachments/assets/3274ee16-188e-4c53-a4e6-7dce79f0b500" />
+We are given that $ X \sim \text{Uniform}[0, \theta] $, with unknown parameter $ \theta $, and a sample:  
+$$
+(4, 7, 8, 11, 5)
+$$
+
+We are to compute:
+$$
+|\hat{\theta}_{MME} - \hat{\theta}_{ML}|
+$$
+where:
+- $ \hat{\theta}_{MME} $ is the **method of moments estimator**,
+- $ \hat{\theta}_{ML} $ is the **maximum likelihood estimator**.
+
+---
+
+### Step 1: Method of Moments Estimator (MME)
+
+For a Uniform$[0, \theta]$ distribution:
+
+- The expected value is:
+  $$
+  E[X] = \frac{\theta}{2}
+  $$
+
+The method of moments equates the population mean to the sample mean.
+
+Let $ \bar{X} $ be the sample mean:
+$$
+\bar{X} = \frac{4 + 7 + 8 + 11 + 5}{5} = \frac{35}{5} = 7
+$$
+
+Set $ E[X] = \bar{X} $:
+$$
+\frac{\theta}{2} = 7 \quad \Rightarrow \quad \theta = 14
+$$
+
+So:
+$$
+\hat{\theta}_{MME} = 14
+$$
+
+---
+
+### Step 2: Maximum Likelihood Estimator (MLE)
+
+For $ X_i \sim \text{Uniform}[0, \theta] $, the likelihood function is:
+$$
+L(\theta) = \prod_{i=1}^n \frac{1}{\theta} \cdot \mathbf{1}_{\{0 \leq x_i \leq \theta\}} = \frac{1}{\theta^n} \cdot \mathbf{1}_{\{\max x_i \leq \theta\}}
+$$
+
+This is maximized when $ \theta $ is as small as possible but still $ \geq \max x_i $. So:
+$$
+\hat{\theta}_{ML} = \max(x_1, x_2, \dots, x_n)
+$$
+
+From the sample: $ (4, 7, 8, 11, 5) $, the maximum is:
+$$
+\hat{\theta}_{ML} = 11
+$$
+
+---
+
+### Step 3: Compute the Absolute Difference
+
+$$
+|\hat{\theta}_{MME} - \hat{\theta}_{ML}| = |14 - 11| = 3
+$$
+
+---
+
+### ✅ Final Answer:
+$$
+\boxed{3}
+$$
