@@ -1048,3 +1048,234 @@ $$
 $$
 
 (correct to two decimal places)
+
+
+
+<img width="1036" height="229" alt="image" src="https://github.com/user-attachments/assets/f86f1b5b-f258-42d8-a125-068816302e57" />
+<img width="938" height="681" alt="image" src="https://github.com/user-attachments/assets/6af41668-fa37-4dfd-afec-2cf5fd46678e" />
+We are given the **moment generating function (MGF)** of a discrete random variable $ X $:
+
+$$
+M_X(\lambda) = \frac{1}{8}e^{-4\lambda} + \frac{1}{6}e^{-2\lambda} + \frac{1}{6}e^{2\lambda} + \frac{1}{8}e^{4\lambda} + \frac{5}{12}
+$$
+
+We are to find the **probability mass function (PMF)** of $ X $, i.e., the values of $ x $ and their corresponding probabilities $ f_X(x) $.
+
+---
+
+### Step 1: Recall the definition of MGF
+
+For a discrete random variable $ X $, the moment generating function is:
+
+$$
+M_X(\lambda) = \mathbb{E}[e^{\lambda X}] = \sum_{x} e^{\lambda x} P(X = x)
+$$
+
+So, each term in the MGF corresponds to a value of $ x $ such that $ e^{\lambda x} $ appears with coefficient $ P(X = x) $.
+
+---
+
+### Step 2: Identify the terms
+
+Let’s look at each term in $ M_X(\lambda) $:
+
+1. $ \frac{1}{8}e^{-4\lambda} $ → corresponds to $ x = -4 $, with probability $ \frac{1}{8} $
+2. $ \frac{1}{6}e^{-2\lambda} $ → corresponds to $ x = -2 $, with probability $ \frac{1}{6} $
+3. $ \frac{1}{6}e^{2\lambda} $ → corresponds to $ x = 2 $, with probability $ \frac{1}{6} $
+4. $ \frac{1}{8}e^{4\lambda} $ → corresponds to $ x = 4 $, with probability $ \frac{1}{8} $
+5. $ \frac{5}{12} $ → this is $ \frac{5}{12}e^{0\cdot\lambda} $, so it corresponds to $ x = 0 $, with probability $ \frac{5}{12} $
+
+---
+
+### Step 3: List the PMF
+
+So the possible values of $ X $ are:
+
+- $ x = -4 $, $ P(X = -4) = \frac{1}{8} $
+- $ x = -2 $, $ P(X = -2) = \frac{1}{6} $
+- $ x = 0 $, $ P(X = 0) = \frac{5}{12} $
+- $ x = 2 $, $ P(X = 2) = \frac{1}{6} $
+- $ x = 4 $, $ P(X = 4) = \frac{1}{8} $
+
+Now let's check if the total probability sums to 1:
+
+$$
+\frac{1}{8} + \frac{1}{6} + \frac{5}{12} + \frac{1}{6} + \frac{1}{8}
+$$
+
+Convert all to twelfths:
+
+- $ \frac{1}{8} = \frac{3}{24} = \frac{1.5}{12} $? Wait — better use common denominator.
+
+LCM of 8, 6, 12 is 24.
+
+- $ \frac{1}{8} = \frac{3}{24} $
+- $ \frac{1}{6} = \frac{4}{24} $
+- $ \frac{5}{12} = \frac{10}{24} $
+- $ \frac{1}{6} = \frac{4}{24} $
+- $ \frac{1}{8} = \frac{3}{24} $
+
+Sum: $ 3 + 4 + 10 + 4 + 3 = 24 $ → $ \frac{24}{24} = 1 $. ✅
+
+So the probabilities are valid.
+
+---
+
+### Step 4: Match with options
+
+Look at the choices:
+
+#### Option 1:
+| x   | -4 | -2 | 0  | 2  | 4  |
+|-----|----|----|----|----|----|
+| f(x)| 1/8| 1/6| 5/12| 1/6| 1/8|
+
+✅ This matches exactly what we found.
+
+#### Option 2:
+| x   | -4 | -2 | 1  | 2  | 4  |
+|-----|----|----|----|----|----|
+| f(x)| 1/8| 1/6| 5/12| 1/6| 1/8|
+
+❌ Has $ x=1 $ instead of $ x=0 $ → incorrect.
+
+#### Option 3:
+| x   | -4 | -2 | 0  | 2  | 4  |
+|-----|----|----|----|----|----|
+| f(x)| 1/8| 1/6| 5/12| 1/8| 1/6|
+
+❌ Probability for $ x=2 $ is $ 1/8 $, but should be $ 1/6 $; $ x=4 $ is $ 1/6 $, but should be $ 1/8 $ → swapped → incorrect.
+
+#### Option 4:
+| x   | -4 | -2 | 1  | 2  | 4  |
+|-----|----|----|----|----|----|
+| f(x)| 1/8| 1/6| 5/12| 1/8| 1/6|
+
+❌ Again, $ x=1 $ instead of $ x=0 $, and wrong probabilities → incorrect.
+
+---
+
+### ✅ Final Answer:
+
+**Option 1** is correct.
+
+$$
+\boxed{
+\begin{array}{c|ccccc}
+x & -4 & -2 & 0 & 2 & 4 \\
+\hline
+f_X(x) & \frac{1}{8} & \frac{1}{6} & \frac{5}{12} & \frac{1}{6} & \frac{1}{8} \\
+\end{array}
+}
+$$
+
+<img width="931" height="98" alt="image" src="https://github.com/user-attachments/assets/82522b73-3981-4aaf-8a69-24dd062cfe41" />
+We are given the **probability mass function (PMF)** of a discrete random variable $ X $:
+
+$$
+\begin{array}{c|ccccc}
+x & -4 & -2 & 0 & 2 & 4 \\
+\hline
+f_X(x) & \frac{1}{8} & \frac{1}{6} & \frac{5}{12} & \frac{1}{6} & \frac{1}{8} \\
+\end{array}
+$$
+
+We are to compute the **variance** of $ X $, denoted $ \text{Var}(X) $, and report it correct to **two decimal places**.
+
+---
+
+### Step 1: Recall the formula for variance
+
+$$
+\text{Var}(X) = \mathbb{E}[X^2] - (\mathbb{E}[X])^2
+$$
+
+So we need to compute:
+1. $ \mathbb{E}[X] $
+2. $ \mathbb{E}[X^2] $
+
+---
+
+### Step 2: Compute $ \mathbb{E}[X] $
+
+$$
+\mathbb{E}[X] = \sum x \cdot P(X = x)
+$$
+
+$$
+= (-4)\cdot\frac{1}{8} + (-2)\cdot\frac{1}{6} + (0)\cdot\frac{5}{12} + (2)\cdot\frac{1}{6} + (4)\cdot\frac{1}{8}
+$$
+
+Compute each term:
+
+- $ -4 \cdot \frac{1}{8} = -0.5 $
+- $ -2 \cdot \frac{1}{6} \approx -0.3333 $
+- $ 0 \cdot \frac{5}{12} = 0 $
+- $ 2 \cdot \frac{1}{6} \approx 0.3333 $
+- $ 4 \cdot \frac{1}{8} = 0.5 $
+
+Now sum:
+
+$$
+-0.5 - 0.3333 + 0 + 0.3333 + 0.5 = 0
+$$
+
+✅ So $ \mathbb{E}[X] = 0 $
+
+This makes sense — the distribution is symmetric about 0.
+
+---
+
+### Step 3: Compute $ \mathbb{E}[X^2] $
+
+$$
+\mathbb{E}[X^2] = \sum x^2 \cdot P(X = x)
+$$
+
+Compute each $ x^2 $:
+
+- $ (-4)^2 = 16 $, prob $ \frac{1}{8} $ → $ 16 \cdot \frac{1}{8} = 2 $
+- $ (-2)^2 = 4 $, prob $ \frac{1}{6} $ → $ 4 \cdot \frac{1}{6} \approx 0.6667 $
+- $ 0^2 = 0 $, prob $ \frac{5}{12} $ → $ 0 $
+- $ 2^2 = 4 $, prob $ \frac{1}{6} $ → $ 4 \cdot \frac{1}{6} \approx 0.6667 $
+- $ 4^2 = 16 $, prob $ \frac{1}{8} $ → $ 16 \cdot \frac{1}{8} = 2 $
+
+Now sum:
+
+$$
+2 + 0.6667 + 0 + 0.6667 + 2 = 5.3334
+$$
+
+More precisely:
+
+$$
+\mathbb{E}[X^2] = 2 + \frac{4}{6} + \frac{4}{6} + 2 = 4 + \frac{8}{6} = 4 + \frac{4}{3} = \frac{12}{3} + \frac{4}{3} = \frac{16}{3} \approx 5.3333\ldots
+$$
+
+---
+
+### Step 4: Compute Variance
+
+$$
+\text{Var}(X) = \mathbb{E}[X^2] - (\mathbb{E}[X])^2 = \frac{16}{3} - 0^2 = \frac{16}{3}
+$$
+
+Now compute decimal:
+
+$$
+\frac{16}{3} \approx 5.3333\ldots
+$$
+
+Rounded to two decimal places:
+
+$$
+\boxed{5.33}
+$$
+
+---
+
+### ✅ Final Answer:
+
+$$
+\boxed{5.33}
+$$
