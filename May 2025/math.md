@@ -104,3 +104,29 @@ These are the ones marked with green boxes.
 $$
 \boxed{f_1(x,y) \quad \text{and} \quad f_4(x,y)}
 $$
+
+
+<img width="1032" height="438" alt="image" src="https://github.com/user-attachments/assets/8b729ca2-f800-44a3-9b73-720074d6c6fc" />
+To find the direction of the steepest descent for the skier, you need to determine the negative of the gradient of the mountain's surface at the given point. The mountain's surface is described by the equation $z = f(x, y) = 20 - 0.4x^2 - 0.3y^2$. The gradient of this function, $\nabla f$, points in the direction of the greatest rate of increase, or the **steepest ascent**. Therefore, the direction of the **steepest descent** is in the opposite direction, which is given by $-\nabla f$.
+
+The gradient of a function $f(x, y)$ is a vector of its partial derivatives:
+$\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right)$
+
+First, calculate the partial derivatives of $f(x, y)$:
+* $\frac{\partial f}{\partial x} = \frac{\partial}{\partial x}(20 - 0.4x^2 - 0.3y^2) = -0.8x$
+* $\frac{\partial f}{\partial y} = \frac{\partial}{\partial y}(20 - 0.4x^2 - 0.3y^2) = -0.6y$
+
+So, the gradient is $\nabla f = \langle -0.8x, -0.6y \rangle$.
+
+Next, evaluate the gradient at the skier's location, which is the point $(1, -1)$:
+* $\frac{\partial f}{\partial x}\bigg|_{(1, -1)} = -0.8(1) = -0.8$
+* $\frac{\partial f}{\partial y}\bigg|_{(1, -1)} = -0.6(-1) = 0.6$
+
+The gradient vector at this point is $\nabla f(1, -1) = \langle -0.8, 0.6 \rangle$. This vector points in the direction of the steepest ascent.
+
+Finally, to find the direction of the steepest descent, take the negative of the gradient:
+$-\nabla f(1, -1) = -\langle -0.8, 0.6 \rangle = \langle 0.8, -0.6 \rangle$
+
+The skier should begin skiing in the direction of the vector $\langle 0.8, -0.6 \rangle$. This corresponds to the option **(0.8, -0.6)**.
+
+
