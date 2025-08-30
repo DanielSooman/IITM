@@ -128,5 +128,34 @@ Finally, to find the direction of the steepest descent, take the negative of the
 $-\nabla f(1, -1) = -\langle -0.8, 0.6 \rangle = \langle 0.8, -0.6 \rangle$
 
 The skier should begin skiing in the direction of the vector $\langle 0.8, -0.6 \rangle$. This corresponds to the option **(0.8, -0.6)**.
+<img width="1081" height="418" alt="image" src="https://github.com/user-attachments/assets/bf3407f8-1493-4835-b1c2-179e2078f071" />
 
+
+Based on the image you uploaded, let's analyze each statement about the properties of determinants for an $n \times n$ matrix $A$.
+
+---
+
+### **Analyzing the Statements**
+
+1.  **Let $\det(A) \neq 0$. Then the determinant of $A$ is unaltered by swapping any two rows of $A$.**
+    This statement is **false**. A fundamental property of determinants is that swapping any two rows of a matrix *multiplies the determinant by -1*. This means the sign of the determinant changes.
+
+2.  **The determinant of $A$ is unaltered when a multiple of a row is added to another row.**
+    This statement is **true**. This is a key property used in Gaussian elimination to simplify matrices for calculating determinants. Adding a multiple of one row to another row (a type of elementary row operation) does not change the determinant.
+
+3.  **For any real number $t$, $\det(tA) = t^n \det(A)$.**
+    This statement is **true**. When you multiply a matrix $A$ by a scalar $t$, every row is multiplied by $t$. Since there are $n$ rows in an $n \times n$ matrix, and each row multiplication by $t$ scales the determinant by $t$, the total effect is scaling the determinant by $t \times t \times \dots \times t$ ($n$ times), which is $t^n$.
+
+4.  **If $D = P^{-1}AP$, then $D = A$.**
+    This statement is **false**. The equation $D = P^{-1}AP$ describes a **similarity transformation**, which means that matrices $A$ and $D$ are similar. Similar matrices have many properties in common, such as the same determinant, trace, eigenvalues, and characteristic polynomial. However, they are **not necessarily equal**. The equation $D=A$ would only hold true in specific cases, for example, if $P$ is the identity matrix ($I$), or if $A$ is a multiple of the identity matrix.
+
+---
+
+### **Conclusion**
+
+The correct statements are:
+* **Determinant of $A$ is unaltered when a multiple of a row is added to another row.**
+* **For any real number $t$, $\det(tA) = t^n \det(A)$.**
+
+Your image correctly identifies these two statements.
 
