@@ -164,3 +164,7 @@ and suppose that \(\det(A) > 0\). Find \(\det(A)\).
 ```
 81
 ```
+
+
+
+visited on 24 Sep 2025
