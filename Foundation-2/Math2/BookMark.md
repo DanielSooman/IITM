@@ -17,6 +17,9 @@
 <summary>Qz1</summary>
 
 - [Live Recs](https://www.youtube.com/@maths-2/search?query=quiz%201)
+
+- [PYQs](https://quizpractice.space/exam/9251bc3a-e33e-45e0-bcf0-b16a0ea5b5fa?sub=3)
+  
 </details>
 
 
