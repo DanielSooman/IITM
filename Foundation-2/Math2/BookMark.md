@@ -1,4 +1,15 @@
 - [Full Playlist](https://www.youtube.com/playlist?list=PL3EacnGbuhXEhkdktf9p_0vmFsfnEVW7J)
+- [ ] W1
+- [ ] W2
+- [ ] W3
+- [ ] W4
+- [ ] W5
+- [ ] W6
+- [ ] W7
+- [ ] W8
+- [ ] W9
+- [ ] W10
+- [ ] W11
 
 
 
