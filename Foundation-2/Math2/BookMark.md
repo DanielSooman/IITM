@@ -1,4 +1,4 @@
-- [Full Playlist](https://www.youtube.com/watch?v=f6Z42OdQ0fM&list=PL3EacnGbuhXEhkdktf9p_0vmFsfnEVW7J)
+- [Full Playlist](https://www.youtube.com/playlist?list=PL3EacnGbuhXEhkdktf9p_0vmFsfnEVW7J)
 
 
 
