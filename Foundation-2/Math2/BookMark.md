@@ -1,7 +1,7 @@
 - [Full Playlist](https://www.youtube.com/playlist?list=PL3EacnGbuhXEhkdktf9p_0vmFsfnEVW7J)
 - [X] W1
 - [x] W2
-- [ ] W3
+- [x] W3
 - [ ] W4
 - [ ] W5
 - [ ] W6
