@@ -39,4 +39,18 @@
 - [Live Recs](https://www.youtube.com/@maths-2/search?query=End%20Term)
 - [Question Bank](https://drive.google.com/drive/folders/16vvboLqwnOxT0vHpSZlGWRG-owv8qjim)
 </details>
+
+
+
 ---
+
+
+# Solved PYQs
+
+
+<details>
+<summary>Qz1</summary>
+
+[Jul 24](https://quizpractice.space/question-paper/practise/3/e5002ee1-ac1d-4894-9bb7-37aafa0edf30)
+  
+</details>
