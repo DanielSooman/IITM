@@ -53,6 +53,7 @@
 
 - [Jul 25](https://quizpractice.space/question-paper/practise/3/f0beff73-e2e)
 - [Feb 25](https://quizpractice.space/question-paper/practise/3/31571a62-30e)
+- [Oct 24](https://quizpractice.space/question-paper/practise/3/ea11d578-8c70-4c5d-8f31-d7ebbaf3d16d)
 - [Jul 24](https://quizpractice.space/question-paper/practise/3/e5002ee1-ac1d-4894-9bb7-37aafa0edf30)
 
 </details>
