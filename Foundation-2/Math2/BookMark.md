@@ -59,5 +59,6 @@
 - [Oct 23](https://quizpractice.space/question-paper/practise/3/a21ea62e-1aa0-4a13-b6a5-0237e8a10895)
 - [Jul 23](https://quizpractice.space/question-paper/practise/3/4d3e4161-d2d1-4bd4-89d9-b712fc3b5be2)
 - [Oct 22](https://quizpractice.space/question-paper/practise/3/cf305636-8520-4cf1-a199-a5f3c81141b6)
+- [Jun 22](https://quizpractice.space/question-paper/practise/3/286c4f19-cb6e-480d-b8b1-f2e306a866a9)
 
 </details>
