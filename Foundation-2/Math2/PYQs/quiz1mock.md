@@ -1,3 +1,12 @@
+<img width="1064" height="43" alt="image" src="https://github.com/user-attachments/assets/73697d80-1cfd-46bc-9a36-8ad30db5596e" />
+https://gemini.google.com/share/3f463da5cd5e
+
+<img width="928" height="32" alt="image" src="https://github.com/user-attachments/assets/0e74df39-34fc-4960-8513-e8b48c1cfd7c" />
+https://gemini.google.com/share/95073f9ff854
+
+<img width="1116" height="56" alt="image" src="https://github.com/user-attachments/assets/f1f4b361-f84d-4a07-b47d-1e4b78abe014" />
+https://gemini.google.com/share/1ec48838f940
+
 
 <img width="1263" height="43" alt="image" src="https://github.com/user-attachments/assets/d4eb63b6-9f45-4178-a388-5e305f1117a1" />
 
