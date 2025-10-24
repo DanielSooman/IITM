@@ -20,7 +20,9 @@
 - [Live Recs](https://www.youtube.com/@maths-2/search?query=quiz%201)
 
 - [PYQs](https://quizpractice.space/exam/9251bc3a-e33e-45e0-bcf0-b16a0ea5b5fa?sub=3)
-  
+
+<img width="688" height="580" alt="image" src="https://github.com/user-attachments/assets/ed0fa65a-8f50-42e2-a6de-cca9353df8d5" />
+
 </details>
 
 
