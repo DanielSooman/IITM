@@ -15,7 +15,7 @@
 - [PAs](https://www.youtube.com/playlist?list=PLI8SHr6ko8IokrSnKKBSBSrH8O7Q9v2g0)
 ---
 <details>
-<summary>Qz01</summary>
+<summary>Qz1</summary>
 
 - [Live Recs](https://www.youtube.com/@maths-2/search?query=quiz%201)
 
