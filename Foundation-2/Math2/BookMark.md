@@ -54,7 +54,12 @@
 
 # Solved PYQs
 
+<details>
+<summary>Qz2</summary>
+- test
+</details>
 
+---
 <details>
 <summary>Qz1</summary>
 
