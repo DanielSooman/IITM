@@ -36,6 +36,17 @@
 <summary>Qz2</summary>
 
 - [Live Recs](https://www.youtube.com/@maths-2/search?query=Quiz%202)
+
+
+<details>
+<summary>Quick Revise</summary>
+
+<img width="889" height="327" alt="image" src="https://github.com/user-attachments/assets/fdb5f1b1-5c16-4ffc-a8eb-6712336721db" />
+
+
+</details>
+
+
 </details>
 
 
