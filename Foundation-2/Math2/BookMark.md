@@ -10,7 +10,7 @@
 - [x] W9
 - [x] W10
 - [x] W11
-- [ ] W12
+- [x] W12
 
 ---
 - [PAs](https://www.youtube.com/playlist?list=PLI8SHr6ko8IokrSnKKBSBSrH8O7Q9v2g0)
