@@ -67,6 +67,17 @@
 # Solved PYQs
 
 <details>
+<summary>ET</summary>
+
+- [CHOOSE](https://quizpractice.space/exam/7a6ff569-f50c-40e7-a08b-f5c334392600?sub=3)
+
+- [Apr 25](https://quizpractice.space/question-paper/practise/3/53ba1644-2b5)
+
+</details>
+
+---
+
+<details>
 <summary>Qz2</summary>
   
 - [Choose](https://quizpractice.space/exam/1948ee72-5c62-4816-97c8-7d662330a220?sub=3)
