@@ -1,3 +1,18 @@
+<details>
+<summary>ET Quick Notes
+</summary>
+
+<img width="349" height="203" alt="image" src="https://github.com/user-attachments/assets/5948e38e-e874-4ad5-a1dd-fad5c530f424" />
+
+
+<img width="715" height="474" alt="image" src="https://github.com/user-attachments/assets/97e693c9-2d53-43d9-978a-06a1bae3cf4f" />
+
+
+</details>
+
+
+---
+
 - [Full Playlist](https://www.youtube.com/playlist?list=PL3EacnGbuhXEhkdktf9p_0vmFsfnEVW7J)
 - [X] W1
 - [x] W2
