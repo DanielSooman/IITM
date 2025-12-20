@@ -143,3 +143,5 @@ if R3 and dim3 => onto
 
 
 https://gemini.google.com/share/b773a139eac2
+
+https://gemini.google.com/share/02460c804190
