@@ -9,6 +9,10 @@
 
 <img width="1290" height="458" alt="image" src="https://github.com/user-attachments/assets/5b77bc48-a387-46e4-a7bb-b6ed20aeb88d" />
 
+linear approximation (down)
+<img width="391" height="57" alt="image" src="https://github.com/user-attachments/assets/9b65d2d1-1839-436f-b02c-96e879efeda7" />
+
+
 </details>
 
 
