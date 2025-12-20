@@ -141,3 +141,5 @@ if R3 and dim3 => onto
 
 </details>
 
+
+https://gemini.google.com/share/b773a139eac2
