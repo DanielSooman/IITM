@@ -12,6 +12,10 @@
 linear approximation (down)
 <img width="391" height="57" alt="image" src="https://github.com/user-attachments/assets/9b65d2d1-1839-436f-b02c-96e879efeda7" />
 
+if nullity = 0 => one-one
+if R3 and dim3 => onto
+<img width="692" height="64" alt="image" src="https://github.com/user-attachments/assets/5bf30e39-5f4a-467e-886f-11c608c7951e" />
+
 
 </details>
 
