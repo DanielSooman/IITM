@@ -141,3 +141,10 @@ Suppose \( V \) is a vector space defined as \[ V = \{ A \mid A \in M_{4 \times 
 ```
 15
 ```
+
+
+---
+
+ GA (2)
+
+<img width="724" height="249" alt="image" src="https://github.com/user-attachments/assets/6b0cd4b1-3af9-43c3-9fef-1f1481da2ffd" />
