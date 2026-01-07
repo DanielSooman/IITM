@@ -13,3 +13,4 @@
 - [ ] W12
 
 ---
+- [Live](https://www.youtube.com/@dbms-iitmadrasbsdegree1439)
