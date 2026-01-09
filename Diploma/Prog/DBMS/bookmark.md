@@ -14,3 +14,7 @@
 
 ---
 - [Live](https://www.youtube.com/@dbms-iitmadrasbsdegree1439)
+---
+# Notes
+
+- [Frequent](https://github.com/DanielSooman/IITM/blob/main/Diploma/Prog/DBMS/notes.md)
