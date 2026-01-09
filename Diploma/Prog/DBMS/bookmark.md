@@ -17,4 +17,4 @@
 ---
 # Notes
 
-- [Frequent](https://github.com/DanielSooman/IITM/blob/main/Diploma/Prog/DBMS/notes.md)
+- [Frequent](https://github.com/DanielSooman/IITM/blob/main/Diploma/Prog/DBMS/notes/quicknotes.md)
