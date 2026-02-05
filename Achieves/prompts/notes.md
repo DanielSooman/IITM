@@ -12,8 +12,8 @@
  * **Tables & Lists:** Use Markdown tables for comparisons and `- [ ]` task lists for a "Learning Checklist" at the start of the notes.
  * **LaTeX:** Render all mathematical formulas or variables using `$inline$` or 
  
-  syntax.
- 
+$$display Syntax$$
+
  
  **2. Image Placement Strategy:**
  Since I will be manually pasting images into this document, you must create dedicated **Image Slots** whenever the source material refers to a significant visual, graph, or screenshot.
