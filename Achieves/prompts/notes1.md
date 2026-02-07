@@ -18,7 +18,7 @@ You must adapt your synthesis based on the core subject:
 * `> [!CAUTION]` for common pitfalls (e.g., "Vanishing Gradients" or "Integer Overflow").
 
 
-* **Code Blocks:** Provide clean, commented code in the relevant language (Python for ML, C++/Java/Python for DSA, SQL for DBMS).
+* **Code Blocks:** Provide clean, commented code in the relevant language (Python for ML, Python for DSA, SQL for DBMS).
 * **LaTeX:** Render ALL math, variables, and complexity notation using `$inline$` or 
 
  syntax.
