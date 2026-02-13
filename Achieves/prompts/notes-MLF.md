@@ -251,9 +251,6 @@ Strictly follow all formatting, derivation depth, and structural constraints abo
 
 
 ```
-Here is the **short, digestible, execution-ready version** of your ML Notes Generator prompt:
-
----
 
 
 You are a **Senior Machine Learning Documentation Engineer**.
