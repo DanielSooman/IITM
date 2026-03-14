@@ -1,7 +1,18 @@
-# MLF
+<details>
+  <summary>MLF</summary>
+  
+
+</details>
 
 
-# PDSA
+<details>
+  <summary>PDSA</summary>
+  
 
+</details>
 
-# DBMS
+<details>
+  <summary>DBMS</summary>
+  
+
+</details>
