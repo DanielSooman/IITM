@@ -7,6 +7,9 @@
 ![Linear Approximation
 ](https://snipboard.io/BGow2j.jpg)
 ![b](https://snipboard.io/FYdjhP.jpg)
+
+![a](https://snipboard.io/pXJCHR.jpg)
+
 </details>
 
 
