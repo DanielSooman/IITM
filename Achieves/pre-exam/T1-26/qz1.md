@@ -26,11 +26,22 @@
 </details>
 
 
+
+---
+
+
+
 <details>
   <summary>PDSA</summary>
   
+  ![sa](https://snipboard.io/Yp6Hvz.jpg)
 
 </details>
+
+
+
+---
+
 
 <details>
   <summary>DBMS</summary>
