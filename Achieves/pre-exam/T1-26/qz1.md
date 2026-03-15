@@ -54,5 +54,5 @@
 <details>
   <summary>DBMS</summary>
   
-
+![jshg](https://snipboard.io/qXNPO6.jpg)
 </details>
