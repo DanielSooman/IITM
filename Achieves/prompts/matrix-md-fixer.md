@@ -39,7 +39,7 @@ Do NOT modify any other parts of the document.
 5. Ensure matrix environments are properly formatted:
 
    * Each row on a new line
-   * Use `\\` correctly
+   * Use `\\\` instead of `\\` correctly
    * No text outside math inside the matrix
 
 6. Do NOT:
