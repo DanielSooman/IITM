@@ -26,6 +26,7 @@
 
 <details>
   <summary>DBMS</summary>
+<img width="1050" height="245" alt="image" src="https://github.com/user-attachments/assets/3b547f5f-d6f5-47c8-bb4f-c46cf1521754" />
 
 
 </details>
