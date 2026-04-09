@@ -1,3 +1,6 @@
+
+<img width="1045" height="45" alt="image" src="https://github.com/user-attachments/assets/c81f467c-246e-4997-890b-73e87e7e6f66" />
+
 To find the second-order approximate value of $f(10)$, we use the **Taylor series expansion** centered at $a = 20$.
 
 The second-order Taylor polynomial $P_2(x)$ for a function $f(x)$ at $x=a$ is given by:
