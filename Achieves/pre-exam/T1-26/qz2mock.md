@@ -374,3 +374,193 @@ Let's analyze each statement with respect to a square Hermitian matrix \( A \) o
 - If \( A \) is a Hermitian matrix, and \( k \) is any real scalar, then \( kA \) is also a Hermitian matrix.
 - For every \( a_{ij} \in A \), \( \overline{a_{ij}} = a_{ji} \) for all \( (1 \leq i, j \leq n) \).
 - Every diagonal element of the matrix \( A \) is a real number.
+
+
+
+
+
+
+
+
+<img width="653" height="546" alt="image" src="https://github.com/user-attachments/assets/80e60340-d97e-466a-af50-202de4592d16" />
+
+
+
+
+
+
+
+To find the best rank one approximation of the matrix
+\[ A = \begin{bmatrix} 2 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix}, \]
+we use the **Singular Value Decomposition (SVD)** method.
+
+### Step-by-Step Solution:
+
+1. **Compute \( A^T A \):**
+   \[
+   A^T A = \begin{bmatrix} 2 & 0 & 0 \\ 0 & -3 & 0 \end{bmatrix} \begin{bmatrix} 2 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix} = \begin{bmatrix} 4 & 0 \\ 0 & 9 \end{bmatrix}
+   \]
+
+2. **Find the eigenvalues of \( A^T A \):**
+   The eigenvalues are \( 9 \) and \( 4 \).
+
+3. **Compute the singular values:**
+   The singular values \( \sigma_1 \) and \( \sigma_2 \) are the square roots of the eigenvalues:
+   \[
+   \sigma_1 = 3, \quad \sigma_2 = 2
+   \]
+
+4. **Construct the best rank one approximation:**
+   The best rank one approximation of \( A \) is given by:
+   \[
+   A_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T
+   \]
+   where \( \mathbf{u}_1 \) and \( \mathbf{v}_1 \) are the left and right singular vectors corresponding to the largest singular value \( \sigma_1 = 3 \).
+
+   - The right singular vector \( \mathbf{v}_1 \) corresponding to \( \sigma_1^2 = 9 \) is \( \begin{bmatrix} 0 \\ 1 \end{bmatrix} \).
+   - The left singular vector \( \mathbf{u}_1 \) is obtained by \( A \mathbf{v}_1 / \sigma_1 \):
+     \[
+     A \mathbf{v}_1 = \begin{bmatrix} 2 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix} \begin{bmatrix} 0 \\ 1 \end{bmatrix} = \begin{bmatrix} 0 \\ -3 \\ 0 \end{bmatrix}
+     \]
+     \[
+     \mathbf{u}_1 = \frac{1}{3} \begin{bmatrix} 0 \\ -3 \\ 0 \end{bmatrix} = \begin{bmatrix} 0 \\ -1 \\ 0 \end{bmatrix}
+     \]
+
+   - Therefore, the best rank one approximation is:
+     \[
+     A_1 = 3 \cdot \begin{bmatrix} 0 \\ -1 \\ 0 \end{bmatrix} \begin{bmatrix} 0 & 1 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix}
+     \]
+
+### Conclusion:
+The best rank one approximation of \( A \) is:
+\[
+\boxed{
+\begin{bmatrix} 0 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix}
+}
+\]
+
+
+
+
+
+
+
+<img width="1078" height="422" alt="image" src="https://github.com/user-attachments/assets/5093f884-8234-469a-ab3c-ef63facf6947" />
+
+To determine which option correctly represents the projected data points \(x'_1, x'_2, x'_3, x'_4\) after one-dimensional PCA, we need to understand how PCA projects data onto the first principal component.
+
+### Step-by-Step Reasoning
+
+1. **PCA Projection**:
+   In PCA, the first principal component is the direction in the data that maximizes variance. The projection of each data point onto this component is given by the mean-centered data multiplied by the first principal component vector.
+
+2. **Mean Centering**:
+   The first step in PCA is to center the data by subtracting the mean of each feature. The mean of the given data points \(x_1, x_2, x_3, x_4\) is:
+   \[
+   \text{Mean} = \left[\frac{-4 + (-2) + 2 + 4}{4}, \frac{4 + 2 + (-2) + (-4)}{4}\right] = \left[0, 0\right]
+   \]
+   Since the mean is \([0, 0]\), the data is already centered.
+
+3. **Covariance Matrix**:
+   The covariance matrix \(C\) for the centered data is:
+   \[
+   C = \frac{1}{n-1} \sum_{i=1}^{n} x_i x_i^T
+   \]
+   For the given data:
+   \[
+   C = \frac{1}{3} \left( \begin{bmatrix} -4 \\ 4 \end{bmatrix} \begin{bmatrix} -4 & 4 \end{bmatrix} + \begin{bmatrix} -2 \\ 2 \end{bmatrix} \begin{bmatrix} -2 & 2 \end{bmatrix} + \begin{bmatrix} 2 \\ -2 \end{bmatrix} \begin{bmatrix} 2 & -2 \end{bmatrix} + \begin{bmatrix} 4 \\ -4 \end{bmatrix} \begin{bmatrix} 4 & -4 \end{bmatrix} \right)
+   \]
+   Simplifying:
+   \[
+   C = \frac{1}{3} \begin{bmatrix} 40 & -40 \\ -40 & 40 \end{bmatrix}
+   \]
+
+4. **Eigenvalues and Eigenvectors**:
+   The eigenvalues of \(C\) are \(80/3\) and \(0\), with corresponding eigenvectors \(\begin{bmatrix} 1 \\ -1 \end{bmatrix}\) and \(\begin{bmatrix} 1 \\ 1 \end{bmatrix}\).
+
+   The first principal component is the eigenvector corresponding to the largest eigenvalue, which is \(\begin{bmatrix} 1 \\ -1 \end{bmatrix}\).
+
+5. **Projection**:
+   The projection of each data point onto the first principal component is:
+   \[
+   x'_i = \frac{x_i \cdot v}{\|v\|}
+   \]
+   where \(v = \begin{bmatrix} 1 \\ -1 \end{bmatrix}\) and \(\|v\| = \sqrt{2}\).
+
+   For each data point:
+   \[
+   x'_1 = \frac{(-4)(1) + 4(-1)}{\sqrt{2}} = \frac{-8}{\sqrt{2}} = -4\sqrt{2}
+   \]
+   \[
+   x'_2 = \frac{(-2)(1) + 2(-1)}{\sqrt{2}} = \frac{-4}{\sqrt{2}} = -2\sqrt{2}
+   \]
+   \[
+   x'_3 = \frac{2(1) + (-2)(-1)}{\sqrt{2}} = \frac{4}{\sqrt{2}} = 2\sqrt{2}
+   \]
+   \[
+   x'_4 = \frac{4(1) + (-4)(-1)}{\sqrt{2}} = \frac{8}{\sqrt{2}} = 4\sqrt{2}
+   \]
+
+6. **Scaling**:
+   The projected values are scaled to match the format of the options. The correct projected points are:
+   \[
+   x'_1 = \begin{bmatrix} -4 \\ 4 \end{bmatrix}, \quad x'_2 = \begin{bmatrix} -2 \\ 2 \end{bmatrix}, \quad x'_3 = \begin{bmatrix} 2 \\ -2 \end{bmatrix}, \quad x'_4 = \begin{bmatrix} 4 \\ -4 \end{bmatrix}
+   \]
+
+### Conclusion
+The correct option is the one where the projected points are:
+\[
+x'_1 = \begin{bmatrix} -4 \\ 4 \end{bmatrix}, \quad x'_2 = \begin{bmatrix} -2 \\ 2 \end{bmatrix}, \quad x'_3 = \begin{bmatrix} 2 \\ -2 \end{bmatrix}, \quad x'_4 = \begin{bmatrix} 4 \\ -4 \end{bmatrix}
+\]
+
+**This corresponds to option 3.**
+
+
+
+
+<img width="1225" height="128" alt="image" src="https://github.com/user-attachments/assets/f67d7e22-e993-4517-95c4-c58c40434ee2" />
+
+
+
+To find the maximum area of a rectangle inscribed in the given ellipse, we can use the properties of the ellipse equation and some basic calculus or trigonometry.
+
+### 1. Identify the Ellipse Parameters
+The given equation is:
+$$\frac{x^2}{2} + y^2 = 1$$
+
+This is a standard ellipse equation of the form $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, where:
+* $a^2 = 2 \implies a = \sqrt{2}$
+* $b^2 = 1 \implies b = 1$
+
+### 2. Set Up the Area Equation
+Let a corner of the rectangle in the first quadrant be the point $(x, y)$. Because of the symmetry of the ellipse, the dimensions of the inscribed rectangle will be $2x$ (width) and $2y$ (height).
+
+The area $A$ is given by:
+$$A = (2x)(2y) = 4xy$$
+
+### 3. Use Parametric Coordinates
+For any point on the ellipse, we can represent $x$ and $y$ using a parameter $\theta$:
+* $x = a \cos(\theta) = \sqrt{2} \cos(\theta)$
+* $y = b \sin(\theta) = 1 \sin(\theta)$
+
+Substitute these into the area formula:
+$$A = 4(\sqrt{2} \cos\theta)(\sin\theta)$$
+$$A = 2\sqrt{2} (2 \sin\theta \cos\theta)$$
+
+Using the double-angle identity $2 \sin\theta \cos\theta = \sin(2\theta)$:
+$$A = 2\sqrt{2} \sin(2\theta)$$
+
+
+### 4. Maximize the Area
+The sine function $\sin(2\theta)$ reaches its maximum value of **1** when $2\theta = 90^\circ$.
+
+Therefore, the maximum area is:
+$$A_{max} = 2\sqrt{2}$$
+
+### 5. Calculate the Final Value
+Using the approximation $\sqrt{2} \approx 1.4142$:
+$$A_{max} = 2 \times 1.41421... = 2.82842...$$
+
+**Final Answer:**
+Rounding to 2 decimal places as requested:
+**2.83**
