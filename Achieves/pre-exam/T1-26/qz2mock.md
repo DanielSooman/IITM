@@ -87,3 +87,29 @@ So the sum of the eigenvalues of the covariance matrix is 1.33.
 \]
 
 ✅ **Final Answer: 1.33**
+
+
+
+
+
+<img width="807" height="367" alt="image" src="https://github.com/user-attachments/assets/c2b6d3ff-81fc-4e42-846b-912a813511d8" />
+For a matrix that’s both **unitary** and **Hermitian**, the eigenvalues are constrained by both properties:
+
+### What each property forces
+- **Hermitian** $A = A^H$: All eigenvalues must be **real**  
+  So we can immediately rule out $i$, because it’s not real.
+
+- **Unitary** $A^HA = I$: All eigenvalues must satisfy $|\lambda| = 1$  
+  So we rule out $0$, $2$, and $-2$ because $|0| \neq 1$, $|2| \neq 1$, $|-2| \neq 1$.
+
+### Combine the conditions
+You need $\lambda$ to be real **and** have absolute value 1. 
+
+The only real numbers with $|\lambda| = 1$ are:
+$$\lambda = 1 \text{ and } \lambda = -1$$
+
+**Correct answers from your list:** 
+- $1$
+- $-1$
+
+Quick check: The Pauli matrices like $\sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$ are both Hermitian and unitary, and their eigenvalues are $1, -1$. Matrices like $I$ are also both, with eigenvalues $1, 1$.
