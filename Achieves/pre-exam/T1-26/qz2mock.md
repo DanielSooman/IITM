@@ -156,3 +156,56 @@ The matrix $A$ is positive definite if and only if $-4 < b < 4$.
 
 So, the correct answer is:
 **$-4 < b < 4$**
+
+
+
+
+<img width="1166" height="117" alt="image" src="https://github.com/user-attachments/assets/1b60296a-6f35-49cc-90e2-9c42a4b27661" />
+
+To find the projected variance onto the first principal component, we need to calculate the largest eigenvalue of the covariance matrix of the data. 
+
+Here is the step-by-step derivation:
+
+### 1. Find the Sample Mean
+First, we calculate the mean vector $\mu$ for the data points $x_1, x_2, x_3$:
+
+$$\mu = \frac{1}{3} \left( \begin{bmatrix} 1 \\ 2 \end{bmatrix} + \begin{bmatrix} 0 \\ 0 \end{bmatrix} + \begin{bmatrix} 2 \\ 1 \end{bmatrix} \right) = \frac{1}{3} \begin{bmatrix} 3 \\ 3 \end{bmatrix} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$$
+
+### 2. Center the Data
+Subtract the mean from each data point to get the centered vectors $z_i = x_i - \mu$:
+
+* $z_1 = \begin{bmatrix} 1 \\ 2 \end{bmatrix} - \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$
+* $z_2 = \begin{bmatrix} 0 \\ 0 \end{bmatrix} - \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} -1 \\ -1 \end{bmatrix}$
+* $z_3 = \begin{bmatrix} 2 \\ 1 \end{bmatrix} - \begin{bmatrix} 1 \\ 1 \end{bmatrix} = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$
+
+### 3. Compute the Covariance Matrix
+The sample covariance matrix $S$ (using the $\frac{1}{n}$ convention commonly used in these ML contexts) is:
+
+$$S = \frac{1}{3} \sum_{i=1}^3 z_i z_i^T$$
+
+$$z_1 z_1^T = \begin{bmatrix} 0 \\ 1 \end{bmatrix} \begin{bmatrix} 0 & 1 \end{bmatrix} = \begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}$$
+$$z_2 z_2^T = \begin{bmatrix} -1 \\ -1 \end{bmatrix} \begin{bmatrix} -1 & -1 \end{bmatrix} = \begin{bmatrix} 1 & 1 \\ 1 & 1 \end{bmatrix}$$
+$$z_3 z_3^T = \begin{bmatrix} 1 \\ 0 \end{bmatrix} \begin{bmatrix} 1 & 0 \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}$$
+
+Summing these and dividing by 3:
+$$S = \frac{1}{3} \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix} = \begin{bmatrix} 2/3 & 1/3 \\ 1/3 & 2/3 \end{bmatrix}$$
+
+### 4. Find the First Principal Component (Largest Eigenvalue)
+The projected variance onto the first principal component is equal to the largest eigenvalue $\lambda_1$ of the covariance matrix $S$.
+
+We solve the characteristic equation $\det(S - \lambda I) = 0$:
+$$\det \begin{bmatrix} 2/3 - \lambda & 1/3 \\ 1/3 & 2/3 - \lambda \end{bmatrix} = 0$$
+$$(2/3 - \lambda)^2 - (1/3)^2 = 0$$
+$$(2/3 - \lambda)^2 = 1/9$$
+
+Taking the square root:
+$$2/3 - \lambda = \pm 1/3$$
+
+* $\lambda_1 = 2/3 + 1/3 = 1$
+* $\lambda_2 = 2/3 - 1/3 = 1/3$
+
+The largest eigenvalue is **1**.
+
+> **Note:** If your specific curriculum uses the unbiased estimator (dividing by $n-1$ instead of $n$), the result would be $\frac{3}{2} = 1.50$. However, in standard introductory ML datasets of this type, the population variance ($1/n$) is typically expected.
+
+**Projected Variance:** **1.00**
