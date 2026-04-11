@@ -22,6 +22,144 @@
 
 
 
+Great question! Let me explain **how the tree is built first** — that's what determines the bits! 😊
+
+---
+
+## The Tree is Built by This ONE Rule:
+> ### Always combine the 2 SMALLEST frequencies first!
+
+---
+
+## Step by Step — Watch Carefully:
+
+### Starting list (sorted):
+```
+D=2,  B=5,  C=6,  A=11,  E=12,  F=24
+```
+
+---
+
+### Step 1: Take 2 smallest → D(2) and B(5)
+```
+Combine them → new node = 2+5 = 7
+
+       [7]
+      /   \
+    D(2)  B(5)
+     0      1
+```
+> D gets 0, B gets 1 (just left=0, right=1)
+
+New list:
+```
+C=6,  [DB]=7,  A=11,  E=12,  F=24
+```
+
+---
+
+### Step 2: Take 2 smallest → C(6) and DB(7)
+```
+Combine them → new node = 6+7 = 13
+
+        [13]
+       /    \
+     C(6)  [7]
+      0    /   \
+         D(2)  B(5)
+          0      1
+```
+> C gets 0, the DB group gets 1
+
+New list:
+```
+A=11,  E=12,  [CDB]=13,  F=24
+```
+
+---
+
+### Step 3: Take 2 smallest → A(11) and E(12)
+```
+Combine them → new node = 11+12 = 23
+
+       [23]
+      /    \
+    A(11)  E(12)
+      0      1
+```
+
+New list:
+```
+[CDB]=13,  F=24,  [AE]=23
+```
+
+---
+
+### Step 4: Take 2 smallest → CDB(13) and AE(23)
+```
+Combine them → new node = 13+23 = 36
+
+           [36]
+          /    \
+       [13]    [23]
+       /  \    /  \
+      C   DB  A    E
+      0    1  0    1
+```
+
+New list:
+```
+F=24,  [CDBAЕ]=36
+```
+
+---
+
+### Step 5: Last two → F(24) and CDBAЕ(36)
+```
+Final Tree (ROOT = 60):
+
+              [60]
+             /    \
+           F(24) [36]
+             0   /    \
+              [13]    [23]
+              /  \    /  \
+            C(6) [7] A(11) E(12)
+             0   1    0     1
+                / \
+             D(2) B(5)
+              0    1
+```
+
+---
+
+## Now Read the Codes:
+
+| Letter | Path from ROOT | Code |
+|--------|---------------|------|
+| F | Left | **0** |
+| C | Right→Left→Left | **100** |
+| D | Right→Left→Right→Left | **1010** |
+| B | Right→Left→Right→Right | **1011** |
+| A | Right→Right→Left | **110** |
+| E | Right→Right→Right | **111** |
+
+---
+
+## Why does F get shortest code "0"?
+> Because **F had the BIGGEST frequency (24)**, so it got combined LAST → it sits closest to the ROOT → shortest path!
+
+## Why does D get longest code "1010"?
+> Because **D had the SMALLEST frequency (2)**, so it got combined FIRST → it sits deepest in tree → longest path!
+
+---
+
+## 🎯 The Golden Rule:
+> **Big frequency = combined late = close to root = SHORT code**
+> **Small frequency = combined early = deep in tree = LONG code**
+
+Does this clear it up? 😊
+
 </details>
 
 
