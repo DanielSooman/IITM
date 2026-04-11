@@ -15,8 +15,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <details>
   <summary>PDSA</summary>
+
+
+  <img width="1023" height="550" alt="image" src="https://github.com/user-attachments/assets/d0c7f517-5e53-4934-9d10-373779fdc5e2" />
+
   <img width="1067" height="306" alt="image" src="https://github.com/user-attachments/assets/d877bb48-9a01-484b-90d4-431c56f19934" />
 
 Minimum Binary
