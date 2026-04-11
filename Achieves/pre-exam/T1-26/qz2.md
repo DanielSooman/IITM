@@ -56,4 +56,47 @@
 <img width="1060" height="436" alt="image" src="https://github.com/user-attachments/assets/2546137a-2c05-498b-a115-607f739159cd" />
 
 
+## Solution
+
+**Given information:**
+- Tracks per surface = 128
+- Sectors per track = 512
+- Bytes per sector = 256
+- Minimum bits required to address a sector = 21
+
+---
+
+### Setting Up the Address Structure
+
+To access any sector on the disk, we need to address:
+
+| Field | Value | Bits Required |
+|-------|-------|---------------|
+| Sector within a track | 512 = 2⁹ | **9 bits** |
+| Track (cylinder) | 128 = 2⁷ | **7 bits** |
+| Surface (head) | ? | **? bits** |
+
+---
+
+### Calculating Bits for Surface Selection
+
+Total bits = bits for sector + bits for track + bits for surface
+
+$$21 = 9 + 7 + \text{bits for surface}$$
+
+$$\text{Bits for surface} = 21 - 9 - 7 = \boxed{5 \text{ bits}}$$
+
+---
+
+### Finding Number of Platters
+
+- 5 bits → **2⁵ = 32 surfaces**
+- Each platter has **2 surfaces**
+
+$$\text{Number of platters} = \frac{32}{2} = \boxed{16 \text{ platters}}$$
+
+---
+
+### ✅ Answer: **16 Platters**
+
 </details>
