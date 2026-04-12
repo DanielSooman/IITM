@@ -7,7 +7,36 @@
 <img width="762" height="502" alt="image" src="https://github.com/user-attachments/assets/8b1d866a-ff23-467e-ad2a-2df047ba2fa9" />
 <img width="1085" height="440" alt="image" src="https://github.com/user-attachments/assets/68d03103-21e0-48f0-8ce5-aa84729ac1c1" />
 
+## Finding the Best Rank-1 Approximation
 
+The best rank-1 approximation of a matrix comes from its **SVD**: A = UΣVᵀ, using only the **largest singular value** σ₁:
+
+$$A_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T$$
+
+### Step 1: Find Singular Values
+
+The singular values are the square roots of the eigenvalues of AᵀA.
+
+$$A^T A = \begin{bmatrix} 2 & 0 & 0 \\ 0 & -3 & 0 \end{bmatrix} \begin{bmatrix} 2 & 0 \\ 0 & -3 \\ 0 & 0 \end{bmatrix} = \begin{bmatrix} 4 & 0 \\ 0 & 9 \end{bmatrix}$$
+
+Eigenvalues of AᵀA: **λ₁ = 9, λ₂ = 4**
+
+Singular values: **σ₁ = 3, σ₂ = 2**
+
+### Step 2: Find the Rank-1 Approximation
+
+The **largest singular value is σ₁ = 3**, corresponding to the second column/row.
+
+- Right singular vector **v₁ = [0, 1]ᵀ** (eigenvector for λ = 9)
+- Left singular vector: **u₁ = Av₁/σ₁ = [0, -3, 0]ᵀ / 3 = [0, -1, 0]ᵀ**
+
+$$A_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T = 3 \cdot \begin{bmatrix}0\\-1\\0\end{bmatrix} [0 \ \ 1] = \begin{bmatrix}0 & 0\\0 & -3\\0 & 0\end{bmatrix}$$
+
+### Answer
+
+$$\boxed{\begin{bmatrix}0 & 0\\0 & -3\\0 & 0\end{bmatrix}}$$
+
+The selected answer (last option) is **correct** ✓
 </details>
 
 
