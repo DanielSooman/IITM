@@ -37,9 +37,16 @@ $$A_1 = \sigma_1 \mathbf{u}_1 \mathbf{v}_1^T = 3 \cdot \begin{bmatrix}0\\-1\\0\e
 $$\boxed{\begin{bmatrix}0 & 0\\0 & -3\\0 & 0\end{bmatrix}}$$
 
 The selected answer (last option) is **correct** ✓
-</details>
+
+
+
 
 <img width="908" height="333" alt="image" src="https://github.com/user-attachments/assets/958bb9df-c147-4739-9bd0-a71e7df95da9" />
+
+
+
+</details>
+
 
 
 ---
