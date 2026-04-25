@@ -120,3 +120,42 @@ def deleteFirst(head):
         return None
     return head.next
 ```
+
+
+
+
+
+
+
+
+# BST
+
+
+<img width="709" height="586" alt="image" src="https://github.com/user-attachments/assets/a5d558af-18d8-45c2-80af-1e6b52753081" />
+```
+class Node:
+    def __init__(self,data):
+        self.left = None
+        self.data = data
+        self.right = None
+def insert_element(root,k):
+
+
+    if root is None:
+        return Node(k)
+
+
+    if k < root.data:
+        if root.left is None:
+            root.left = Node(k)
+        else:
+            insert_element(root.left, k)
+            
+    elif k > root.data:
+        if root.right is None:
+            root.right = Node(k)
+        else:
+            insert_element(root.right, k)
+    
+
+```
