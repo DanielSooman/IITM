@@ -41,22 +41,36 @@ def reverse_k_group(head, k):
 [cite_start]A frequently recurring topic in previous exams[cite: 8].
 
 ```python
-def mergeTwoLists(l1, l2):
-    dummy = ListNode()
-    tail = dummy
+def mergeSortedList(head1,head2):
     
-    while l1 and l2:
-        if l1.val < l2.val:
-            tail.next = l1
-            l1 = l1.next
-        else:
-            tail.next = l2
-            l2 = l2.next
-        tail = tail.next
+    l = []
+    t1 = head1
+    t2 = head2
     
-    # Attach remaining nodes
-    tail.next = l1 or l2
-    return dummy.next
+    
+    while t1:
+        l.append(t1.data)
+        t1 = t1.next
+        
+        
+    while t2:
+        l.append(t2.data)
+        
+        t2 = t2.next
+        
+        
+    l.sort()
+    
+    
+    head3 = Node(l[0])
+    
+    t3 = head3
+    
+    for i in range(1,len(l)):
+        t3.next = Node(l[i])
+        t3 = t3.next
+        
+    return head3
 ```
 
 ---
