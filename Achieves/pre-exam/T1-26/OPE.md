@@ -79,16 +79,16 @@ def mergeSortedList(head1,head2):
 [cite_start]Another common basic operation identified in the trends[cite: 8].
 
 ```python
-def deleteDuplicates(head):
+def removeDuplicate(head):
+    
     curr = head
+    
     while curr and curr.next:
-        if curr.val == curr.next.val:
-            # Skip the next node
+        if curr.data == curr.next.data:
             curr.next = curr.next.next
+            
         else:
-            # Move to next unique node
             curr = curr.next
-    return head
 ```
 
 ---
