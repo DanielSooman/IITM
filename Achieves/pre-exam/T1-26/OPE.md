@@ -132,7 +132,9 @@ def deleteFirst(head):
 
 
 <img width="709" height="586" alt="image" src="https://github.com/user-attachments/assets/a5d558af-18d8-45c2-80af-1e6b52753081" />
-```
+
+
+```python
 class Node:
     def __init__(self,data):
         self.left = None
