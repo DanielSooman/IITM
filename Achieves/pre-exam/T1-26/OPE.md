@@ -122,7 +122,250 @@ def deleteFirst(head):
 ```
 
 
+Here's clean, exam-ready code for all requested variations:
 
+---
+
+### Node Class (use this everywhere)
+```python
+class Node:
+    def __init__(self, data=None):
+        self.data = data
+        self.next = None
+```
+
+---
+
+### Variation 1 — Insert at Beginning
+```python
+def insert_at_start(head, data):
+    new_node = Node(data)
+    new_node.next = head      # point new node to current head
+    head = new_node           # new node becomes the new head
+    return head
+
+# Example usage:
+# head → [3,5,7]  →  after insert_at_start(head, 1)  →  [1,3,5,7]
+```
+
+---
+
+### Variation 2 — Insert at Position
+```python
+def insert_at_position(head, data, pos):
+    new_node = Node(data)
+
+    if pos == 0:                        # insert at beginning
+        new_node.next = head
+        return new_node
+
+    curr = head
+    for i in range(pos - 1):           # walk to node just BEFORE pos
+        if curr is None:
+            return head                 # pos out of range, do nothing
+        curr = curr.next
+
+    new_node.next = curr.next           # new node points to next
+    curr.next = new_node                # previous node points to new node
+    return head
+
+# Example:
+# [1,3,7,9], data=5, pos=2  →  [1,3,5,7,9]
+```
+
+---
+
+### Variation 5 — Search / Find
+```python
+def search(head, key):
+    curr = head
+    index = 0
+
+    while curr is not None:
+        if curr.data == key:
+            return index            # found, return index
+        curr = curr.next
+        index += 1
+
+    return -1                       # not found
+
+# Example:
+# [1,3,5,7,9], key=5  →  2
+# [1,3,5,7,9], key=4  →  -1
+```
+
+---
+
+### Variation 7 — Print in Reverse (without reversing)
+```python
+# METHOD 1: Using recursion (cleanest for exam)
+def print_reverse(head):
+    if head is None:
+        return
+    print_reverse(head.next)       # go to end first
+    print(head.data, end=" ")      # print while returning back
+
+# METHOD 2: Using a stack
+def print_reverse_stack(head):
+    stack = []
+    curr = head
+
+    while curr is not None:        # push all nodes onto stack
+        stack.append(curr.data)
+        curr = curr.next
+
+    while stack:                   # pop = reverse order
+        print(stack.pop(), end=" ")
+
+# Example:
+# [1,3,5,7,9]  →  9 7 5 3 1
+```
+
+---
+
+### Variation 6 — Reverse a Linked List ⭐
+```python
+def reverse_list(head):
+    prev = None
+    curr = head
+
+    while curr is not None:
+        next_node = curr.next      # save next
+        curr.next = prev           # reverse the pointer
+        prev = curr                # move prev forward
+        curr = next_node           # move curr forward
+
+    return prev                    # prev is now the new head
+
+# Dry run on [1,3,5]:
+# Step 1: prev=None,  curr=1  →  1→None,  prev=1,  curr=3
+# Step 2: prev=1,     curr=3  →  3→1,     prev=3,  curr=5
+# Step 3: prev=3,     curr=5  →  5→3,     prev=5,  curr=None
+# return prev = 5   →  [5,3,1] ✓
+```
+
+---
+
+### Variation 9 — Find Middle Element ⭐
+```python
+def find_middle(head):
+    slow = head
+    fast = head
+
+    while fast is not None and fast.next is not None:
+        slow = slow.next           # moves 1 step
+        fast = fast.next.next      # moves 2 steps
+
+    return slow.data               # slow is at middle when fast reaches end
+
+# Dry run on [1,2,3,4,5]:
+# slow=1, fast=1
+# slow=2, fast=3
+# slow=3, fast=5
+# fast.next is None → stop → return slow.data = 3 ✓
+
+# For even length [1,2,3,4]:
+# slow=1,fast=1 → slow=2,fast=3 → slow=3,fast=None → stop → return 3
+# (returns upper middle for even length)
+```
+
+---
+
+### Variation 8 — Find Length
+```python
+# METHOD 1: Iterative
+def length(head):
+    count = 0
+    curr = head
+
+    while curr is not None:
+        count += 1
+        curr = curr.next
+
+    return count
+
+# METHOD 2: Recursive (bonus)
+def length_recursive(head):
+    if head is None:
+        return 0
+    return 1 + length_recursive(head.next)
+
+# Example:
+# [1,3,5,7,9]  →  5
+```
+
+---
+
+### Variation 13 — Intersection of Two Lists
+```python
+def intersection(head1, head2):
+    # Store all values of list2 in a set for O(1) lookup
+    values = set()
+    curr = head2
+
+    while curr is not None:
+        values.add(curr.data)
+        curr = curr.next
+
+    # Build result list with common values
+    result_head = None
+    result_tail = None
+    curr = head1
+
+    while curr is not None:
+        if curr.data in values:              # common element found
+            new_node = Node(curr.data)
+            if result_head is None:          # first common element
+                result_head = new_node
+                result_tail = new_node
+            else:
+                result_tail.next = new_node  # append to result
+                result_tail = new_node
+        curr = curr.next
+
+    return result_head
+
+# Example:
+# [1,3,5,7] and [3,6,7,9]  →  [3,7]
+```
+
+---
+
+### Variation 15 — Sum of Linked List
+```python
+# METHOD 1: Iterative
+def list_sum(head):
+    total = 0
+    curr = head
+
+    while curr is not None:
+        total += curr.data
+        curr = curr.next
+
+    return total
+
+# METHOD 2: Recursive (bonus)
+def list_sum_recursive(head):
+    if head is None:
+        return 0
+    return head.data + list_sum_recursive(head.next)
+
+# Example:
+# [1,3,5,7,9]  →  25
+```
+
+---
+
+## 📌 Exam Pattern Reminder
+
+| Question asks | What to return |
+|--------------|----------------|
+| "return the head" | `return head` / `return new_node` |
+| "should not return anything" | just modify `curr.next` in-place |
+| "return the value/data" | `return curr.data` not the node |
+| "return -1 if not found" | always add the `-1` case |
+
+> Always check whether the function returns a **node reference** or **data value** — PYQs have both styles and mixing them up costs marks.
 
 
 
