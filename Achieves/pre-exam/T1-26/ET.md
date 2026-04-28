@@ -81,4 +81,35 @@ Several question templates are recycled with different numerical inputs:
 ══════════════════════════════════
 ### DBMS
 ══════════════════════════════════
+
+
+| Unit | Topic | Times Asked | Question Type | Marks | Priority |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **W5/6** | **Functional Dependencies & Normalization** (Candidate Keys, 3NF/BCNF/4NF, Lossless Decomposition) | 12+ | MSQ / MCQ | 2 - 3 | **HIGH** |
+| **W11** | **Recovery Management** (Log records: Undo/Redo values, Checkpoints, Immediate Modification) | 10+ | MCQ / SA | 3 | **HIGH** |
+| **W10** | **Transaction Serializability** (Conflict/View Serializability, Precedence Graphs, 2PL Protocols) | 10+ | MSQ / MCQ | 2 - 3 | **HIGH** |
+| **W9** | **B+ Trees** (Node splits on insertion, Maximum order calculations, Root node identification) | 9+ | MCQ / SA | 2 - 4 | **HIGH** |
+| **W3** | **Advanced SQL** (Joins, Aggregates, GROUP BY / HAVING, Nested Queries, Views) | 9+ | MSQ / MCQ | 2 - 4 | **HIGH** |
+| **W11** | **Backup Schedules** (Full, Incremental, Differential recovery set counts) | 7 | MCQ / SA | 2 - 3 | **HIGH** |
+| **W12** | **Query Optimization** (Block Nested Loop Join: transfers and inner relation blocks) | 6 | SA (Numeric) | 3 | **HIGH** |
+| **W2/4** | **Relational Model & Algebra** (RA / TRC / DRC Equivalencies, Integrity Constraints) | 6 | MSQ | 2 - 3 | **MEDIUM** |
+| **W9** | **Bitmap Indices** (Size calculation, Bitwise AND/OR operations on tables) | 5 | MCQ | 2 | **MEDIUM** |
+| **W8** | **Storage Management** (RAID Efficiency, Seek time, and Rotational Speed calculations) | 5 | MCQ / SA | 1 - 3 | **MEDIUM** |
+| **W1/4** | **Database Design** (ER Diagram to Table mapping, Weak Entities, Primary Key ID) | 4 | MCQ / MSQ | 1 - 3 | **MEDIUM** |
+| **W9** | **Hashing** (Static vs. Dynamic Hashing properties, Bucket counts) | 3 | MSQ / SA | 2 - 4 | **LOW** |
+| **W7** | **Application Development** (Python `psycopg2` cursor operations) | 1 | SA | 2 | **LOW** |
+
+---
+
+### PATTERN OBSERVATIONS
+
+1.  **The "Compulsory" Join Calculation:** Every term paper features a variation of the **Block Nested Loop Join** problem. You are typically given the total block transfers and outer relation blocks and asked to find the inner relation blocks.
+2.  **Recovery Constants:** The **Log Record Table** is a staple. You will consistently be asked to identify disk values after a crash based on whether transactions committed before or after a checkpoint.
+3.  **Normalization Logic:** Questions regarding **3NF vs. BCNF** often use ChatGPT-style prompts (e.g., "We asked ChatGPT to decompose...") and ask you to verify if the output is dependency-preserving or lossless.
+4.  **The Calendar Backup:** The 30-day backup schedule is a recurring visual aid. The logic is identical across papers: Full backup on Day 1, with shifting Differential/Incremental marks. You must calculate the number of sets needed for a specific crash day.
+5.  **B+ Tree Splits:** You are frequently given a sequence of numbers and asked for the number of **node splits** in an order-3 or order-4 tree.
+6.  **ACID Matching:** A standard 2-mark MCQ requires matching real-world scenarios (like money transfer or concurrent execution) to **Atomicity, Consistency, Isolation, and Durability**.
+
+
+
 </details>
