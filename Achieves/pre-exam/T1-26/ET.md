@@ -137,6 +137,9 @@ Several question templates are recycled with different numerical inputs:
 <details>
   <summary>PDSA</summary>
 
+<img width="836" height="370" alt="image" src="https://github.com/user-attachments/assets/8aed4b25-1739-4da3-9ed5-67c1d8984908" />
+
+
 </details>
 
 
