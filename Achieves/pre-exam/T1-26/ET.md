@@ -219,6 +219,13 @@ This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply
    - branches = 2, depth = log n → n
 ```
 
+
+
+
+<img width="1134" height="325" alt="image" src="https://github.com/user-attachments/assets/02236db9-78e7-4433-9e36-ef896075a5ce" />
+
+<img width="1166" height="145" alt="image" src="https://github.com/user-attachments/assets/febe5b5a-69b0-455b-a57a-37a3d7c15f1d" />
+
 </details>
 
 
