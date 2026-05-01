@@ -98,6 +98,12 @@ This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply
 <img width="1166" height="145" alt="image" src="https://github.com/user-attachments/assets/febe5b5a-69b0-455b-a57a-37a3d7c15f1d" />
 
 
+
+
+
+<img width="807" height="330" alt="image" src="https://github.com/user-attachments/assets/fbbef3aa-98d4-4f3d-be80-20908eb0fb60" />
+
+
 ---
 
 
