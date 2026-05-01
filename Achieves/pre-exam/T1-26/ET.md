@@ -27,6 +27,10 @@
 <details>
   <summary>PDSA</summary>
 
+
+  <img width="1144" height="465" alt="image" src="https://github.com/user-attachments/assets/7c05f2f9-e988-4a5a-a3ff-56fc9e8a01bb" />
+
+
 <img width="836" height="370" alt="image" src="https://github.com/user-attachments/assets/8aed4b25-1739-4da3-9ed5-67c1d8984908" />
 ## Solving Recurrence Relations
 
