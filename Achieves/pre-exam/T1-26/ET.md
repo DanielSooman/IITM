@@ -1,3 +1,152 @@
+
+<details>
+  <summary>MLF</summary>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>PDSA</summary>
+
+<img width="836" height="370" alt="image" src="https://github.com/user-attachments/assets/8aed4b25-1739-4da3-9ed5-67c1d8984908" />
+## Solving Recurrence Relations
+
+The recurrence here is: **T(n) = 2T(n-1) + 1**, with **T(1) = 1**
+
+---
+
+## Method 1: Repeated Substitution (Unrolling)
+
+Keep substituting the recurrence into itself:
+
+```
+T(n) = 2T(n-1) + 1
+     = 2[2T(n-2) + 1] + 1       = 2²T(n-2) + 2 + 1
+     = 2²[2T(n-3) + 1] + 2 + 1  = 2³T(n-3) + 4 + 2 + 1
+     ...
+     = 2^k · T(n-k) + 2^(k-1) + ... + 2 + 1
+```
+
+**Stop when** n - k = 1 → k = n - 1
+
+```
+T(n) = 2^(n-1) · T(1) + (2^(n-1) - 1)
+     = 2^(n-1) · 1   + 2^(n-1) - 1
+     = 2^n - 1
+```
+
+∴ **T(n) = O(2ⁿ)** ✅
+
+---
+
+## Method 2: Spot the Pattern (Quick Recognition)
+
+| Recurrence Form | Complexity |
+|---|---|
+| T(n) = T(n-1) + 1 | O(n) |
+| T(n) = T(n-1) + n | O(n²) |
+| T(n) = 2T(n/2) + n | O(n log n) |
+| T(n) = T(n/2) + 1 | O(log n) |
+| **T(n) = 2T(n-1) + 1** | **O(2ⁿ)** |
+
+> 🔑 **Key insight:** When the input **decreases by 1** (n-1) and **branches twice** (2T), you get **exponential** complexity — like recursive Fibonacci!
+
+---
+
+## Method 3: Master Theorem (Only for Divide & Conquer)
+
+Works for **T(n) = aT(n/b) + f(n)** form only.
+This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply** here.
+
+---
+
+## Quick Strategy for Exams
+
+```
+1. Is it T(n/b)?  → Try Master Theorem
+2. Is it T(n-1)?  → Use Substitution / Unrolling
+3. Count branches × depth:
+   - branches = 2, depth = n → 2ⁿ
+   - branches = 1, depth = n → n
+   - branches = 2, depth = log n → n
+```
+
+
+
+
+<img width="1134" height="325" alt="image" src="https://github.com/user-attachments/assets/02236db9-78e7-4433-9e36-ef896075a5ce" />
+
+<img width="1166" height="145" alt="image" src="https://github.com/user-attachments/assets/febe5b5a-69b0-455b-a57a-37a3d7c15f1d" />
+
+
+---
+
+
+[T1 25 PYQ Vid](https://www.youtube.com/watch?v=Vwk5FsDW07E)
+
+---
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>DBMS</summary>
+
+</details>
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
 <details>
   <summary>Syllabus</summary>
 
@@ -113,152 +262,3 @@ Several question templates are recycled with different numerical inputs:
 
 
 </details>
-
-
-
-
-
-
-
-
----
-
-
-
-
-
-
-<details>
-  <summary>MLF</summary>
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details>
-  <summary>PDSA</summary>
-
-<img width="836" height="370" alt="image" src="https://github.com/user-attachments/assets/8aed4b25-1739-4da3-9ed5-67c1d8984908" />
-## Solving Recurrence Relations
-
-The recurrence here is: **T(n) = 2T(n-1) + 1**, with **T(1) = 1**
-
----
-
-## Method 1: Repeated Substitution (Unrolling)
-
-Keep substituting the recurrence into itself:
-
-```
-T(n) = 2T(n-1) + 1
-     = 2[2T(n-2) + 1] + 1       = 2²T(n-2) + 2 + 1
-     = 2²[2T(n-3) + 1] + 2 + 1  = 2³T(n-3) + 4 + 2 + 1
-     ...
-     = 2^k · T(n-k) + 2^(k-1) + ... + 2 + 1
-```
-
-**Stop when** n - k = 1 → k = n - 1
-
-```
-T(n) = 2^(n-1) · T(1) + (2^(n-1) - 1)
-     = 2^(n-1) · 1   + 2^(n-1) - 1
-     = 2^n - 1
-```
-
-∴ **T(n) = O(2ⁿ)** ✅
-
----
-
-## Method 2: Spot the Pattern (Quick Recognition)
-
-| Recurrence Form | Complexity |
-|---|---|
-| T(n) = T(n-1) + 1 | O(n) |
-| T(n) = T(n-1) + n | O(n²) |
-| T(n) = 2T(n/2) + n | O(n log n) |
-| T(n) = T(n/2) + 1 | O(log n) |
-| **T(n) = 2T(n-1) + 1** | **O(2ⁿ)** |
-
-> 🔑 **Key insight:** When the input **decreases by 1** (n-1) and **branches twice** (2T), you get **exponential** complexity — like recursive Fibonacci!
-
----
-
-## Method 3: Master Theorem (Only for Divide & Conquer)
-
-Works for **T(n) = aT(n/b) + f(n)** form only.
-This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply** here.
-
----
-
-## Quick Strategy for Exams
-
-```
-1. Is it T(n/b)?  → Try Master Theorem
-2. Is it T(n-1)?  → Use Substitution / Unrolling
-3. Count branches × depth:
-   - branches = 2, depth = n → 2ⁿ
-   - branches = 1, depth = n → n
-   - branches = 2, depth = log n → n
-```
-
-
-
-
-<img width="1134" height="325" alt="image" src="https://github.com/user-attachments/assets/02236db9-78e7-4433-9e36-ef896075a5ce" />
-
-<img width="1166" height="145" alt="image" src="https://github.com/user-attachments/assets/febe5b5a-69b0-455b-a57a-37a3d7c15f1d" />
-
-
-
-
-
-[T1 25 PYQ Vid](https://www.youtube.com/watch?v=Vwk5FsDW07E)
-
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<details>
-  <summary>DBMS</summary>
-
-</details>
-
