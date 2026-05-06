@@ -153,6 +153,7 @@ This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply
 
 <details>
   <summary>DBMS</summary>
+<img width="755" height="403" alt="image" src="https://github.com/user-attachments/assets/14d2e566-931c-459e-a937-c404d8306528" />
 
 </details>
 
