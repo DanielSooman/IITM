@@ -6,6 +6,9 @@
 
 [Week 11, 12 Revision Vid](https://www.youtube.com/watch?v=xSO0CRa4mBY)
 
+KKT - [2 Variables and 1 Inequality Constraints](https://www.youtube.com/watch?v=Z_Yxk87z1go) 
+
+KKT - [2 Variables and 2 Inequality Constraints](https://www.youtube.com/watch?v=hFHcNNI3fX8)
 
 
 <img width="857" height="556" alt="image" src="https://github.com/user-attachments/assets/4563ee82-fb67-4826-a0e9-0b6c5c3f204a" />
