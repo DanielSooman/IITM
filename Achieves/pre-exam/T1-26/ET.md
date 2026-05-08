@@ -15,6 +15,10 @@ KKT - [2 Variables and 2 Inequality Constraints](https://www.youtube.com/watch?v
 
 <img width="875" height="322" alt="image" src="https://github.com/user-attachments/assets/b65c4ff8-7391-4ea7-982c-432a263371b9" />
 
+
+
+<img width="992" height="272" alt="image" src="https://github.com/user-attachments/assets/90c0d2f2-0232-46ae-949b-9aff54607a29" />
+
 </details>
 
 
