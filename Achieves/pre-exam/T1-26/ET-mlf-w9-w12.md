@@ -140,4 +140,165 @@ f(5, 1) = 25 + 4(1) − 10 + 8 = 25 + 4 − 10 + 8 = **27**
 
 
 
+
+
+
+
+
+
+
+<img width="751" height="325" alt="image" src="https://github.com/user-attachments/assets/58b2a839-cfb4-43e3-8197-0d7213f6947a" />
+
+
+
+  <details>
+  <summary>Sol</summary>
+
+  ## Distance of a Plane from the Origin
+
+The formula for the distance from the origin to the plane **ax + by + cz = d** is:
+
+$$D = \frac{|d|}{\sqrt{a^2 + b^2 + c^2}}$$
+
+### Applying to x + y − 2z = 6
+
+Here: a = 1, b = 1, c = −2, d = 6
+
+$$D = \frac{|6|}{\sqrt{1^2 + 1^2 + (-2)^2}}$$
+
+$$D = \frac{6}{\sqrt{1 + 1 + 4}} = \frac{6}{\sqrt{6}}$$
+
+$$D = \frac{6}{\sqrt{6}} = \frac{6\sqrt{6}}{6} = \sqrt{6}$$
+
+$$\boxed{D = \sqrt{6} \approx 2.449...  \approx 2.45}$$
+
+### Why the accepted range is 2.30 – 2.60
+
+√6 ≈ 2.449, which falls within the accepted range of **2.30 to 2.60**. The answer **2.39** was also accepted as it lies within that range (likely a rounding/approximation was used).
+
+The **exact answer is √6 ≈ 2.45**.
+
+  </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="1100" height="321" alt="image" src="https://github.com/user-attachments/assets/8ac2d511-4c4f-4004-909f-88e076d5aeeb" />
+
+  <details>
+  <summary>Sol</summary>
+## Solution
+
+**Problem:** Find the maximum volume of a cuboid made from cardboard with total surface area = 24 cm².
+
+### Setup
+
+For a cuboid with dimensions *a*, *b*, *c*:
+- **Surface area:** 2(ab + bc + ca) = 24 → ab + bc + ca = 12
+- **Volume:** V = abc
+
+### Optimization using AM-GM Inequality
+
+By the **AM-GM inequality**:
+
+$$\frac{ab + bc + ca}{3} \geq (a^2b^2c^2)^{1/3}$$
+
+$$\frac{12}{3} \geq (abc)^{2/3}$$
+
+$$4 \geq V^{2/3}$$
+
+$$V \leq 4^{3/2} = 8$$
+
+### When does equality hold?
+
+Equality in AM-GM holds when **ab = bc = ca**, which means **a = b = c** (a cube).
+
+If a = b = c, then:
+$$2(3a^2) = 24 \implies a^2 = 4 \implies a = 2 \text{ cm}$$
+
+### Maximum Volume
+
+$$V = a^3 = 2^3 = \boxed{8 \text{ cm}^3}$$
+
+---
+
+> **Note:** The accepted range is 7.50–8.50, and the answer 8.10 was marked correct. The **exact theoretical maximum is 8.00 cm³**, achieved when the box is a perfect cube of side 2 cm.
+  </details>
+
+
+
+
+
+
+<img width="1371" height="485" alt="image" src="https://github.com/user-attachments/assets/ed08d087-ae06-4e8d-9121-10106d041f7f" />
+
+
+  <details>
+  <summary>Sol</summary>
+  # Lagrange Multiplier Optimization
+
+## Problem Setup
+
+**Maximize:** r = l·m² + 2c
+
+**Subject to:** b = 2l + 16m + c = 1004
+
+## Using Lagrange Multipliers
+
+∇r = λ∇b
+
+Taking partial derivatives:
+
+**∂r/∂l = m²** = λ·2 → **λ = m²/2**
+
+**∂r/∂m = 2lm** = λ·16 → **λ = 2lm/16 = lm/8**
+
+**∂r/∂c = 2** = λ·1 → **λ = 2**
+
+## Solving the System
+
+From λ = 2:
+
+**From ∂r/∂l:** m² = 2·2 = 4 → **m = 2**
+
+**From ∂r/∂m:** lm/8 = 2 → l·2/8 = 2 → **l = 8**
+
+**From constraint:** 2(8) + 16(2) + c = 1004
+→ 16 + 32 + c = 1004
+→ **c = 956**
+
+## Maximum Revenue
+
+r = l·m² + 2c = 8·(2²) + 2·(956)
+
+r = 8·4 + 1912
+
+r = 32 + 1912
+
+## **r = 1944 million rupees ✓**
+
+The answer is **1944**, confirmed by the Lagrange multiplier method where λ = 2 gives us the optimal allocation of l = 8, m = 2, c = 956.
+
+  </details>
+
+
+
+
+<img width="846" height="306" alt="image" src="https://github.com/user-attachments/assets/fc4159e6-767d-4006-8179-387a21d45cb8" />
+
+
+
 </details>
