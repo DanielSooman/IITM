@@ -45,7 +45,8 @@ KKT - [2 Variables and 2 Inequality Constraints](https://www.youtube.com/watch?v
 
 <details>
   <summary>PDSA</summary>
-
+  
+  [Huffman coding tree](https://youtu.be/co4_ahEDCho?si=q5AIUa2mPB2TAFbW&t=525)
 
   <img width="1144" height="465" alt="image" src="https://github.com/user-attachments/assets/7c05f2f9-e988-4a5a-a3ff-56fc9e8a01bb" />
 
