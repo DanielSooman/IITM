@@ -83,3 +83,54 @@ This matches option **13.28**, and the question likely intends the direction vec
   </details>
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+<img width="922" height="327" alt="image" src="https://github.com/user-attachments/assets/3ef5ace2-b311-4a9e-9e78-d2d1bddcae26" />
+
+  <details>
+  <summary>Sol</summary>
+
+  ## Solution
+
+**Minimize** f(x, y) = x² + 4y² − 2x + 8y **subject to** x + 2y = 7
+
+### Step 1: Use the Constraint
+
+From x + 2y = 7, express x = 7 − 2y
+
+### Step 2: Substitute into f
+
+f = (7 − 2y)² + 4y² − 2(7 − 2y) + 8y
+
+= 49 − 28y + 4y² + 4y² − 14 + 4y + 8y
+
+= **8y² − 16y + 35**
+
+### Step 3: Minimize the Single-Variable Function
+
+f(y) = 8y² − 16y + 35
+
+f'(y) = 16y − 16 = 0
+
+**y = 1**
+
+### Step 4: Find x
+
+x = 7 − 2(1) = **5**
+
+### Step 5: Compute Minimum Value
+
+f(5, 1) = 25 + 4(1) − 10 + 8 = 25 + 4 − 10 + 8 = **27**
+
+> The minimum value is **27.00**, which falls within the accepted range [26.50, 27.50] ✓
+
+  </details>
