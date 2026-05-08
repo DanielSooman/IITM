@@ -301,4 +301,82 @@ The answer is **1944**, confirmed by the Lagrange multiplier method where λ = 2
 
 
 
+
+
+
+  <details>
+  <summary>Sol</summary>
+## Solution
+
+**Find the point on the sphere x² + y² + z² = 3 closest to (2, 2, 2), then find the distance.**
+
+**Step 1: Find the closest point on the sphere**
+
+The closest point lies along the line from the origin (center of sphere) to the external point (2, 2, 2).
+
+Direction vector from origin to (2, 2, 2):
+$$\hat{u} = \frac{(2,2,2)}{|(2,2,2)|} = \frac{(2,2,2)}{\sqrt{4+4+4}} = \frac{(2,2,2)}{2\sqrt{3}}$$
+
+**Step 2: Find the closest point on the sphere**
+
+The sphere has radius √3, so the closest point is:
+$$P = \sqrt{3} \cdot \hat{u} = \sqrt{3} \cdot \frac{(2,2,2)}{2\sqrt{3}} = \frac{(2,2,2)}{2} = (1, 1, 1)$$
+
+**Step 3: Calculate the distance from (1,1,1) to (2,2,2)**
+
+$$d = \sqrt{(2-1)^2 + (2-1)^2 + (2-1)^2} = \sqrt{1+1+1} = \sqrt{3}$$
+
+$$\boxed{d = \sqrt{3} \approx 1.73}$$
+
+**Alternative approach:** Distance from origin to (2,2,2) minus the radius:
+$$d = 2\sqrt{3} - \sqrt{3} = \sqrt{3} \approx 1.73$$
+
+Both methods confirm **√3 ≈ 1.73**, which falls within the accepted range of [1.50, 2.50] ✓
+  </details>
+
+
+
+
+<img width="932" height="312" alt="image" src="https://github.com/user-attachments/assets/181675c0-b548-4790-80dc-60f786677e37" />
+
+
+
+
+  <details>
+  <summary>Sol</summary>
+    
+## Solution
+
+**Find the point on the sphere x² + y² + z² = 3 farthest from (2, 2, 2).**
+
+**Key Insight:** The farthest point lies in the **opposite direction** from the external point, through the center (origin).
+
+**Step 1: Direction from origin to (2,2,2)**
+
+$$\hat{u} = \frac{(2,2,2)}{2\sqrt{3}}$$
+
+**Step 2: Farthest point is in the opposite direction**
+
+$$P = -\sqrt{3} \cdot \hat{u} = -\sqrt{3} \cdot \frac{(2,2,2)}{2\sqrt{3}} = \frac{-(2,2,2)}{2} = (-1, -1, -1)$$
+
+**Step 3: Distance from (-1,-1,-1) to (2,2,2)**
+
+$$d = \sqrt{(2-(-1))^2 + (2-(-1))^2 + (2-(-1))^2}$$
+
+$$d = \sqrt{3^2 + 3^2 + 3^2} = \sqrt{27} = 3\sqrt{3}$$
+
+$$\boxed{d = 3\sqrt{3} \approx 5.196}$$
+
+**Alternative approach:** Distance from origin to (2,2,2) **plus** the radius:
+$$d = 2\sqrt{3} + \sqrt{3} = 3\sqrt{3} \approx 5.196$$
+
+This falls within the accepted range [5.00, 6.00] ✓
+
+> Notice Q12 and Q13 are **mirror problems** — same sphere, same point, just closest vs farthest, giving **√3** and **3√3** respectively.
+  </details>
+
+
+
+
+
 </details>
