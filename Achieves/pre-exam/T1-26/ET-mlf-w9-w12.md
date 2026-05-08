@@ -696,4 +696,52 @@ The maximum revenue Krishna can earn within his budget of Rs. 1,50,000 is **Rs. 
 </details>
 
 
+
+
+
+
+<img width="869" height="697" alt="image" src="https://github.com/user-attachments/assets/24a2cefe-2ed5-42e5-9af3-26a207610479" />
+
+<details>
+  <summary>Sol</summary>
+
+Good question! Here's exactly how:
+
+## From Case B: g₁ and g₃ both active
+
+$$0.5y_1 + y_2 = 6 \tag{i}$$
+$$y_1 + 4y_2 = 13 \tag{ii}$$
+
+---
+
+## Step 1: Express y₁ in terms of y₂ (from equation i)
+
+$$0.5y_1 = 6 - y_2$$
+$$y_1 = 12 - 2y_2$$
+
+---
+
+## Step 2: Substitute into equation (ii)
+
+$$(12 - 2y_2) + 4y_2 = 13$$
+$$12 + 2y_2 = 13$$
+$$2y_2 = 1$$
+$$\boxed{y_2 = 0.5}$$
+
+---
+
+## Step 3: Substitute y₂ back into equation (i)
+
+$$y_1 = 12 - 2(0.5)$$
+$$y_1 = 12 - 1$$
+$$\boxed{y_1 = 11}$$
+
+---
+
+Essentially it's just **solving two simultaneous equations** — treating the two active constraints as a simple 2×2 linear system.
+  
+</details>
+
+
+
 </details>
