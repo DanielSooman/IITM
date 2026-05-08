@@ -550,6 +550,150 @@ $$h''(5) \approx e^{10}[\text{bounded}] - 8e^{10} \ll 0$$
 | **h(x) is decreasing** | ✅ |
 
   </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <img width="1194" height="277" alt="image" src="https://github.com/user-attachments/assets/af7b974a-9c21-4747-8cc8-d9bd18612c4a" />
+
+
+<img width="1403" height="606" alt="image" src="https://github.com/user-attachments/assets/476e6f71-931c-4bf1-a4f0-03f72f73ba8b" />
+
+
+<img width="1373" height="442" alt="image" src="https://github.com/user-attachments/assets/f4bf051a-ffbf-425a-95ec-7e7c2645dc22" />
+
+
+
+
+
+<img width="1343" height="701" alt="image" src="https://github.com/user-attachments/assets/0a8d2047-2cec-4a79-be09-3116d258ee8f" />
+
+
+  <details>
+  <summary>Sol</summary>
+
+
+  ## Linear Regression Solution
+
+The optimal weights are found using the **Normal Equation**:
+
+$$w^* = (X^T X)^{-1} X^T y$$
+
+### Setup
+
+$$X = \begin{bmatrix} 1 & 2 \\ 2 & 3 \\ 4 & 2.5 \\ 6 & 4 \\ 7.5 & 5 \end{bmatrix}, \quad y = \begin{bmatrix} 1.5 \\ 2 \\ 2.5 \\ 3 \\ 4 \end{bmatrix}$$
+
+### Step 1: Compute X^T X
+
+$$X^T X = \begin{bmatrix} 1^2+2^2+4^2+6^2+7.5^2 & 1(2)+2(3)+4(2.5)+6(4)+7.5(5) \\ \cdot & 2^2+3^2+2.5^2+4^2+5^2 \end{bmatrix}$$
+
+$$= \begin{bmatrix} 141.25 & 79.5 \\ 79.5 & 58.5 \end{bmatrix}$$
+
+### Step 2: Compute X^T y
+
+$$X^T y = \begin{bmatrix} 1(1.5)+2(2)+4(2.5)+6(3)+7.5(4) \\ 2(1.5)+3(2)+2.5(2.5)+4(3)+5(4) \end{bmatrix} = \begin{bmatrix} 78.5 \\ 54.5 \end{bmatrix}$$
+
+### Step 3: Solve the System
+
+Using the inverse of a 2×2 matrix with det = 141.25(58.5) − 79.5² = 8253.125 − 6320.25 = **1932.875**:
+
+$$(X^T X)^{-1} = \frac{1}{1932.875}\begin{bmatrix} 58.5 & -79.5 \\ -79.5 & 141.25 \end{bmatrix}$$
+
+$$w^* = (X^T X)^{-1} X^T y = \frac{1}{1932.875}\begin{bmatrix} 58.5(78.5) + (-79.5)(54.5) \\ (-79.5)(78.5) + 141.25(54.5) \end{bmatrix}$$
+
+$$= \frac{1}{1932.875}\begin{bmatrix} 4592.25 - 4332.75 \\ -6240.75 + 7698.125 \end{bmatrix} = \frac{1}{1932.875}\begin{bmatrix} 259.5 \\ 1163.375 \end{bmatrix}$$
+
+$$\boxed{w^* = \begin{bmatrix} 0.1382 \\ 0.6019 \end{bmatrix}}$$
+
+  </details>
+
+
+
+
+
+
+<img width="1416" height="452" alt="image" src="https://github.com/user-attachments/assets/1c423a34-fe57-464b-a7a1-9334db7b07cb" />
+
+
+
+<details>
+  <summary>Sol</summary>
+
+  ## Solution Using Lagrangian Method
+
+**Problem Setup:**
+- Objective (maximize): R(s) = 100√s
+- Constraint: 500s = 150,000 (budget constraint)
+
+**Lagrangian Function:**
+
+$$\mathcal{L}(s, \lambda) = 100\sqrt{s} - \lambda(500s - 150000)$$
+
+**First-Order Conditions:**
+
+$$\frac{\partial \mathcal{L}}{\partial s} = \frac{100}{2\sqrt{s}} - 500\lambda = 0$$
+
+$$\frac{50}{\sqrt{s}} = 500\lambda \implies \lambda = \frac{1}{10\sqrt{s}}$$
+
+$$\frac{\partial \mathcal{L}}{\partial \lambda} = -(500s - 150000) = 0 \implies s = 300$$
+
+**Verification:**
+
+From the budget constraint:
+$$500s = 150000 \implies s = \frac{150000}{500} = \boxed{300 \text{ tons}}$$
+
+---
+
+**Note:** In this particular problem, since there's only **one variable (s)** and **one binding constraint (500s = 150,000)**, the constraint itself directly gives s = 300. The Lagrangian confirms this is indeed the **maximum** (not just a critical point), since R(s) = 100√s is a concave function — any feasible point is a global maximum on the constraint.
+
+The answer is **300 tons** of raw steel to be purchased.
+</details>
+
+
+<img width="605" height="266" alt="image" src="https://github.com/user-attachments/assets/ea3808a8-4a27-4538-a27f-8a2a551f2f9b" />
+
+<details>
+  <summary>Sol</summary>
+
+## Maximum Revenue Calculation
+
+Using the optimal value found in Q10: **s = 300 tons**
+
+**Substituting into the Revenue Function:**
+
+$$R(s) = 100\sqrt{s}$$
+
+$$R(300) = 100\sqrt{300}$$
+
+$$= 100 \times \sqrt{300}$$
+
+$$= 100 \times 17.3205...$$
+
+$$\boxed{R(300) \approx 1732 \text{ Rs}}$$
+
+---
+
+**Quick breakdown of √300:**
+
+$$\sqrt{300} = \sqrt{100 \times 3} = 10\sqrt{3} = 10 \times 1.7320... = 17.320...$$
+
+So:
+$$R(300) = 100 \times 17.320 = \textbf{1732 Rs}$$
+
+The maximum revenue Krishna can earn within his budget of Rs. 1,50,000 is **Rs. 1732**.
   
+</details>
+
 
 </details>
