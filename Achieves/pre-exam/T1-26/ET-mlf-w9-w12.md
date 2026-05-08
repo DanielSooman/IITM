@@ -5,6 +5,43 @@
 <img width="1178" height="470" alt="image" src="https://github.com/user-attachments/assets/f1a5fd27-65ef-4492-a75b-2338a0f8651b" />
 <img width="608" height="441" alt="image" src="https://github.com/user-attachments/assets/fe1f59a9-ceac-4646-8a89-586f23679fc0" />
 <img width="739" height="444" alt="image" src="https://github.com/user-attachments/assets/accfa960-53d9-432e-9521-1971c5968fe9" />
+  <details>
+  <summary>Sol</summary>
+  ## Solution
+
+For a function f(x, y) to be **convex**, the **Hessian matrix must be positive semi-definite**.
+
+### Step 1: Find the Hessian
+
+Let f(x, y) = (x − 3)³ + (y + 1)²
+
+**Partial derivatives:**
+- f_x = 3(x − 3)²
+- f_y = 2(y + 1)
+
+**Second partial derivatives:**
+- f_xx = 6(x − 3)
+- f_yy = 2
+- f_xy = 0
+
+### Step 2: Hessian Matrix
+
+$$H = \begin{bmatrix} 6(x-3) & 0 \\ 0 & 2 \end{bmatrix}$$
+
+### Step 3: Positive Semi-Definite Conditions
+
+For H to be positive semi-definite, **all leading principal minors must be ≥ 0**:
+
+- **H₁₁ ≥ 0:** 6(x − 3) ≥ 0 → **x ≥ 3**
+- **det(H) ≥ 0:** 6(x − 3) · 2 ≥ 0 → x ≥ 3 ✓
+
+### Conclusion
+
+The function is convex when **x ≥ 3**.
+
+> ✅ **Answer: x ≥ 3**
+
+  </details>
 <img width="1044" height="425" alt="image" src="https://github.com/user-attachments/assets/1a51fc10-339f-45d6-9171-7d5006418214" />
   <details>
   <summary>Sol-5</summary>
