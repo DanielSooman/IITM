@@ -380,3 +380,176 @@ This falls within the accepted range [5.00, 6.00] ✓
 
 
 </details>
+
+
+
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details>
+  <summary>Week10</summary>
+<img width="753" height="347" alt="image" src="https://github.com/user-attachments/assets/38866c1d-4879-479f-958f-fe10bd348de8" />
+
+
+  <details>
+  <summary>Sol</summary>
+
+    
+## Solution
+
+To determine if f(x) = xe^(-3x) is increasing or decreasing at x = 2, we need to find **f'(x)** and evaluate its sign.
+
+### Step 1: Find f'(x)
+
+Using the **Product Rule**: (uv)' = u'v + uv'
+
+Let u = x and v = e^(-3x)
+
+$$f'(x) = (1) \cdot e^{-3x} + x \cdot (-3e^{-3x})$$
+
+$$f'(x) = e^{-3x}(1 - 3x)$$
+
+### Step 2: Evaluate f'(2)
+
+$$f'(2) = e^{-3(2)}(1 - 3(2))$$
+
+$$f'(2) = e^{-6}(1 - 6)$$
+
+$$f'(2) = -5e^{-6}$$
+
+### Step 3: Interpret the Sign
+
+Since e^(-6) > 0 always, and multiplied by **-5**:
+
+$$f'(2) = -5e^{-6} < 0$$
+
+### Conclusion
+
+Since f'(2) < 0, the function is **decreasing** at x = 2. ✓
+  </details>
+
+
+<img width="708" height="283" alt="image" src="https://github.com/user-attachments/assets/69cdf964-c5b8-4640-b76d-bcc1fb10c517" />
+
+
+
+
+
+  <details>
+  <summary>Sol</summary>
+
+# Finding the Global Minimum of f(x) = x + 3x²
+
+## Step 1: Find the Critical Point
+
+Take the derivative and set it equal to zero:
+
+$$f'(x) = 1 + 6x = 0$$
+
+$$x = -\frac{1}{6}$$
+
+## Step 2: Verify it's a Minimum
+
+$$f''(x) = 6 > 0 \checkmark$$
+
+Since f''(x) > 0, this is indeed a **minimum** (concave up).
+
+## Step 3: Find the Function Value
+
+$$f\left(-\frac{1}{6}\right) = \left(-\frac{1}{6}\right) + 3\left(-\frac{1}{6}\right)^2$$
+
+$$= -\frac{1}{6} + 3 \cdot \frac{1}{36}$$
+
+$$= -\frac{1}{6} + \frac{1}{12}$$
+
+$$= -\frac{2}{12} + \frac{1}{12}$$
+
+$$= -\frac{1}{12}$$
+
+$$\boxed{f\left(-\frac{1}{6}\right) = -\frac{1}{12} \approx -0.0833}$$
+
+This falls within the accepted range of **[-0.09, -0.08]** ✓
+  </details>
+
+
+<img width="729" height="422" alt="image" src="https://github.com/user-attachments/assets/b764e4c7-7269-4ee7-8234-07fb6e862c8a" />
+<img width="1202" height="470" alt="image" src="https://github.com/user-attachments/assets/24f4a6c2-5a18-40a1-85c5-6af665da251c" />
+
+  <details>
+  <summary>Sol</summary>
+
+## Solution
+
+### Setting up h(x) = f(g(x))
+
+Given:
+- f(x) = sin(x) − 2x² + 1
+- g(x) = eˣ
+- h = f∘g, so **h(x) = f(g(x)) = sin(eˣ) − 2e²ˣ + 1**
+
+---
+
+### First Derivative h'(x)
+
+$$h'(x) = \cos(e^x) \cdot e^x - 4e^{2x}$$
+
+$$h'(x) = e^x[\cos(e^x) - 4e^x]$$
+
+**At x = 5:**
+- e⁵ ≈ 148.41
+- cos(e⁵) is bounded in [−1, 1]
+- So: cos(e⁵) − 4e⁵ ≈ (something ≤ 1) − 4(148.41) ≈ **very negative**
+
+$$h'(5) = e^5[\cos(e^5) - 4e^5] < 0$$
+
+✅ **h(x) is decreasing at x = 5**
+
+---
+
+### Second Derivative h''(x)
+
+$$h''(x) = \frac{d}{dx}\left[e^x\cos(e^x) - 4e^{2x}\right]$$
+
+$$h''(x) = e^x\cos(e^x) - e^{2x}\sin(e^x) - 8e^{2x}$$
+
+**At x = 5:**
+- The dominant term is **−8e²ˣ** which is **hugely negative**
+- sin(e⁵) is bounded, so −e¹⁰·sin(e⁵) could go either way but is swamped by −8e¹⁰
+
+$$h''(5) \approx e^{10}[\text{bounded}] - 8e^{10} \ll 0$$
+
+✅ **h''(5) < 0 → h(x) is concave at x = 5**
+
+---
+
+### Summary
+
+| Statement | Verdict |
+|-----------|---------|
+| h(x) is convex | ❌ |
+| **h(x) is concave** | ✅ |
+| h(x) is non-decreasing | ❌ |
+| **h(x) is decreasing** | ✅ |
+
+  </details>
+  
+
+</details>
