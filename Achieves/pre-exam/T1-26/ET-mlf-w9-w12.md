@@ -82,7 +82,6 @@ This matches option **13.28**, and the question likely intends the direction vec
 
   </details>
 
-</details>
 
 
 
@@ -134,3 +133,11 @@ f(5, 1) = 25 + 4(1) − 10 + 8 = 25 + 4 − 10 + 8 = **27**
 > The minimum value is **27.00**, which falls within the accepted range [26.50, 27.50] ✓
 
   </details>
+
+
+
+
+
+
+
+</details>
