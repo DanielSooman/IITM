@@ -168,6 +168,13 @@ This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply
 <img width="570" height="416" alt="image" src="https://github.com/user-attachments/assets/30d2d34b-a97e-43a2-bf77-5370d9aee3ff" />
 B+ Trees
 
+
+
+
+
+<img width="484" height="257" alt="image" src="https://github.com/user-attachments/assets/0b28214c-a6f3-433b-91e2-5fc22ba1e984" />
+
+
 </details>
 
 
