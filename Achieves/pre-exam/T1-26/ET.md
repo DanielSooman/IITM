@@ -163,6 +163,11 @@ This question uses **T(n-1)** not **T(n/b)**, so Master Theorem **does NOT apply
   <summary>DBMS</summary>
 <img width="755" height="403" alt="image" src="https://github.com/user-attachments/assets/14d2e566-931c-459e-a937-c404d8306528" />
 
+
+
+<img width="570" height="416" alt="image" src="https://github.com/user-attachments/assets/30d2d34b-a97e-43a2-bf77-5370d9aee3ff" />
+B+ Trees
+
 </details>
 
 
