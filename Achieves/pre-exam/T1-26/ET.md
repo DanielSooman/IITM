@@ -1,6 +1,16 @@
 
 <details>
   <summary>MLF</summary>
+  
+<details>
+  <summary>Formula</summary>
+
+
+<img width="750" height="962" alt="image" src="https://github.com/user-attachments/assets/67666c35-6921-4d89-9488-b38f9d8e90f4" />
+<img width="669" height="872" alt="image" src="https://github.com/user-attachments/assets/87b19037-2b72-4f75-babe-88aac9e0cc7e" />
+
+  </details>
+
 
 [Week 9, 10 Revision Vid](https://www.youtube.com/watch?v=0G0N1aEyl5E)
 
