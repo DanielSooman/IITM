@@ -9,6 +9,46 @@
 <img width="750" height="962" alt="image" src="https://github.com/user-attachments/assets/67666c35-6921-4d89-9488-b38f9d8e90f4" />
 <img width="669" height="872" alt="image" src="https://github.com/user-attachments/assets/87b19037-2b72-4f75-babe-88aac9e0cc7e" />
 
+
+This list identifies the critical formulas and mathematical definitions derived from the provided term papers and syllabus for **Machine Learning Foundations**.
+
+### **1. Linear Algebra & Matrix Properties (Units 3, 4, 5)**
+*   **Trace and Determinant via Eigenvalues:** 
+    *   $\text{trace}(A) = \sum_{i=1}^{n} \lambda_i$.
+    *   $\text{det}(A) = \prod_{i=1}^{n} \lambda_i$.
+*   **Quadratic Forms:** $f(v) = v^T Av$.
+*   **Matrix Transformation Eigenvalues:** If $A$ has eigenvalues $\lambda_i$, then a matrix like $2A^2 - 3I$ has eigenvalues $2\lambda_i^2 - 3$.
+*   **Least Squares Loss (MSE):** $L = \frac{1}{n} \sum_{i=1}^{n} (f(x^i) - y^i)^2$.
+*   **Reconstruction Error:** $R(f, g) = \frac{1}{n} \sum_{i=1}^{n} \|X_i - g(f(X_i))\|^2$.
+
+### **2. PCA & SVD (Unit 6)**
+*   **Covariance Matrix ($C$):** $C = \frac{1}{n} A^T A$, where $A$ is the data matrix with mean-centered rows.
+*   **Singular Values ($\sigma$):** $\sigma_i = \sqrt{\lambda_i(A^T A)}$, where $\lambda_i$ are the eigenvalues of $A^T A$.
+*   **Projected Variance:** In PCA, the variance of data projected onto an eigenvector is equal to the corresponding eigenvalue $\lambda$.
+
+### **3. Optimization (Units 7, 8, 9)**
+*   **Gradient Descent Update Rule:** $x_{t+1} = x_t - \eta \nabla f(x_t)$, where $\eta$ is the learning rate.
+*   **Lagrangian Function:** For $\min f(x)$ subject to $g(x) \leq 0$ and $h(x) = 0$:
+    *   $L(x, \lambda, \nu) = f(x) + \lambda g(x) + \nu h(x)$.
+*   **KKT Stationary Condition:** $\nabla f(x) + \sum \lambda_i \nabla g_i(x) + \sum \nu_j \nabla h_j(x) = 0$.
+*   **KKT Complementary Slackness:** $\lambda_i g_i(x) = 0$ for all $i$.
+
+### **4. Probabilistic Models & Distributions (Units 10, 11)**
+*   **Linear Transformation of Multivariate Normal RVs:** If $X \sim \text{Normal}(\mu, \Sigma)$ and $Y = AX + B$, then:
+    *   $\mu_Y = A\mu + B$.
+    *   $\Sigma_Y = A \Sigma A^T$.
+*   **Joint PDF Transformation (Jacobian Method):** $f_{U,V}(u,v) = f_{X,Y}(x,y) \cdot \left| \det \left( \frac{\partial(x,y)}{\partial(u,v)} \right) \right|$.
+*   **Standard Distributions (PDF/Mean/Var):**
+    *   **Uniform $[a, b]$:** $E[X] = \frac{a+b}{2}$, $\text{Var}(X) = \frac{(b-a)^2}{12}$.
+    *   **Exponential $(\lambda)$:** $f(x) = \lambda e^{-\lambda x}$, $E[X] = \frac{1}{\lambda}$, $\text{Var}(X) = \frac{1}{\lambda^2}$.
+    *   **Binomial $(n, p)$:** $E[X] = np$, $\text{Var}(X) = np(1-p)$.
+
+### **5. Parameter Estimation & Inequalities (Unit 12)**
+*   **Markov’s Inequality:** $P(X \geq c) \leq \frac{E[X]}{c}$ for non-negative $X$.
+*   **Chebyshev’s Inequality:** $P(|X - \mu| \geq k\sigma) \leq \frac{1}{k^2}$ or $P(|X - \mu| \geq \epsilon) \leq \frac{\sigma^2}{\epsilon^2}$.
+*   **Maximum Likelihood Estimation (MLE):**
+    *   **Mean of Normal:** $\hat{\mu}_{MLE} = \frac{1}{n} \sum x_i$ (Sample Mean).
+    *   **Success Probability ($p$):** $\hat{p}_{MLE} = \frac{\text{Number of Successes}}{\text{Total Trials}}$.
   </details>
 
 
