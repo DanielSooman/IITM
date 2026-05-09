@@ -104,6 +104,7 @@ KKT - [2 Variables and 2 Inequality Constraints](https://www.youtube.com/watch?v
   [Huffman coding tree](https://youtu.be/co4_ahEDCho?si=q5AIUa2mPB2TAFbW&t=525)
 
   <img width="1144" height="465" alt="image" src="https://github.com/user-attachments/assets/7c05f2f9-e988-4a5a-a3ff-56fc9e8a01bb" />
+<img width="1060" height="336" alt="image" src="https://github.com/user-attachments/assets/5c497612-6e85-4303-a5ab-7ff64f8cc863" />
 
 
 <img width="836" height="370" alt="image" src="https://github.com/user-attachments/assets/8aed4b25-1739-4da3-9ed5-67c1d8984908" />
