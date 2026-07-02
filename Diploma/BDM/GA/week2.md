@@ -48,7 +48,14 @@ D. The ATC will stay exactly at ₹1,500.00.
 ---
 
 ### **Case Study: Tea Stall at IIT Madras (For Q5 - Q7)**
-Ramu runs one of the most famous hotspots at IIT Madras. He operates with a fixed set of resources: a small stall space, limited labor hours, and fixed daily supplies of milk, tea leaves, and sugar. His primary focus is producing two major staple items: **Tea** and **Filter Coffee**.
+
+Ramu’s tea stall was one of the most famous hotspots at IIT Madras, located near the Himalaya Mess on the campus. While he served a variety of snacks, cold drinks, and other refreshments, his tea, coffee, and samosas were the most popular items, consistently generating the highest sales. On any given day, Ramu operates with a fixed set of resources: a specific stall size, two burners, a limited amount of labour hours, and fixed daily supplies of milk, tea leaves, and coffee powder. With these resources, his primary focus is producing two major staple items: Tea and Filter Coffee. 
+
+The PPF is a curve that shows the maximum possible output combinations of two goods an economy (or a business like Ramu's) can produce using all available resources efficiently.
+
+<img width="342" height="211" alt="image" src="https://github.com/user-attachments/assets/0a31f97e-0e56-4659-9d7b-df9dddd46a6c" />
+Here is how Ramu’s daily production frontier looks:
+
 
 ### **Question 5**
 Ramu is currently operating efficiently on his PPF, producing 300 cups of tea and 150 cups of filter coffee per day. Due to a major campus festival, demand for filter coffee spikes. If Ramu decides to produce 200 cups of filter coffee, what will happen to his tea production?
