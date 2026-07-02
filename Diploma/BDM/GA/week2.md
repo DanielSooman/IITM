@@ -84,9 +84,21 @@ D. ₹35/cup
 ---
 
 ### **Case Study: Data001 Startup (For Q8 - Q10)**
-Data001 must decide how to deploy its engineering team. They can only commit to one of two options:
-*   **Option A (Client Project):** Immediate revenue of **₹5.0 Lakh**. However, this delays an internal upgrade, incurring a **₹1.5 Lakh** vendor extension penalty.
-*   **Option B (Internal Upgrade):** Reduces operational costs by **₹10K per month**. However, they forfeit the **₹5.0 Lakh** client revenue.
+Tech-based software startup
+
+Data001 is a growing Tech-based software startup with limited resources. Currently, the team is working at full capacity and faces a critical resource allocation decision due to its limited resources. The company must decide how to deploy the team over the next 6 months. Because team bandwidth is limited, they only have the capacity to fully commit to any one of two available options in the current scenario. Every hour they spend working on an external project is an hour they cannot spend upgrading their own company's systems, and vice versa.
+The company must choose one of the following options:  (Total Marks - 6)
+
+Option A: Prioritize an Urgent Client External Project
+
+I. If they take on this time-sensitive external project, Data001 will earn an immediate, one-time revenue payment of ₹5.0 Lakh.
+II. However, going with option they must delay a critical internal software upgrade. Delaying this upgrade requires paying a vendor extension penalty of ₹1.5 Lakh.
+
+Option B: Prioritize the Internal Software Upgrade
+
+I. If they complete the internal upgrade now, the new system will immediately reduce the company's operational expenses by ₹10,000 (₹10K) per month.
+II. However, they will not have the bandwidth to take the client contract and will for feit the ₹5.0 Lakh revenue.
+
 
 ### **Question 8**
 Suppose Data001 decides to prioritize the urgent client contract (Option A). What is the **opportunity cost** of this decision?
