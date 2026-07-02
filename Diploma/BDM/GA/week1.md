@@ -1,74 +1,124 @@
 
-### **Question 1 (General Concept)**
-Which of the following best describes the fundamental economic problem where human desires are limitless, but the resources available to satisfy them are finite?
-*   A. Inflationary pressure
-*   B. Scarcity
-*   C. Market equilibrium
-*   D. Opportunity cost
+## Part 1: Conceptual Questions (Q1 - Q6)
 
----
+### Question 1 / 8
 
-### **Question 2**
-During the IPL Mega Auction, every team franchise operates under a fixed budget cap (for instance, ₹120 crore) to build its squad. Even if a team's management wishes to purchase every top-tier batsman, bowler, and all-rounder available, they are unable to do so because their financial resources are strictly limited. This **constraint** is an example of the economic concept of:
-*   A. Demand
-*   **B. Scarcity**
-*   C. Inflation
-*   D. Macroeconomics
+**Context:** The college administration has a budget of ₹50 lakhs available to upgrade its facilities. Various departments have submitted proposals for new projects:
 
----
+- **The Computer Science Department** wants an AI lab.
+- **The Sports Department** wants a new indoor stadium.
+- **The Library** wants more digital resources.
+- **The Hostel Committee** wants better accommodation facilities.
 
-### **Question 3**
-The federal government passes a comprehensive, **nationwide labor law** requiring all instant-delivery companies to provide health insurance and a standard minimum wage to their delivery partners. Economists use a mathematical model to predict how this national policy will impact the country’s overall unemployment rate and total consumer spending across the entire retail sector. This study is an example of:
-*   A. Firm-level Optimization
-*   B. Consumer Surplus
-*   C. Microeconomics
-*   **D. Macroeconomics**
+Students' general point of view, "This is mainly an accounting problem because it involves money." How would an economics student counter this statement?
 
----
+**Options:**
 
-### **Question 4**
-An analyst at a specialized startup named **Consult001** is researching how a proposed local government cap on the maximum weight a delivery rider can transport affects the average delivery fee and consumer demand for heavy items (such as 10 kg bags of flour) specifically in West Chennai. This **specific analysis** of a localized market is a topic of:
-*   A. Macroeconomics
-*   B. Fiscal Policy
-*   **C. Microeconomics**
-*   D. Monetary Policy
+- A. The student is correct, because economics only deals with decisions that involve money.
+- **B. The situation is primarily about choosing how scarce resources should be allocated among competing alternatives.** *(Correct)*
+- C. This is strictly a management problem, because it simply involves coordinating different departments.
+- D. This has nothing to do with economics, because no market transaction or trade has taken place yet.
 
----
+### Question 2 / 8
 
-### **Question 5**
-Country X and Country Y both allow private companies to manufacture electric vehicles (EVs). However:
-*   In Country X, the state only **enforces** safety standards and environmental regulations.
-*   In Country Y, the state **regulates** the entire industry, provides subsidies for EV purchases, and operates the public transportation network.
+**Question:** During the IPL Mega Auction, every franchise is given a strict budget cap (for example, ₹120 crore) to build their entire squad. Even though a team management wants to buy every single superstar batsman, bowler, and all-rounder available, they cannot do so because their financial capital is strictly limited. This **constraint** is an example of Economic Concept named as:
 
-Which statement most accurately describes these economies?
-*   **A. Country X is a Capitalist Economy, while Country Y shows characteristics of a Mixed Economy.**
-*   B. Both Country X and Country Y are Socialist Economies because the government is involved.
-*   C. Country Y is a Capitalist Economy because private companies are allowed to manufacture vehicles.
-*   D. Country X is a Mixed Economy because government regulations exist.
+**Options:**
 
----
+- A. Demand
+- **B. Scarcity** *(Correct)*
+- C. Inflation
+- D. Macroeconomics
 
-### **Question 6**
-Suppose you are traveling to a **UPSC IAS interview** and have already spent 45 minutes stuck in heavy traffic. You finally reach a junction where you can switch to a clear expressway, but the 45 minutes you already lost in traffic are gone forever and cannot be recovered, regardless of which route you take for the rest of your trip. In economics, this unrecoverable past expenditure of time is a:
-*   A. Opportunity cost
-*   **B. Sunk cost**
-*   C. Fixed cost
-*   D. Marginal utility
+### Question 3 / 8
 
----
+**Question:** The central government implements a sweeping, **nationwide labour law** that forces all instant-delivery platforms to provide medical insurance and standard minimum wages to all delivery partners. Economists run a large-scale data model to forecast how this nationwide law will impact the country's overall worker unemployment rate and aggregate consumer spending across the entire retail sector. This analysis is a topic of:
 
-### **Question 7 (Fleet Scenario Part 1)**
-A delivery startup in Chennai operates a fleet consisting of **Electric 2-Wheelers (E2)** and **Electric 3-Wheelers (E3)** with a daily budget of ₹20,000. It costs ₹100 per day to run an E2 and ₹400 per day for an E3. If the company is mandated by contract to operate at least 10 E3 units every day, how many E2 units can be deployed using the remaining budget?
-*   A. 140
-*   B. 150
-*   **C. 160**
-*   D. 180
+**Options:**
 
----
+- A. Firm-level Optimization
+- B. Consumer Surplus
+- C. Microeconomics
+- **D. Macroeconomics** *(Correct)*
 
-### **Question 8 (Fleet Scenario Part 2)**
-Following the same fleet scenario—where the daily budget is ₹20,000 (100E2 + 400E3 = 20,000), each E2 generates ₹500 in daily profit, each E3 generates ₹1,500 in daily profit, and the company must run at least 10 E3s—what is the maximum daily profit the fleet can achieve?
-*   A. ₹80,000
-*   **B. ₹95,000**
-*   C. ₹1,00,000
-*   D. ₹1,15,000
+### Question 4 / 8
+
+**Question:** An analyst at a project based consultancy startup named **Consult001** is studying how a newly proposed city-wide government cap on the maximum weight a delivery rider can carry changes the average delivery fee and individual consumer demand for heavy items (like 10 kg flour bags) in West Chennai. This **specific analysis** falls under the domain of:
+
+**Options:**
+
+- A. Macroeconomics
+- B. Fiscal Policy
+- **C. Microeconomics** *(Correct)*
+- D. Monetary Policy
+
+### Question 5 / 8
+
+**Context:** Country X and Country Y both have private companies manufacturing electric vehicles. However:
+
+- In Country X, the government only **enforces** safety standards and environmental regulations.
+- In Country Y, the government **regulates** the industry, provides subsidies for electric vehicles, and also operates a public transportation network.
+
+Which statement is most accurate?
+
+**Options:**
+
+- **A. Country X is a Capitalist Economy, while Country Y exhibits characteristics of a Mixed Economy.** *(Correct)*
+- B. Country X and Country Y are both Socialist Economies because the government is involved in both.
+- C. Country Y is a Capitalist Economy because private companies manufacture vehicles.
+- D. Country X is a Mixed Economy because regulations exist.
+
+### Question 6 / 8
+
+**Question:** You are going for a **UPSC IAS interview** and have already spent 45 minutes sitting in stagnant, bumper-to-bumper traffic on a city road. You finally reach a junction where you can change onto a clear express highway, but the 45 minutes you have already lost in traffic are gone forever and cannot be recovered, regardless of which route you choose for the rest of your trip. In economics, this unrecoverable past expenditure of time is classified as a:
+
+**Options:**
+
+- A. Opportunity cost
+- **B. Sunk cost** *(Correct)*
+- C. Fixed cost
+- D. Marginal utility
+
+## Part 2: Case Scenario-1 (Q7 - Q8)
+
+**Case Scenario Text:** A **GreenFleet001** startup in Chennai manages a delivery fleet for online food delivery partners using two types of vehicles: **Electric 2-Wheelers ($E_2$)** and **Electric 3-Wheelers ($E_3$)**. The company's fleet operations are subject to a strict daily battery-charging cap of **₹20,000**.
+
+$$
+\text{Daily Budget Constrain Equation: } 100E_2 + 400E_3 \le 20,000
+$$
+
+Where:
+
+Charging costs associated with vehicles:
+
+- **₹100** is the daily charging cost per **Electric 2-Wheeler ($E_2$)**.
+- **₹400** is the daily charging cost per **Electric 3-Wheeler ($E_3$)**.
+
+Profit associated with the Vehicles:
+
+- **Electric 2-Wheeler/Scooters ($E_2$)** generates **₹500** in daily net profit.
+- **Electric 3-Wheeler/Scooty/Bikes ($E_3$)** generates **₹1,500** in daily net profit.
+
+Due to a new, mandatory Business to Business (B2B) contract with a local e-commerce delivery based company, the startup **must deploy exactly 10 Electric 3-Wheelers ($E_3 = 10$)** every day. To maximize overall company returns, the fleet manager wants to optimize the remaining charging budget to deploy as many Electric 2-Wheelers as possible.
+
+### Question 7 / 8
+
+**Question:** To ensure the charging budget is fully utilized without being exceeded, what is the maximum number of Electric 2-Wheelers ($E_2$) the manager can optimally deploy?
+
+**Options:**
+
+- A. 100 vehicles
+- B. 120 vehicles
+- **C. 160 vehicles** *(Correct)*
+- D. 200 vehicles
+
+### Question 8 / 8
+
+**Question:** What is the maximum daily profit the fleet can achieve under this operational constraint?
+
+**Options:**
+
+- A. ₹80,000
+- **B. ₹95,000** *(Correct / Expected)*
+- C. ₹1,000,000
+- D. ₹1,15,000
