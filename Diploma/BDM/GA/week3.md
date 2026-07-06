@@ -118,8 +118,10 @@ Here are the solutions and detailed explanations for the questions provided in y
 
 ### **Question 4 / 13**
 **When the organizations make decisions on purchases, they tend to decide on**
-*   **Correct Answer:** **C. Both a and b** (Price and Quality)
-*   **Explanation:** Organizational procurement involves professional, rational decision-making processes. Buyers balance multiple factors to maximize value and minimize risk. Consequently, they assess both the cost (Price) and the performance specifications (Quality) rather than relying on a single metric.
+*   **Correct Answer:** **D. None of the above**
+
+---
+<img width="708" height="575" alt="image" src="https://github.com/user-attachments/assets/02993008-45bf-4137-848e-623093163393" />
 
 ---
 
@@ -146,7 +148,7 @@ Here are the solutions and detailed explanations for the questions provided in y
 
 ### **Question 9 / 13**
 **B2B tends to be**
-*   **Correct Answer:** **B. Price inelastic**
+*   **Correct Answer:** **C. Price inelastic but conditional**
 *   **Explanation:** In B2B markets, total industry demand is often price inelastic in the short term. This is because business buyers require specific components or materials to keep their manufacturing lines or operations running. A moderate price increase will not significantly decrease demand immediately because finding alternative inputs or changing production setups takes time.
 
 ---
@@ -162,6 +164,10 @@ Here are the solutions and detailed explanations for the questions provided in y
 **You work for ABC Software Technologies. The company decided to upgrade all its systems, and the purchase department has contacted four vendors to provide proposals based on their specifications. This proposal is referred to as**
 *   **Correct Answer:** **B. RFQ** (Request for Quotation)
 *   **Explanation:** A Request for Quotation (RFQ) is issued when an organization has already determined its exact technical specifications and is asking selected vendors to submit proposals outlining pricing and payment terms for those precise requirements. A Request for Information (RFI), on the other hand, is a more open-ended inquiry used earlier in the buying process to gather general market information.
+
+---
+   
+<img width="733" height="644" alt="image" src="https://github.com/user-attachments/assets/422195a3-987f-42d3-9914-fc867832aba3" />
 
 ---
 
