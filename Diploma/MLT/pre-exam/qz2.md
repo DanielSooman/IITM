@@ -306,7 +306,7 @@ to each class.
 | Normal Equation | $w^*=(XX^T)^{-1}XY$ |
 | Gradient Descent | $w_{t+1}=w_t-\eta\nabla f(w_t)$ |
 | MSE | $\frac{1}{n}\sum(w^Tx_i-y_i)^2$ |
-| MAE | $\frac{1}{n}\sum|w^Tx_i-y_i|$ |
+| MAE | $\frac{1}{n}\sum(w^Tx_i-y_i)$ |
 | Ridge | $MSE+\lambda\|w\|_2^2$ |
 | Ridge Solution | $(XX^T+\lambda I)^{-1}XY$ |
 | Lasso | $MSE+\lambda\|w\|_1$ |
