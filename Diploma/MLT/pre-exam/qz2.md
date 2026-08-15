@@ -184,7 +184,7 @@ $$
 Information Gain measures the reduction in entropy after a split:
 
 $$
-IG =
+IG=
 H(\text{Parent})
 -
 H(\text{Children})
