@@ -8,6 +8,17 @@
 
 
 
+
+<details>
+<summary>Theory</summary>
+
+<img width="1001" height="290" alt="image" src="https://github.com/user-attachments/assets/b814c4e4-cfb2-43b4-a0f8-4c957821eb26" />
+<img width="1019" height="408" alt="image" src="https://github.com/user-attachments/assets/017df783-d57f-4b1a-8737-68b654e4ba57" />
+
+</details>
+
+
+
 # Quiz 2 — Weeks 5–8 Essential Formulas
 
 ## 1. Linear Regression and Regularization — Weeks 5 & 6
@@ -347,9 +358,3 @@ to each class.
 ---
 
 
-<details>
-<summary>Theory</summary>
-
-<img width="1001" height="290" alt="image" src="https://github.com/user-attachments/assets/b814c4e4-cfb2-43b4-a0f8-4c957821eb26" />
-
-</details>
