@@ -339,3 +339,17 @@ to each class.
    - **Lasso → sparsity**
    - **Higher Information Gain → better split**
    - **Laplace smoothing → avoids zero probabilities**
+
+
+
+
+
+---
+
+
+<details>
+<summary>Theory</summary>
+
+<img width="1001" height="290" alt="image" src="https://github.com/user-attachments/assets/b814c4e4-cfb2-43b4-a0f8-4c957821eb26" />
+
+</details>
