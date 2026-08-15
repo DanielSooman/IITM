@@ -64,7 +64,6 @@ $$
 - Used when assuming **Laplace noise**.
 - More **robust to outliers** than MSE.
 
----
 
 ### Regularization
 
@@ -81,8 +80,7 @@ $$
 Closed-form solution:
 
 $$
-w_{\text{ridge}}
-=
+w_{\text{ridge}}=
 (XX^T+\lambda I)^{-1}XY
 $$
 
@@ -99,7 +97,6 @@ Key property:
 - Encourages **sparsity**.
 - Can make some weights **exactly zero**.
 
----
 
 ### Kernel Regression
 
@@ -113,14 +110,13 @@ where $K$ is the kernel matrix.
 
 #### Prediction
 
+
 $$
-\hat{y}
-=
+\hat{y}=
 \sum_{i=1}^{n}
 \alpha_i^*K(x_i,x_{\text{test}})
 $$
 
----
 
 # 2. Classification and Decision Trees — Week 7
 
@@ -129,8 +125,7 @@ $$
 Measures the fraction of incorrect predictions:
 
 $$
-\text{Loss}
-=
+\text{Loss}=
 \frac{1}{n}
 \sum_{i=1}^{n}
 I(\hat{y}_i\neq y_i)
@@ -141,15 +136,13 @@ where $I$ is the **indicator function**:
 - $I(\text{true})=1$
 - $I(\text{false})=0$
 
----
 
 ## Entropy
 
 Entropy measures the **impurity** of a node.
 
 $$
-H(p)
-=
+H(p) =
 -p\log_2(p)
 -(1-p)\log_2(1-p)
 $$
@@ -173,29 +166,25 @@ $$
 - Pure node → **Entropy = 0**
 - Maximum uncertainty → **Entropy = 1** for binary classification
 
----
 
 ## Weighted Entropy of Children
 
 For a binary split:
 
 $$
-H_{\text{children}}
-=
+H_{\text{children}} =
 \frac{n_{\text{left}}}{n}H(p_{\text{left}})
 +
 \frac{n_{\text{right}}}{n}H(p_{\text{right}})
 $$
 
----
 
 ## Information Gain
 
 Information Gain measures the reduction in entropy after a split:
 
 $$
-IG
-=
+IG =
 H(\text{Parent})
 -
 H(\text{Children})
@@ -203,7 +192,6 @@ $$
 
 Higher Information Gain → **better split**.
 
----
 
 # 3. Generative Models and Naive Bayes — Week 8
 
@@ -241,7 +229,6 @@ $$
 2D+1
 $$
 
----
 
 ## Naive Bayes Prediction
 
@@ -265,15 +252,13 @@ $$
 
 Choose the class with the **largest probability**.
 
----
 
 ## Maximum Likelihood Estimates — MLE
 
 ### Prior Probability
 
 $$
-\hat{P}(Y=c)
-=
+\hat{P}(Y=c)=
 \frac{N_c}{N}
 $$
 
@@ -286,8 +271,7 @@ where:
 For a binary feature:
 
 $$
-\hat{P}(X_j=1\mid Y=c)
-=
+\hat{P}(X_j=1\mid Y=c)=
 \frac{
 \text{count}(X_j=1\text{ in class }c)
 }{
@@ -295,7 +279,6 @@ N_c
 }
 $$
 
----
 
 ## Laplace Smoothing
 
@@ -304,8 +287,7 @@ Used to avoid **zero probabilities**.
 For binary features:
 
 $$
-\hat{P}_{\text{smoothed}}
-=
+\hat{P}_{\text{smoothed}}=
 \frac{\text{count}+1}{N_c+2}
 $$
 
@@ -316,7 +298,6 @@ This effectively adds:
 
 to each class.
 
----
 
 # Quick Formula Revision
 
