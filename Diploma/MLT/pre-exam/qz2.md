@@ -358,3 +358,43 @@ to each class.
 ---
 
 
+
+
+
+Based on the revision sessions for Quiz 2, here is the essential terminology and a breakdown of the topics you requested.
+
+### **Biased vs. Unbiased**
+*   **Unbiased Estimator:** In linear regression, the Maximum Likelihood Estimate (MLE) is often used to find the "true" parameters of a population.
+*   **Biased Estimator:** **Ridge Regression (L2)** and **Lasso (L1)** introduce a small amount of bias into the model intentionally. By adding a regularization term (\\(\lambda\\)), you decrease the variance of the weight estimates, which can make the model generalize better to new data, even though it is no longer strictly "unbiased" relative to the training data.
+
+### **Parametric vs. Non-Parametric**
+*   **Parametric Models:** These models have a fixed set of parameters (\\(W\\)) that are learned from the data. Once the parameters are learned, the training data can be thrown away.
+    *   *Examples:* **Linear Regression**, **Naive Bayes**, and **Decision Trees**.
+*   **Non-Parametric Models:** These models do not learn a fixed set of parameters; instead, the "model" often grows with the data. 
+    *   *Example:* **K-Nearest Neighbors (KNN)** is a "lazy learner" where no model is learned, and you must carry the entire training dataset with you for prediction.
+
+### **L1 vs. L2 Regularization**
+Regularization is used to handle redundant features and prevent overfitting by penalizing large weights.
+*   **L2 Regularization (Ridge Regression):**
+    *   Adds a penalty proportional to the **square of the weights** (\\(\lambda ||w||_2^2\\)).
+    *   **Geometry:** It is visually represented as a **circle** (in 2D) or a sphere (in 3D) constraint.
+    *   **Effect:** It shrinks weights toward zero but rarely makes them exactly zero.
+*   **L1 Regularization (Lasso Regression):**
+    *   Adds a penalty proportional to the **absolute value of the weights** (\\(\lambda ||w||_1\\)).
+    *   **Geometry:** It is visually represented as a **diamond** or square constraint.
+    *   **Effect:** Because of the diamond shape, it is guaranteed that at least one of the weights will go to **exactly zero**, effectively performing **feature selection**.
+
+### **Naive Bayes (Generative vs. Discriminative)**
+*   **Generative Models:** These models (like **Naive Bayes**) try to understand what each class "looks like" by modeling the joint distribution \\(P(X, Y)\\). 
+*   **Naive Bayes Assumption:** It assumes **class-conditional independence**, meaning features are independent of each other *given* the class label. This significantly reduces the number of parameters to learn from exponential to linear (\\(2D + 1\\) for binary features).
+*   **Discriminative Models:** These only care about finding the boundary between classes (e.g., **Linear Classifiers**).
+
+### **Essential Terminology for Quiz 2**
+*   **0-1 Loss (Misclassification Rate):** The average number of points incorrectly predicted by a classifier.
+*   **Entropy:** A measure of **impurity** in a node. A pure node (all same class) has 0 entropy; a perfectly mixed node (50/50) has 1 entropy.
+*   **Information Gain:** The reduction in entropy achieved by splitting a node.
+*   **Decision Stump:** A decision tree with only one parent node and two child nodes.
+*   **Laplace Smoothing:** Adding "dummy" data points (typically all ones or all zeros) to prevent probabilities from being exactly zero, which would ruin the final product in Naive Bayes.
+*   **Robustness to Outliers:** **Laplace noise** assumptions (leading to Mean Absolute Error) are more robust to outliers than **Gaussian noise** assumptions (leading to Mean Squared Error).
+*   **Stochastic Gradient Descent (SGD):** An iterative optimization method used when the dataset is too large to process all at once.
+*   **Kernel Trick:** Mapping lower-dimensional data into a higher-dimensional space to find a linear relationship where one didn't exist before.
