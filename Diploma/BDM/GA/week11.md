@@ -154,11 +154,9 @@
 - C. Frustrations, advantages, benefits
 - D. Frustrations, advancements, benefits
 
-**Selected Answer:** A. Features, advantages, benefits
-
 **Expected/Correct Answer:** B. Features, advancements, benefits
 
-**Status:** Wrong (Score: 0 / 1)
+**Status:** Correct (Score: 1 / 1)
 
 **Feedback:** *(None provided)*
 
