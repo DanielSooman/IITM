@@ -56,3 +56,10 @@ $$\text{Information Gain} = 0.9544 - 0.4056 = 0.5488$$
 **Final Answer:** **`0.549`**
   
 </details>
+
+
+
+
+
+<img width="753" height="139" alt="image" src="https://github.com/user-attachments/assets/40fc6e1d-ae13-47c0-8d38-54db19c333aa" />
+<img width="766" height="377" alt="image" src="https://github.com/user-attachments/assets/476168bf-d2cb-46c8-8f9a-84cbc3333e26" />
